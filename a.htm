@@ -1,0 +1,1085 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+<style>body{width:100%;height:100%;}</style>
+<script>
+var abc = [915];
+
+indexMap=0;
+
+abc[indexMap]="I'm so tired._Estoy tan cansado."; indexMap++;
+abc[indexMap]="I'm confused._Estoy confundido."; indexMap++;
+abc[indexMap]="I'm happy._Estoy feliz."; indexMap++;
+abc[indexMap]="I'm twenty three years old._Tengo veintitrés años."; indexMap++;
+abc[indexMap]="I'm hungry._Tengo hambre."; indexMap++;
+abc[indexMap]="I'm nervous._Estoy nervioso."; indexMap++;
+abc[indexMap]="I'm excited._Estoy emocionado."; indexMap++;
+abc[indexMap]="I'm leaving work._Voy a dejar el trabajo."; indexMap++;
+abc[indexMap]="I'm thirsty._Estoy sediento."; indexMap++;
+abc[indexMap]="I'm from Seattle._Soy de Seattle."; indexMap++;
+abc[indexMap]="I'm extremely tired._Estoy extremadamente cansado."; indexMap++;
+abc[indexMap]="I'm very happy._Estoy muy feliz."; indexMap++;
+abc[indexMap]="I'm terribly hungry._Estoy terriblemente hambriento"; indexMap++;
+abc[indexMap]="I am super excited._Estoy muy emocionado."; indexMap++;
+abc[indexMap]="I'm very nervous._Estoy muy nervioso."; indexMap++;
+abc[indexMap]="I'm in the shower._Estoy en la ducha."; indexMap++;
+abc[indexMap]="I'm in the lobby._Estoy en el lobby."; indexMap++;
+abc[indexMap]="I'm in a car._Estoy en un auto."; indexMap++;
+abc[indexMap]="I'm in a house._Estoy en una casa."; indexMap++;
+abc[indexMap]="I'm in a school._Estoy en una escuela."; indexMap++;
+abc[indexMap]="I'm at the grocery._Estoy en el supermercado."; indexMap++;
+abc[indexMap]="I'm at the mall._Estoy en el centro comercial."; indexMap++;
+abc[indexMap]="I'm at the doctor's office._Estoy en el consultorio del doctor."; indexMap++;
+abc[indexMap]="I'm at the park._Estoy en el parque."; indexMap++;
+abc[indexMap]="I'm at the airport._Estoy en el aeropuerto."; indexMap++;
+abc[indexMap]="I'm at the mall._Estoy en el centro comercial."; indexMap++;
+abc[indexMap]="I'm in the mall._Estoy en el centro comercial."; indexMap++;
+abc[indexMap]="I'm at the park._Estoy en el parque."; indexMap++;
+abc[indexMap]="I'm in the park._Estoy en el parque."; indexMap++;
+abc[indexMap]="I'm at the grocery._Estoy en el supermercado."; indexMap++;
+abc[indexMap]="I'm in the grocery._Estoy en el supermercado."; indexMap++;
+abc[indexMap]="I'm on the phone._Estoy en el telefono."; indexMap++;
+abc[indexMap]="I'm on my computer._Estoy en mi computadora."; indexMap++;
+abc[indexMap]="I'm on a bus._Estoy en un autobús."; indexMap++;
+abc[indexMap]="I'm good at drawing._Soy bueno dibujando."; indexMap++;
+abc[indexMap]="I'm good at video games._Soy bueno en los videojuegos."; indexMap++;
+abc[indexMap]="I'm good at swimming._Soy bueno en la natación."; indexMap++;
+abc[indexMap]="I'm good at driving._Soy bueno en la conducción."; indexMap++;
+abc[indexMap]="I'm good at reading._Soy bueno en la lectura."; indexMap++;
+abc[indexMap]="I'm good at sports._Soy bueno en los deportes."; indexMap++;
+abc[indexMap]="I'm good at writing._Soy bueno escribiendo."; indexMap++;
+abc[indexMap]="I'm good at math._Soy bueno en matemáticas."; indexMap++;
+abc[indexMap]="I'm good at dancing._Soy bueno bailando."; indexMap++;
+abc[indexMap]="I'm good at chess._Soy bueno en el ajedrez."; indexMap++;
+abc[indexMap]="I'm eating lunch._Estoy comiendo."; indexMap++;
+abc[indexMap]="I'm brushing my teeth._Estoy cepillando mis dientes."; indexMap++;
+abc[indexMap]="I'm scared._Estoy asustado."; indexMap++;
+abc[indexMap]="I'm driving to work._Estoy conduciendo al trabajo."; indexMap++;
+abc[indexMap]="I'm crying._Estoy llorando."; indexMap++;
+abc[indexMap]="I'm typing an email._Estoy escribiendo un correo electrónico."; indexMap++;
+abc[indexMap]="I'm cooking dinner._Estoy cocinando la cena."; indexMap++;
+abc[indexMap]="I'm combing my hair._Estoy peinando mi cabello."; indexMap++;
+abc[indexMap]="I'm hanging a picture._Estoy colgando una imagen."; indexMap++;
+abc[indexMap]="I am texting._Estoy enviando mensajes de texto."; indexMap++;
+abc[indexMap]="I am dancing._Estoy bailando."; indexMap++;
+abc[indexMap]="I am interested in the job._Estoy interesado en el trabajo"; indexMap++;
+abc[indexMap]="I am exercising._Me estoy ejercitando."; indexMap++;
+abc[indexMap]="I am sad._Estoy triste."; indexMap++;
+abc[indexMap]="I am learning._Estoy aprendiendo."; indexMap++;
+abc[indexMap]="I'm getting better._Estoy mejorando."; indexMap++;
+abc[indexMap]="I'm getting ready for bed._Me estoy preparando para la cama."; indexMap++;
+abc[indexMap]="I'm getting a tooth ache._Me ha empezado a doler un diente."; indexMap++;
+abc[indexMap]="I'm getting a cold._Me esta dando frío."; indexMap++;
+abc[indexMap]="I'm getting married._Me voy a casar."; indexMap++;
+abc[indexMap]="I'm getting tired._Me estoy cansando."; indexMap++;
+abc[indexMap]="I'm getting good at reading._Me estoy haciendo bueno en la lectura"; indexMap++;
+abc[indexMap]="I'm getting a new car._Voy a comprar un auto nuevo."; indexMap++;
+abc[indexMap]="I'm getting a job._Estoy consiguiendo un trabajo."; indexMap++;
+abc[indexMap]="I'm getting a puppy._Voy a tener un cachorro."; indexMap++;
+abc[indexMap]="I'm trying to get a job._Estoy intentando conseguir un trabajo."; indexMap++;
+abc[indexMap]="I'm trying to call my family._Estoy tratando de llamar a mi familia."; indexMap++;
+abc[indexMap]="I'm trying to enjoy my dinner._Estoy tratando de disfrutar de mi cena."; indexMap++;
+abc[indexMap]="I'm trying to educate myself._Estoy tratando de educarme."; indexMap++;
+abc[indexMap]="I'm trying to explain myself._Estoy tratando de explicarme."; indexMap++;
+abc[indexMap]="I'm trying new food._Estoy probando comida nueva."; indexMap++;
+abc[indexMap]="I'm trying to eat healthy._Estoy tratando de comer sano."; indexMap++;
+abc[indexMap]="I'm trying to understand._Estoy tratando de entender."; indexMap++;
+abc[indexMap]="Learning new things can be trying on you._Aprender cosas nuevas puede estar tratando contigo."; indexMap++;
+abc[indexMap]="That marathon was very trying on me._Esa maratón me estaba probando."; indexMap++;
+abc[indexMap]="I'm gonna have some coffee._Voy a tomarme un café."; indexMap++;
+abc[indexMap]="I'm gonna go to work._Voy a trabajar."; indexMap++;
+abc[indexMap]="I'm gonna eat some cake._Voy a comer un poco de pastel."; indexMap++;
+abc[indexMap]="I'm gonna send out my resume._Voy a enviar mi hoja de vida."; indexMap++;
+abc[indexMap]="I'm gonna run a marathon._Voy a correr un maratón."; indexMap++;
+abc[indexMap]="I'm gonna ask her out for dinner._Voy a invitarla a cenar."; indexMap++;
+abc[indexMap]="I'm gonna stop smoking._Voy a dejar de fumar."; indexMap++;
+abc[indexMap]="I'm gonna help my friends._Voy a ayudar a mis amigos."; indexMap++;
+abc[indexMap]="I'm gonna take swim lessons._Voy a tomar clases de natación."; indexMap++;
+abc[indexMap]="I'm gonna read a book._Voy a leer un libro."; indexMap++;
+abc[indexMap]="I have a cat._Tengo un gato."; indexMap++;
+abc[indexMap]="I have a nice car._Tengo un buen auto."; indexMap++;
+abc[indexMap]="I have a house._Tengo una casa."; indexMap++;
+abc[indexMap]="I have a computer._Tengo una computadora."; indexMap++;
+abc[indexMap]="I have a headache._Me duele la cabeza."; indexMap++;
+abc[indexMap]="I cannot have that behavior in my house._No puedo tener ese comportamiento en mi casa."; indexMap++;
+abc[indexMap]="I cannot have you over tonight._No puedo tenerte esta noche."; indexMap++;
+abc[indexMap]="I won't have anything to do with that._No tendré nada que ver con eso."; indexMap++;
+abc[indexMap]="I won't have it any other way._No lo haré de otra manera."; indexMap++;
+abc[indexMap]="I have done it._Lo he hecho."; indexMap++;
+abc[indexMap]="I have heard that before._He oído eso antes."; indexMap++;
+abc[indexMap]="I have driven a car._He conducido un automóvil."; indexMap++;
+abc[indexMap]="I have forgotten the words._He olvidado las palabras."; indexMap++;
+abc[indexMap]="I have read that book._He leído ese libro."; indexMap++;
+abc[indexMap]="I have eaten at that restaurant before._He comido en ese restaurante antes."; indexMap++;
+abc[indexMap]="I have flown in an airplane._He volado en un avión."; indexMap++;
+abc[indexMap]="I have forgiven you._Te he perdonado."; indexMap++;
+abc[indexMap]="I have seen you before._Te he visto antes."; indexMap++;
+abc[indexMap]="I have written a letter._He escrito una carta."; indexMap++;
+abc[indexMap]="I used to develop websites._Solía ​​desarrollar sitios web."; indexMap++;
+abc[indexMap]="I used to jog every day._Solía ​​correr todos los días."; indexMap++;
+abc[indexMap]="I used to paint._Yo solía pintar."; indexMap++;
+abc[indexMap]="I used to smoke._Solía ​​fumar."; indexMap++;
+abc[indexMap]="I used to work from home._Solía ​​trabajar desde casa."; indexMap++;
+abc[indexMap]="I used to live in California._Vivía en California."; indexMap++;
+abc[indexMap]="I used to go to the beach every day._Solía ​​ir a la playa todos los días."; indexMap++;
+abc[indexMap]="I used to sing in a choir._Solía ​​cantar en un coro."; indexMap++;
+abc[indexMap]="I used to like vegetables._Me gustaban los vegetales."; indexMap++;
+abc[indexMap]="I used to start work at 6 o'clock._Solía ​​empezar a trabajar a las 6 en punto."; indexMap++;
+abc[indexMap]="I have to switch schools._Tengo que cambiar de escuela."; indexMap++;
+abc[indexMap]="I have to use the telephone._Tengo que usar el teléfono."; indexMap++;
+abc[indexMap]="I have to go to the bathroom._Tengo que ir al baño."; indexMap++;
+abc[indexMap]="I have to leave._Tengo que irme."; indexMap++;
+abc[indexMap]="I have to unpack my bags._Tengo que deshacer mis maletas."; indexMap++;
+abc[indexMap]="I don't have to switch schools._No tengo que cambiar de escuela."; indexMap++;
+abc[indexMap]="I don't have to use the telephone._No tengo que usar el teléfono."; indexMap++;
+abc[indexMap]="I don't have to go to the bathroom._No tengo que ir al baño."; indexMap++;
+abc[indexMap]="I don't have to leave._No tengo que irme."; indexMap++;
+abc[indexMap]="I don't have to unpack my bags._No tengo que deshacer mis maletas."; indexMap++;
+abc[indexMap]="I wanna talk._Quiero hablar."; indexMap++;
+abc[indexMap]="I wanna search for a job._Quiero buscar un trabajo."; indexMap++;
+abc[indexMap]="I wanna order some food._Quiero pedir algo de comida."; indexMap++;
+abc[indexMap]="I wanna marry her._Quiero casarme con ella."; indexMap++;
+abc[indexMap]="I wanna listen to that song._Quiero escuchar esa canción."; indexMap++;
+abc[indexMap]="I don't wanna talk._No quiero hablar."; indexMap++;
+abc[indexMap]="I don't wanna search for a job._No quiero buscar trabajo."; indexMap++;
+abc[indexMap]="I don't wanna marry her._No quiero casarme con ella."; indexMap++;
+abc[indexMap]="I don't wanna listen to that song._No quiero escuchar esa canción."; indexMap++;
+abc[indexMap]="I don't wanna order some food._No quiero pedir comida."; indexMap++;
+abc[indexMap]="I gotta manage my money._Tengo que administrar mi dinero."; indexMap++;
+abc[indexMap]="I gotta obey the laws._Tengo que obedecer las leyes."; indexMap++;
+abc[indexMap]="I gotta move to a bigger house._Tengo que mudarme a una casa más grande."; indexMap++;
+abc[indexMap]="I gotta impress my boss._Tengo que impresionar a mi jefe."; indexMap++;
+abc[indexMap]="I gotta brush my teeth._Tengo que cepillarme los dientes."; indexMap++;
+abc[indexMap]="I have got to be on time to work._Tengo que llegar a tiempo a trabajar."; indexMap++;
+abc[indexMap]="I've gotta try harder at school._Tengo que esforzarme más en la escuela."; indexMap++;
+abc[indexMap]="I've gotta tell my wife I'll be late._Tengo que decirle a mi esposa que llegaré tarde."; indexMap++;
+abc[indexMap]="I've gotta learn more about the laws._Tengo que aprender más sobre las leyes."; indexMap++;
+abc[indexMap]="I've gotta clean my house today._Tengo que limpiar mi casa hoy."; indexMap++;
+abc[indexMap]="I would like to answer that question._Me gustaría responder esa pregunta."; indexMap++;
+abc[indexMap]="I would like to compete in a cooking contest._Me gustaría competir en un concurso de cocina."; indexMap++;
+abc[indexMap]="I would like to explain myself._Me gustaría explicarme a mí mismo."; indexMap++;
+abc[indexMap]="I would like to invite you over._Me gustaría invitarte a mi casa"; indexMap++;
+abc[indexMap]="I would like to practice._Me gustaría practicar."; indexMap++;
+abc[indexMap]="I would like to become a doctor._Me gustaría ser médico."; indexMap++;
+abc[indexMap]="I would like to see you more often._Me gustaría verte más a menudo."; indexMap++;
+abc[indexMap]="I would like to thank you._Me gustaría agradecerte."; indexMap++;
+abc[indexMap]="I would like to learn about animals._Me gustaría aprender sobre los animales."; indexMap++;
+abc[indexMap]="I would like to meet the President._Me gustaría conocer al Presidente."; indexMap++;
+abc[indexMap]="I plan to find a new apartment._Planeo encontrar un apartamento nuevo."; indexMap++;
+abc[indexMap]="I plan to relax on vacation._Planeo relajarme en vacaciones."; indexMap++;
+abc[indexMap]="I plan to surprise my parents._Planeo sorprender a mis padres."; indexMap++;
+abc[indexMap]="I plan to wash my car._Planeo lavar mi coche."; indexMap++;
+abc[indexMap]="I plan to adopt a child._Planeo adoptar a un niño."; indexMap++;
+abc[indexMap]="I plan to impress my boss._Planeo impresionar a mi jefe."; indexMap++;
+abc[indexMap]="I plan to watch a movie._Planeo ver una película."; indexMap++;
+abc[indexMap]="I plan to save more money._Planeo ahorrar más dinero."; indexMap++;
+abc[indexMap]="I plan to read a book._Planeo leer un libro."; indexMap++;
+abc[indexMap]="I plan to learn new things._Planeo aprender nuevas cosas."; indexMap++;
+abc[indexMap]="I've decided to accept the job._He decidido aceptar el trabajo."; indexMap++;
+abc[indexMap]="I've decided to complete my degree._He decidido terminar mi grado."; indexMap++;
+abc[indexMap]="I've decided to change my bad habits._He decidido cambiar mis malos hábitos."; indexMap++;
+abc[indexMap]="I've decided to extend my membership at the gym._He decidido ampliar mi membresía en el gimnasio."; indexMap++;
+abc[indexMap]="I've decided to form a chess club._He decidido formar un club de ajedrez."; indexMap++;
+abc[indexMap]="I've decided to hand over my responsibilities._He decidido entregar mis responsabilidades."; indexMap++;
+abc[indexMap]="I've decided to help you move._He decidido ayudarte a moverte."; indexMap++;
+abc[indexMap]="I've decided to interview for the job._He decidido entrevistar para el trabajo."; indexMap++;
+abc[indexMap]="I've decided to increase my work load._He decidido aumentar mi carga de trabajo."; indexMap++;
+abc[indexMap]="I've decided to manage a store._He decidido manejar una tienda."; indexMap++;
+abc[indexMap]="I was about to go out._Yo estaba apunto de salir."; indexMap++;
+abc[indexMap]="I was about to go to dinner._Estaba a punto de ir a cenar."; indexMap++;
+abc[indexMap]="I was about to go to bed._Estaba a punto de irme a la cama."; indexMap++;
+abc[indexMap]="I was about to go to work._Estaba a punto de ir a trabajar."; indexMap++;
+abc[indexMap]="I was about to say the same thing._Estaba a punto de decir lo mismo."; indexMap++;
+abc[indexMap]="I was about to call you._Estaba a punto de llamarte."; indexMap++;
+abc[indexMap]="I was about to send you an email._Estaba a punto de enviarte un correo electrónico."; indexMap++;
+abc[indexMap]="I was about to mow my grass._Estaba a punto de cortar mi hierba."; indexMap++;
+abc[indexMap]="I was about to order us some drinks._Estaba a punto de pedirnos unas copas."; indexMap++;
+abc[indexMap]="I was about to watch television._Estaba a punto de ver la televisión."; indexMap++;
+abc[indexMap]="I didn't mean to hurt your feelings._No quise herir tus sentimientos."; indexMap++;
+abc[indexMap]="I didn't mean to call you so late._No quería llamarte tan tarde."; indexMap++;
+abc[indexMap]="I didn't mean to lie about what happened._No quise mentir sobre lo que pasó."; indexMap++;
+abc[indexMap]="I didn't mean to embarrass you._No quise avergonzarte."; indexMap++;
+abc[indexMap]="I didn't mean to stay out so late._No quería quedarme tan tarde."; indexMap++;
+abc[indexMap]="I did not mean to say those things._No quise decir esas cosas."; indexMap++;
+abc[indexMap]="I did not mean to leave you out._No quería dejarte fuera."; indexMap++;
+abc[indexMap]="I did not mean to make you confused._No quise hacerte confundir."; indexMap++;
+abc[indexMap]="I did not mean to think you were involved._No quería pensar que estuvieras involucrado."; indexMap++;
+abc[indexMap]="I did not mean to cause trouble._No quería causar problemas."; indexMap++;
+abc[indexMap]="I don't have time to explain._No tengo tiempo para explicar."; indexMap++;
+abc[indexMap]="I don't have time to eat._No tengo tiempo para comer."; indexMap++;
+abc[indexMap]="I don't have time to exercise._No tengo tiempo para hacer ejercicio."; indexMap++;
+abc[indexMap]="I don't have time to watch my favorite TV show._No tengo tiempo para ver mi programa de televisión favorito."; indexMap++;
+abc[indexMap]="I don't have time to talk._No tengo tiempo para hablar."; indexMap++;
+abc[indexMap]="I don't eat meat._Yo no como carne."; indexMap++;
+abc[indexMap]="I don't like the rain._No me gusta la lluvia."; indexMap++;
+abc[indexMap]="I don't understand Spanish._No entiendo español."; indexMap++;
+abc[indexMap]="I do not understand what you are saying._No entiendo lo que estas diciendo."; indexMap++;
+abc[indexMap]="I do not like scary movies._No me gustan las películas de miedo."; indexMap++;
+abc[indexMap]="I do not like sports._No me gustan los deportes."; indexMap++;
+abc[indexMap]="I promise not to tell._Prometo no contarlo."; indexMap++;
+abc[indexMap]="I promise not to leave without you._Prometo no irme sin ti."; indexMap++;
+abc[indexMap]="I promise not to be so late._Prometo no llegar tan tarde."; indexMap++;
+abc[indexMap]="I promise not to hurt your feelings._Prometo no herir tus sentimientos."; indexMap++;
+abc[indexMap]="I promise not to wake you up._Prometo no despertarte."; indexMap++;
+abc[indexMap]="I promise I am telling the truth._Prometo que digo la verdad."; indexMap++;
+abc[indexMap]="I promise to practice my math._Me comprometo a practicar mis matemáticas."; indexMap++;
+abc[indexMap]="I promise to call you._Te prometo que te llamaré."; indexMap++;
+abc[indexMap]="I promise I will tell you._Prometo que te lo diré."; indexMap++;
+abc[indexMap]="I promise I will come to your party._Prometo que vendré a tu fiesta."; indexMap++;
+abc[indexMap]="I'd rather talk about this later._Prefiero hablar de esto más tarde."; indexMap++;
+abc[indexMap]="I'd like to eat at home than go get fast food._Me gustaría comer en casa que ir a buscar comida rápida."; indexMap++;
+abc[indexMap]="I'd rather ski than snowboard._Prefiero esquiar que snowboard."; indexMap++;
+abc[indexMap]="I'd rather stay late than come in early tomorrow._Prefiero quedarme hasta tarde mañana."; indexMap++;
+abc[indexMap]="I'd rather handle the problem myself._Prefiero manejar el problema yo mismo."; indexMap++;
+abc[indexMap]="I had rather go home than stay out too late._Prefiero irme a casa a quedarme fuera demasiado tarde."; indexMap++;
+abc[indexMap]="I had rather listen to my parents or get in trouble._Prefiero escuchar a mis padres o tener problemas."; indexMap++;
+abc[indexMap]="I would rather exercise than sit on the couch all day._Preferiría hacer ejercicio que sentarme en el sofá todo el día."; indexMap++;
+abc[indexMap]="I would rather complete my task early._Prefiero terminar mi tarea temprano."; indexMap++;
+abc[indexMap]="I would rather know the answer._Prefiero saber la respuesta."; indexMap++;
+abc[indexMap]="I feel like going for a bike ride._Tengo ganas de dar un paseo en bicicleta."; indexMap++;
+abc[indexMap]="I feel like going to the beach._Tengo ganas de ir a la playa."; indexMap++;
+abc[indexMap]="I feel like having a snack._Tengo ganas de comer algo."; indexMap++;
+abc[indexMap]="I feel like talking._Tengo ganas de hablar."; indexMap++;
+abc[indexMap]="I feel like dancing._Tengo ganas de bailar."; indexMap++;
+abc[indexMap]="I feel like having friends over to my house._Me siento como tener amigos en mi casa."; indexMap++;
+abc[indexMap]="I feel like watching TV._Tengo ganas de ver la televisión."; indexMap++;
+abc[indexMap]="I don't feel like leaving yet._No tengo ganas de irme todavía."; indexMap++;
+abc[indexMap]="I don't feel like explaining._No tengo ganas de explicar."; indexMap++;
+abc[indexMap]="I don't feel like going to bed._No tengo ganas de ir a la cama."; indexMap++;
+abc[indexMap]="I do not feel comfortable talking about it._No me siento cómodo hablando de ello."; indexMap++;
+abc[indexMap]="I do not feel like we are going in the right direction._No siento que vayamos en la dirección correcta."; indexMap++;
+abc[indexMap]="I can't help thinking about it._No puedo evitar pensar en ello."; indexMap++;
+abc[indexMap]="I can't help shopping so much._No puedo dejar de comprar tanto."; indexMap++;
+abc[indexMap]="I can't help working all the time._No puedo evitar trabajar todo el tiempo."; indexMap++;
+abc[indexMap]="I can't help smiling when I see her._No puedo evitar sonreír cuando la veo."; indexMap++;
+abc[indexMap]="I can't help eating so much._No puedo evitar comer tanto."; indexMap++;
+abc[indexMap]="I can't help loving you._No puedo dejar de amarte."; indexMap++;
+abc[indexMap]="I can not help biting my nails when I am nervous._No puedo evitar morderse las uñas cuando estoy nervioso."; indexMap++;
+abc[indexMap]="I can not help smoking when I have been drinking._No puedo dejar de fumar cuando he estado bebiendo."; indexMap++;
+abc[indexMap]="I cannot help feeling so sad._No puedo evitar sentirme tan triste."; indexMap++;
+abc[indexMap]="I cannot help remembering the things you did._No puedo evitar recordar las cosas que hiciste."; indexMap++;
+abc[indexMap]="I was busy thinking._Estaba ocupado pensando."; indexMap++;
+abc[indexMap]="I was busy working._Estaba ocupado trabajando."; indexMap++;
+abc[indexMap]="I was busy cooking dinner._Estaba ocupado cocinando la cena."; indexMap++;
+abc[indexMap]="I was busy talking on the phone._Estaba ocupado hablando por teléfono."; indexMap++;
+abc[indexMap]="I was busy cleaning the house._Estaba ocupado limpiando la casa."; indexMap++;
+abc[indexMap]="I was busy studying for my test._Estaba ocupado estudiando para mi examen."; indexMap++;
+abc[indexMap]="I was busy thinking of ideas for our website._Estaba ocupado pensando en ideas para nuestro sitio web."; indexMap++;
+abc[indexMap]="I was busy entertaining our neighbors._Estaba ocupado entreteniendo a nuestros vecinos."; indexMap++;
+abc[indexMap]="I was busy completing my housework._Estaba ocupado terminando mis tareas domésticas."; indexMap++;
+abc[indexMap]="I was busy learning new things._Estaba ocupado aprendiendo cosas nuevas."; indexMap++;
+abc[indexMap]="I am busy working._Estoy ocupado trabajando."; indexMap++;
+abc[indexMap]="I am busy cooking dinner._Estoy ocupado cocinando la cena."; indexMap++;
+abc[indexMap]="I am busy studying for my test._Estoy ocupado estudiando para mi examen."; indexMap++;
+abc[indexMap]="I am busy completing housework._Estoy ocupado terminando las tareas domésticas."; indexMap++;
+abc[indexMap]="I am busy talking on the phone._Estoy ocupado hablando por teléfono."; indexMap++;
+abc[indexMap]="I'm not used to talking English._No estoy acostumbrada a hablar inglés."; indexMap++;
+abc[indexMap]="I'm not used to studying so much._No estoy acostumbrado a estudiar tanto."; indexMap++;
+abc[indexMap]="I'm not used to being around new people._No estoy acostumbrado a estar con gente nueva."; indexMap++;
+abc[indexMap]="I'm not used to talking in front of groups of people._No estoy acostumbrado a hablar delante de grupos de personas."; indexMap++;
+abc[indexMap]="I'm not used to having so much stress._No estoy acostumbrado a tener tanto estrés."; indexMap++;
+abc[indexMap]="I'm not used to traveling so much._No estoy acostumbrada a viajar tanto."; indexMap++;
+abc[indexMap]="I'm not used to working so early._No estoy acostumbrada a trabajar tan temprano."; indexMap++;
+abc[indexMap]="I'm not used to having so much responsibility._No estoy acostumbrado a tener tanta responsabilidad."; indexMap++;
+abc[indexMap]="I'm not used to drinking so much._No estoy acostumbrado a beber tanto."; indexMap++;
+abc[indexMap]="I want you to clean the dishes._Quiero que limpies los platos."; indexMap++;
+abc[indexMap]="I want you to come home right after school._Quiero que vuelvas a casa después de la escuela."; indexMap++;
+abc[indexMap]="I want you to call once you get there._Quiero que llames una vez que llegues."; indexMap++;
+abc[indexMap]="I want you to explain yourself to me._Quiero que te expliques a mí."; indexMap++;
+abc[indexMap]="I want you to educate me._Quiero que me educes."; indexMap++;
+abc[indexMap]="I need you to study harder in school._Necesito que estudies más en la escuela."; indexMap++;
+abc[indexMap]="I need you to stop and listen to me._Tengo que detenerte y escucharme."; indexMap++;
+abc[indexMap]="I need you to greet our guests._Necesito que salude a nuestros invitados."; indexMap++;
+abc[indexMap]="I need you to introduce me to your family._Necesito que me presente a su familia."; indexMap++;
+abc[indexMap]="I need to request a refund._Necesito solicitar un reembolso."; indexMap++;
+abc[indexMap]="I'm here to apply for the job._Estoy aquí para solicitar el trabajo."; indexMap++;
+abc[indexMap]="I'm here to take a test._Estoy aquí para hacerme una prueba."; indexMap++;
+abc[indexMap]="I'm here to receive my gift._Estoy aquí para recibir mi regalo."; indexMap++;
+abc[indexMap]="I'm here to support all your decisions._Estoy aquí para apoyar todas tus decisiones."; indexMap++;
+abc[indexMap]="I'm here to watch a movie._Estoy aquí para ver una película."; indexMap++;
+abc[indexMap]="I'm here to work on your computer._Estoy aquí para trabajar en tu computadora."; indexMap++;
+abc[indexMap]="I'm here to welcome you to the neighborhood._Estoy aquí para darle la bienvenida a la vecindad."; indexMap++;
+abc[indexMap]="I'm here to raise awareness for cancer._Estoy aquí para crear conciencia sobre el cáncer."; indexMap++;
+abc[indexMap]="I'm here to start the job._Estoy aquí para comenzar el trabajo."; indexMap++;
+abc[indexMap]="I'm here to receive the award._Estoy aquí para recibir el premio."; indexMap++;
+abc[indexMap]="I have something to complete._Tengo algo que completar."; indexMap++;
+abc[indexMap]="I have something to share with you._Tengo algo que compartir contigo."; indexMap++;
+abc[indexMap]="I have something important to tell you._Tengo algo importante que decirte."; indexMap++;
+abc[indexMap]="I have something to encourage you._Tengo algo que animarte."; indexMap++;
+abc[indexMap]="I have something to explain to you._Tengo algo que explicarte."; indexMap++;
+abc[indexMap]="I have something special planned for your birthday._Tengo algo especial planeado para tu cumpleaños."; indexMap++;
+abc[indexMap]="I have something else to consider._Tengo algo más que considerar."; indexMap++;
+abc[indexMap]="I have something to apologize about._Tengo algo de qué disculparme."; indexMap++;
+abc[indexMap]="I have something to attend tonight._Tengo algo que atender esta noche."; indexMap++;
+abc[indexMap]="I have something to ask you._Tengo algo que preguntarte."; indexMap++;
+abc[indexMap]="I have something fun for us to do._Tengo algo divertido que hacer."; indexMap++;
+abc[indexMap]="I'm looking forward to meeting you._Tengo muchas ganas de conocerte."; indexMap++;
+abc[indexMap]="I'm looking forward to talking with you._Estoy deseando hablar contigo."; indexMap++;
+abc[indexMap]="I'm looking forward to going on vacation._Estoy deseando ir de vacaciones."; indexMap++;
+abc[indexMap]="I'm looking forward to spending time with my family._Estoy deseando pasar tiempo con mi familia."; indexMap++;
+abc[indexMap]="I'm looking forward to learning the English language._Estoy deseando aprender el idioma inglés."; indexMap++;
+abc[indexMap]="I am looking forward to visiting another country._Estoy deseando visitar otro país."; indexMap++;
+abc[indexMap]="I am looking forward to having a family._Estoy deseando tener una familia."; indexMap++;
+abc[indexMap]="I am looking forward to graduating from college._Estoy deseando graduarme de la universidad."; indexMap++;
+abc[indexMap]="I am looking forward to watching the baseball game._Estoy deseando ver el partido de béisbol."; indexMap++;
+abc[indexMap]="I am looking forward to running in a race._Estoy deseando correr en una carrera."; indexMap++;
+abc[indexMap]="I'm calling to tell you about my day._Te llamo para contarte sobre mi día."; indexMap++;
+abc[indexMap]="I'm calling to accept your invitation._Estoy llamando para aceptar su invitación."; indexMap++;
+abc[indexMap]="I'm calling to answer your question._Estoy llamando para responder a su pregunta."; indexMap++;
+abc[indexMap]="I'm calling to book a reservation at your restaurant._Estoy llamando para reservar una reserva en su restaurante."; indexMap++;
+abc[indexMap]="I'm calling to complain about something._Estoy llamando para quejarse de algo."; indexMap++;
+abc[indexMap]="I'm calling to thank you._Estoy llamando para darle las gracias."; indexMap++;
+abc[indexMap]="I'm calling to support your decision._Estoy llamando para apoyar su decisión."; indexMap++;
+abc[indexMap]="I'm calling to remind you of our dinner plans._Te llamo para recordarte los planes de nuestra cena."; indexMap++;
+abc[indexMap]="I'm calling to report a lost wallet._Estoy llamando para reportar una cartera perdida."; indexMap++;
+abc[indexMap]="I'm calling to receive my prize._Estoy llamando para recibir mi premio."; indexMap++;
+abc[indexMap]="I'm working on a big project._Estoy trabajando en un gran proyecto."; indexMap++;
+abc[indexMap]="I'm working on training my dog._Estoy trabajando en entrenar a mi perro."; indexMap++;
+abc[indexMap]="I'm working on making new friends._Estoy trabajando en hacer nuevos amigos."; indexMap++;
+abc[indexMap]="I'm working on educating myself._Estoy trabajando en educarme."; indexMap++;
+abc[indexMap]="I'm working on my homework._Estoy trabajando en mi tarea."; indexMap++;
+abc[indexMap]="I am working on painting a house._Estoy trabajando en pintar una casa."; indexMap++;
+abc[indexMap]="I am working on a new idea._Estoy trabajando en una nueva idea."; indexMap++;
+abc[indexMap]="I am working on my computer._Estoy trabajando en mi computadora."; indexMap++;
+abc[indexMap]="I'm working on my website._Estoy trabajando en mi sitio web."; indexMap++;
+abc[indexMap]="I'm sorry to be so late._Lo siento haber llegado tan tarde."; indexMap++;
+abc[indexMap]="I'm sorry to hear about your sick mother._Lamento saber de tu madre enferma."; indexMap++;
+abc[indexMap]="I'm sorry to waste your time._Lamento tener que perder el tiempo."; indexMap++;
+abc[indexMap]="I'm sorry to make you feel so sad._Lamento hacerte sentir tan triste."; indexMap++;
+abc[indexMap]="I'm sorry to frighten you._Siento molestarte."; indexMap++;
+abc[indexMap]="I'm sorry to disagree with your decision._Lamento no estar de acuerdo con su decisión."; indexMap++;
+abc[indexMap]="I'm sorry to call so late._Lamento llamar tan tarde."; indexMap++;
+abc[indexMap]="I'm sorry to admit what I did._Lamento tener que admitir lo que hice."; indexMap++;
+abc[indexMap]="I'm sorry to end this relationship._Siento terminar esta relación."; indexMap++;
+abc[indexMap]="I'm thinking of checking out the new movie._Estoy pensando en revisar la nueva película."; indexMap++;
+abc[indexMap]="I'm thinking of filming my vacation._Estoy pensando en filmar mis vacaciones."; indexMap++;
+abc[indexMap]="I'm thinking of following a healthy diet._Estoy pensando en seguir una dieta saludable."; indexMap++;
+abc[indexMap]="I'm thinking of handing out flyers describing our business._Estoy pensando en distribuir volantes que describan nuestro negocio."; indexMap++;
+abc[indexMap]="I'm thinking of increasing my work load._Estoy pensando en aumentar mi carga de trabajo."; indexMap++;
+abc[indexMap]="I am thinking of introducing myself to him._Estoy pensando en presentarme a él."; indexMap++;
+abc[indexMap]="I am thinking of launching a new website._Estoy pensando en lanzar un nuevo sitio web."; indexMap++;
+abc[indexMap]="I am thinking of moving to a new city._Estoy pensando en mudarse a una nueva ciudad."; indexMap++;
+abc[indexMap]="I am thinking of offering her the position._Estoy pensando en ofrecerle la posición."; indexMap++;
+abc[indexMap]="I am thinking of opening up a store._Estoy pensando en abrir una tienda."; indexMap++;
+abc[indexMap]="I'll help you cook dinner tonight._Te ayudaré a preparar la cena esta noche."; indexMap++;
+abc[indexMap]="I'll help you raise money for your charity._Te ayudaré a recaudar dinero para tu caridad."; indexMap++;
+abc[indexMap]="I'll help you register for your class online._Te ayudaré a registrarte para tu clase en línea."; indexMap++;
+abc[indexMap]="I'll help you move to your new house._Te ayudaré a mudarte a tu nueva casa."; indexMap++;
+abc[indexMap]="I'll help you prevent that from happening again._Te ayudaré a evitar que eso vuelva a suceder."; indexMap++;
+abc[indexMap]="I will help you park your car._Te ayudaré a aparcar el coche."; indexMap++;
+abc[indexMap]="I will help you provide all the information you need._Te ayudaré a proporcionar toda la información que necesitas."; indexMap++;
+abc[indexMap]="I will help you realize your potential._Te ayudaré a realizar tu potencial."; indexMap++;
+abc[indexMap]="I will help you stop smoking._Te ayudaré a dejar de fumar."; indexMap++;
+abc[indexMap]="I will help you shop for groceries._Te ayudaré a comprar comida."; indexMap++;
+abc[indexMap]="I'm dying to relax on the beach._Me muero por relajarme en la playa."; indexMap++;
+abc[indexMap]="I'm dying to pick some fresh fruit._Me muero por elegir una fruta fresca."; indexMap++;
+abc[indexMap]="I'm dying to order some desserts._Me muero por pedir algunos postres."; indexMap++;
+abc[indexMap]="I'm dying to find out if I got the job._Me muero por saber si conseguí el trabajo."; indexMap++;
+abc[indexMap]="I'm dying to move to a bigger house._Me muero por mudarme a una casa más grande."; indexMap++;
+abc[indexMap]="I'm dying to look at all the work you've done._Me muero por ver todo el trabajo que has hecho."; indexMap++;
+abc[indexMap]="I'm dying to learn more about you._Me muero por aprender más sobre ti."; indexMap++;
+abc[indexMap]="I'm dying to introduce you to my parents._Me muero por presentarte a mis padres."; indexMap++;
+abc[indexMap]="I'm dying to expand my business._Me muero por expandir mi negocio."; indexMap++;
+abc[indexMap]="I'm dying to check my score on the test._Me muero por comprobar mi puntuación en la prueba."; indexMap++;
+abc[indexMap]="It's my turn to walk you home._Es mi turno de llevarte a casa."; indexMap++;
+abc[indexMap]="It's my turn to do laundry._Es mi turno de lavar la ropa."; indexMap++;
+abc[indexMap]="It's my turn to work late._Es mi turno de trabajar hasta tarde."; indexMap++;
+abc[indexMap]="It's my turn to take out the trash._Es mi turno de sacar la basura."; indexMap++;
+abc[indexMap]="It's my turn to choose where we eat._Es mi turno de elegir dónde comer."; indexMap++;
+abc[indexMap]="It is my turn to pay for dinner._Es mi turno para pagar la cena."; indexMap++;
+abc[indexMap]="It is my turn to roll the dice._Es mi turno de tirar los dados."; indexMap++;
+abc[indexMap]="It is my turn to provide an answer._Es mi turno de dar una respuesta."; indexMap++;
+abc[indexMap]="It is my turn to try and play the game._Es mi turno de intentar jugar el juego."; indexMap++;
+abc[indexMap]="It is my turn to attempt solving the problem._Es mi turno de intentar resolver el problema."; indexMap++;
+abc[indexMap]="It's hard for me to accept what you are telling me._Es difícil para mí aceptar lo que me estás diciendo."; indexMap++;
+abc[indexMap]="It's hard for me to argue your point._Es difícil para mí discutir su punto."; indexMap++;
+abc[indexMap]="It's hard for me to balance my check book._Es difícil para mí equilibrar mi chequera."; indexMap++;
+abc[indexMap]="It's hard for me to concentrate on the task._Es difícil para mí concentrarme en la tarea."; indexMap++;
+abc[indexMap]="It's hard for me to consider your other options._Es difícil para mí considerar tus otras opciones."; indexMap++;
+abc[indexMap]="It's hard for me to depend on you._Es difícil para mí depender de ti."; indexMap++;
+abc[indexMap]="It is hard for me to decide where to go tonight._Es difícil para mí decidir dónde ir esta noche."; indexMap++;
+abc[indexMap]="It is hard for me to explain my actions._Es difícil para mí explicar mis acciones."; indexMap++;
+abc[indexMap]="It is hard for me to guarantee your success._Es difícil para mí garantizar su éxito."; indexMap++;
+abc[indexMap]="It is hard for me to handle so much pressure._Es difícil para mí manejar tanta presión."; indexMap++;
+abc[indexMap]="I'm having a hard time writing._Me cuesta mucho escribir."; indexMap++;
+abc[indexMap]="I'm having a hard time understanding you._Me cuesta entenderte."; indexMap++;
+abc[indexMap]="I'm having a hard time answering your question._Me cuesta mucho responder a tu pregunta."; indexMap++;
+abc[indexMap]="I'm having a hard time downloading songs to my iPod._Estoy teniendo dificultades para descargar canciones a mi iPod."; indexMap++;
+abc[indexMap]="I'm having a hard time agreeing to the terms._Me cuesta mucho aceptar los términos."; indexMap++;
+abc[indexMap]="I'm having an extremely hard time trusting you._Estoy teniendo un tiempo muy difícil confiar en ti."; indexMap++;
+abc[indexMap]="I'm having an extremely hard time with my wife._Estoy teniendo un tiempo muy duro con mi esposa."; indexMap++;
+abc[indexMap]="I'm having a very hard time finding a job._Me cuesta encontrar un trabajo."; indexMap++;
+abc[indexMap]="I'm having a very hard time finding parts for my car._Me cuesta mucho encontrar piezas para mi auto."; indexMap++;
+abc[indexMap]="I think I should practice my reading._Creo que debo practicar mi lectura."; indexMap++;
+abc[indexMap]="I think I should join a study group._Creo que debería unirme a un grupo de estudio."; indexMap++;
+abc[indexMap]="I think I should handle this as soon as possible._Creo que debería manejar esto lo antes posible."; indexMap++;
+abc[indexMap]="I think I should earn my degree._Creo que debería ganar mi título."; indexMap++;
+abc[indexMap]="I think I should explain myself._Creo que debo explicarme."; indexMap++;
+abc[indexMap]="I do not think I should complain so much._No creo que deba quejarme tanto."; indexMap++;
+abc[indexMap]="I do not think I should attend that event._No creo que deba asistir a ese evento."; indexMap++;
+abc[indexMap]="I do not think I should borrow more money._No creo que deba pedir prestado más dinero."; indexMap++;
+abc[indexMap]="I do not think I should doubt you._No creo que deba dudar de ti."; indexMap++;
+abc[indexMap]="I do not think I should decide until later._No creo que deba decidir hasta más tarde."; indexMap++;
+abc[indexMap]="I've heard that you got a new job._He oído que tienes un nuevo trabajo."; indexMap++;
+abc[indexMap]="I've heard that you want to leave your job._He oído que quieres dejar tu trabajo."; indexMap++;
+abc[indexMap]="I've heard that you got a new car._He oído que tienes un coche nuevo."; indexMap++;
+abc[indexMap]="I've heard that you like to jog._He oído que te gusta correr."; indexMap++;
+abc[indexMap]="I've heard that you fix computers._He oído que arreglas computadoras."; indexMap++;
+abc[indexMap]="I've heard that you've never been to Canada._He oído que nunca has estado en Canadá."; indexMap++;
+abc[indexMap]="I've heard that you like to shop._He oído que te gusta ir de compras."; indexMap++;
+abc[indexMap]="I've heard that you and your boss don't get along._He oído que usted y su jefe no se llevan bien."; indexMap++;
+abc[indexMap]="I've heard that there is no school next week._He oído que no hay escuela la próxima semana."; indexMap++;
+abc[indexMap]="I've heard that your wife is a yoga instructor._He oído que su esposa es instructora de yoga."; indexMap++;
+abc[indexMap]="It occurred to me that I forgot your birthday._Se me ocurrió olvidar tu cumpleaños."; indexMap++;
+abc[indexMap]="It occurred to me that we both belong to the same gym._Se me ocurrió que ambos pertenecemos al mismo gimnasio."; indexMap++;
+abc[indexMap]="It occurred to me that we enjoy a lot of the same things._Se me ocurrió que disfrutamos de muchas de las mismas cosas."; indexMap++;
+abc[indexMap]="It occurred to me the price for homes are more expensive here._Se me ocurrió que el precio de los hogares es más caro aquí."; indexMap++;
+abc[indexMap]="It occurred to me that eating healthy makes me feel better._Se me ocurrió que comer sano me hace sentir mejor."; indexMap++;
+abc[indexMap]="It had occurred to me that I forgot something at the grocery._Se me había ocurrido que había olvidado algo en el supermercado."; indexMap++;
+abc[indexMap]="It had occurred to me I might need to change my email address._Se me ocurrió que podría necesitar cambiar mi dirección de correo electrónico."; indexMap++;
+abc[indexMap]="It has occurred to me I forgot my mom's birthday._Se me ha ocurrido olvidar el cumpleaños de mi madre."; indexMap++;
+abc[indexMap]="It has occurred to me before._Se me ha ocurrido antes."; indexMap++;
+abc[indexMap]="Let me make my own decisions._Déjame tomar mis propias decisiones."; indexMap++;
+abc[indexMap]="Let me offer to help you._Déjame ofrecerte para ayudarte."; indexMap++;
+abc[indexMap]="Let me open the door for you._Déjame abrir la puerta para ti."; indexMap++;
+abc[indexMap]="Let me pause and think about what we are doing._Déjame hacer una pausa y pensar en lo que estamos haciendo."; indexMap++;
+abc[indexMap]="Let me welcome you to the neighborhood._Déjame darte la bienvenida a la vecindad."; indexMap++;
+abc[indexMap]="Let me save you the trouble._Déjame salvarte el problema."; indexMap++;
+abc[indexMap]="Let me make a suggestion._Déjame hacer una sugerencia."; indexMap++;
+abc[indexMap]="Let me try and fix your car._Déjame intentar arreglar tu auto."; indexMap++;
+abc[indexMap]="Let me taste the soup before you add more spices._Déjame probar la sopa antes de agregar más especias."; indexMap++;
+abc[indexMap]="Let me treat you to some ice cream._Déjame tratarte con un poco de helado."; indexMap++;
+abc[indexMap]="Thank you for inviting me._Gracias por invitarme."; indexMap++;
+abc[indexMap]="Thank you for helping me move._Gracias por ayudarme a moverme."; indexMap++;
+abc[indexMap]="Thank you for informing me about the job opening._Gracias por informarme sobre la apertura del trabajo."; indexMap++;
+abc[indexMap]="Thank you for mailing that package for me._Gracias por enviarme ese paquete por mí."; indexMap++;
+abc[indexMap]="Thank you for working so hard._Gracias por trabajar tan duro."; indexMap++;
+abc[indexMap]="Thank you for stopping by to visit._Gracias por visitarme."; indexMap++;
+abc[indexMap]="Thank you for replying to my email._Gracias por contestar a mi correo electrónico."; indexMap++;
+abc[indexMap]="Thank you for providing me with the answers._Gracias por darme las respuestas."; indexMap++;
+abc[indexMap]="Thank you for heating up dinner._Gracias por haber calentado la cena."; indexMap++;
+abc[indexMap]="Thank you for hurrying to get here._Gracias por darte prisa por llegar."; indexMap++;
+abc[indexMap]="Can I answer your question?_¿Puedo responder a su pregunta?"; indexMap++;
+abc[indexMap]="Can I attend the event?_¿Puedo asistir al evento?"; indexMap++;
+abc[indexMap]="Can I move to another spot?_¿Puedo mudarme a otro sitio?"; indexMap++;
+abc[indexMap]="Can I call you tomorrow?_¿Puedo llamarte mañana?"; indexMap++;
+abc[indexMap]="Can I complete this later?_¿Puedo completar esto más tarde?"; indexMap++;
+abc[indexMap]="Can I explain myself?_¿Puedo explicármelo?"; indexMap++;
+abc[indexMap]="Can I help you with your homework?_¿Puedo ayudarte con tu tarea?"; indexMap++;
+abc[indexMap]="Can I include you in our plans?_¿Puedo incluirte en nuestros planes?"; indexMap++;
+abc[indexMap]="Can I introduce you to my co-workers?_¿Puedo presentarles a mis compañeros de trabajo?"; indexMap++;
+abc[indexMap]="Can I inform you of some bad news?_¿Puedo informarle de algunas malas noticias?"; indexMap++;
+abc[indexMap]="Can I get a cup of water?_¿Puedo conseguir una taza de agua?"; indexMap++;
+abc[indexMap]="Can I get a dog?_¿Puedo conseguir un perro?"; indexMap++;
+abc[indexMap]="Can I get lunch?_¿Puedo almorzar?"; indexMap++;
+abc[indexMap]="Can I get sugar in my coffee?_¿Puedo conseguir azúcar en mi café?"; indexMap++;
+abc[indexMap]="Can I get popcorn at the movie?_¿Puedo conseguir palomitas de maíz en la película?"; indexMap++;
+abc[indexMap]="Can I get you another drink?_¿Puedo traerte otra copa?"; indexMap++;
+abc[indexMap]="Can I help you move that?_¿Puedo ayudarte a mover eso?"; indexMap++;
+abc[indexMap]="Can I recommend a good place to eat?_¿Puedo recomendar un buen lugar para comer?"; indexMap++;
+abc[indexMap]="Can I take you home?_¿Puedo llevarte a casa?"; indexMap++;
+abc[indexMap]="Can I help you finish your project?_¿Puedo ayudarte a terminar tu proyecto?"; indexMap++;
+abc[indexMap]="I am not sure if they will offer me the job._No estoy seguro si me ofrecerán el trabajo."; indexMap++;
+abc[indexMap]="I'm not sure if she'll return my call._No sé si me devolverá la llamada."; indexMap++;
+abc[indexMap]="I'm not sure if my wife will understand._No sé si mi esposa lo entenderá."; indexMap++;
+abc[indexMap]="I'm not sure if we will go out tonight._No estoy seguro si saldremos esta noche."; indexMap++;
+abc[indexMap]="I'm not sure if I understand your question._No sé si entiendo su pregunta."; indexMap++;
+abc[indexMap]="I am not sure if I can handle it._No estoy seguro si puedo manejarlo."; indexMap++;
+abc[indexMap]="I am not sure if it will happen._No estoy seguro de si va a suceder."; indexMap++;
+abc[indexMap]="I am not sure if it will matter._No estoy seguro de si será importante."; indexMap++;
+abc[indexMap]="I am not sure if my mom will notice._No estoy seguro si mi mamá lo notará."; indexMap++;
+abc[indexMap]="I am not sure if they will permit us to park there._No sé si nos permitirán aparcar allí."; indexMap++;
+abc[indexMap]="Do you mind if I excuse myself?_¿Te molesta si me disculpo?"; indexMap++;
+abc[indexMap]="Do you mind if we left early?_¿Te importa si nos fuimos temprano?"; indexMap++;
+abc[indexMap]="Do you mind if I take a nap?_¿Te molesta si me tomo una siesta?"; indexMap++;
+abc[indexMap]="Do you mind if I ask your mom?_¿Le importa si le pregunto a su mamá?"; indexMap++;
+abc[indexMap]="Do you mind if it snows?_¿Te importa si nieva?"; indexMap++;
+abc[indexMap]="Would you mind if we went out to eat?_¿Te importaría si saliéramos a comer?"; indexMap++;
+abc[indexMap]="Would you mind if I opened the window?_¿Te importaría abrir la ventana?"; indexMap++;
+abc[indexMap]="Would you mind telling me what you're doing?_¿Te importaría decirme lo que estás haciendo?"; indexMap++;
+abc[indexMap]="Would you mind being quiet for a minute?_¿Te importaría estar callado un minuto?"; indexMap++;
+abc[indexMap]="Would you mind if I changed the channel?_¿Te importaría cambiar el canal?"; indexMap++;
+abc[indexMap]="I don't know what to eat for dinner._No sé qué comer para la cena."; indexMap++;
+abc[indexMap]="I don't know what to buy you for your birthday._No sé qué comprarte por tu cumpleaños."; indexMap++;
+abc[indexMap]="I don't know what to say._No sé qué decir."; indexMap++;
+abc[indexMap]="I don't know what to do with my spare time._No sé qué hacer con mi tiempo libre."; indexMap++;
+abc[indexMap]="I don't know what to do for vacation._No sé qué hacer para las vacaciones."; indexMap++;
+abc[indexMap]="I do not know what to do to make you happy._No sé qué hacer para hacerte feliz."; indexMap++;
+abc[indexMap]="I do not know what to do to help you understand._No sé qué hacer para ayudarte a entender."; indexMap++;
+abc[indexMap]="I do not know what to think._No se que pensar."; indexMap++;
+abc[indexMap]="I do not know what to do to prevent this._No sé qué hacer para evitar esto."; indexMap++;
+abc[indexMap]="I do not know what to order._No sé qué ordenar."; indexMap++;
+abc[indexMap]="I should have gone with you._Debería haber ido contigo."; indexMap++;
+abc[indexMap]="I should have studied more for my test._Debería haber estudiado más para mi examen."; indexMap++;
+abc[indexMap]="I should have read the directions before starting._Debería haber leído las instrucciones antes de empezar."; indexMap++;
+abc[indexMap]="I should have eaten breakfast this morning._Debería haber comido el desayuno esta mañana."; indexMap++;
+abc[indexMap]="I should have listened to your advice._Debería haber escuchado tu consejo."; indexMap++;
+abc[indexMap]="I should have married her when I had the chance._Debería haberla casado cuando tuve la oportunidad."; indexMap++;
+abc[indexMap]="I shall leave tomorrow._Me iré mañana."; indexMap++;
+abc[indexMap]="I shall finish the job next week._Terminaré el trabajo la próxima semana."; indexMap++;
+abc[indexMap]="I shall see it tomorrow._Lo veré mañana."; indexMap++;
+abc[indexMap]="I shall go outside if it's nice out._Voy a salir si está bien."; indexMap++;
+abc[indexMap]="I shall pay for this later._Pagaré por esto más tarde."; indexMap++;
+abc[indexMap]="I wish I could sing better._Ojalá pudiera cantar mejor."; indexMap++;
+abc[indexMap]="I wish I could settle the argument._Ojalá pudiera resolver el argumento."; indexMap++;
+abc[indexMap]="I wish I could sail around the world._Ojalá pudiera navegar por el mundo."; indexMap++;
+abc[indexMap]="I wish I could remain calm during all of this._Ojalá pudiera permanecer tranquilo durante todo esto."; indexMap++;
+abc[indexMap]="I wish I could remember his name._Ojalá pudiera recordar su nombre."; indexMap++;
+abc[indexMap]="I wish I could replace my old car with a new one._Ojalá pudiera reemplazar mi viejo coche por uno nuevo."; indexMap++;
+abc[indexMap]="I wish I could play outside._Ojalá pudiera jugar afuera."; indexMap++;
+abc[indexMap]="I wish I could go to the game with you._Ojalá pudiera ir al juego contigo."; indexMap++;
+abc[indexMap]="I wish I could write better._Ojalá pudiera escribir mejor."; indexMap++;
+abc[indexMap]="I wish I could own my own business._Ojalá pudiera ser dueño de mi propio negocio."; indexMap++;
+abc[indexMap]="You should go to bed._Deberías ir a la cama."; indexMap++;
+abc[indexMap]="You should do your homework before going outside._Deberías hacer tu tarea antes de salir."; indexMap++;
+abc[indexMap]="You should replace your headlights on your car._Deberías reemplazar tus faros en el coche."; indexMap++;
+abc[indexMap]="You should request a raise at work._Deberías pedir un aumento en el trabajo."; indexMap++;
+abc[indexMap]="You should stop smoking._Deberías dejar de fumar."; indexMap++;
+abc[indexMap]="You should smile more._Deberías sonreír más."; indexMap++;
+abc[indexMap]="You should slow down when driving in a neighborhood._Deberías disminuir la velocidad al conducir en un vecindario."; indexMap++;
+abc[indexMap]="You should talk to him about it._Deberías hablar con él al respecto."; indexMap++;
+abc[indexMap]="You should train your dog._Deberías entrenar a tu perro."; indexMap++;
+abc[indexMap]="You should trust what they say._Debes confiar en lo que dicen."; indexMap++;
+abc[indexMap]="You're supposed to keep that secret._Se supone que tienes que guardar ese secreto."; indexMap++;
+abc[indexMap]="You're supposed to let me know when you leave._Se supone que debes avisarme cuando te vayas."; indexMap++;
+abc[indexMap]="You're supposed to stop when at a red light._Se supone que debes detenerte cuando tengas una luz roja."; indexMap++;
+abc[indexMap]="You're supposed to unpack once you get there._Se supone que debes desembalar una vez que llegues."; indexMap++;
+abc[indexMap]="You're supposed to return the movies you rent on time._Se supone que debes devolver las películas que alquilas a tiempo."; indexMap++;
+abc[indexMap]="You are supposed to remain calm._Se supone que debes mantener la calma."; indexMap++;
+abc[indexMap]="You are supposed to fasten your seat belt._Se supone que debes sujetar el cinturón de seguridad."; indexMap++;
+abc[indexMap]="You are supposed to invite all your friends._Se supone que debes invitar a todos tus amigos."; indexMap++;
+abc[indexMap]="You are supposed to encourage one another._Se supone que hay que animarse unos a otros."; indexMap++;
+abc[indexMap]="You are supposed to decide before next Thursday._Se supone que debes decidir antes del próximo jueves."; indexMap++;
+abc[indexMap]="You seem bored._Pareces aburrido."; indexMap++;
+abc[indexMap]="You seem unhappy with the results._Pareces descontento con los resultados."; indexMap++;
+abc[indexMap]="You seem eager to begin._Pareces ansioso por empezar."; indexMap++;
+abc[indexMap]="You seem easy to get along with._Pareces fácil de llevarse bien."; indexMap++;
+abc[indexMap]="You seem elated to hear the good news._Pareces odio escuchar las buenas noticias."; indexMap++;
+abc[indexMap]="You seem deeply in love._Pareces profundamente enamorado."; indexMap++;
+abc[indexMap]="You seem afraid of roller coasters._Pareces temer a las montañas rusas."; indexMap++;
+abc[indexMap]="You seem confused about the rules of the game._Pareces confundido con las reglas del juego."; indexMap++;
+abc[indexMap]="You seem embarrassed about what happened._Pareces avergonzado por lo que pasó."; indexMap++;
+abc[indexMap]="You seem decisive about your choice._Pareces decisiva en tu elección."; indexMap++;
+abc[indexMap]="You'd better exercise._Será mejor que hagas ejercicio."; indexMap++;
+abc[indexMap]="You'd better help out._Será mejor que te ayudes."; indexMap++;
+abc[indexMap]="You'd better invite your brother._Será mejor que invite a su hermano."; indexMap++;
+abc[indexMap]="You'd better impress the judges._Será mejor que imprimas a los jueces."; indexMap++;
+abc[indexMap]="You'd better listen to your parents._Será mejor que escuches a tus padres."; indexMap++;
+abc[indexMap]="You had better not come home late._Será mejor que no vuelvas tarde."; indexMap++;
+abc[indexMap]="You had better hope for the best._Es mejor que esperes lo mejor."; indexMap++;
+abc[indexMap]="You had better change your attitude._Será mejor que cambies tu actitud."; indexMap++;
+abc[indexMap]="You would be good at teaching._Sería bueno en la enseñanza."; indexMap++;
+abc[indexMap]="You would do well at math._Lo harías bien en matemáticas."; indexMap++;
+abc[indexMap]="Are you into soccer?_¿Estás en el fútbol?"; indexMap++;
+abc[indexMap]="Are you into trying new things?_¿Estás en probar cosas nuevas?"; indexMap++;
+abc[indexMap]="Are you into wine tasting?_¿Estás en cata de vinos?"; indexMap++;
+abc[indexMap]="Are you into working out at home or at the gym?_¿Está usted trabajando en casa o en el gimnasio?"; indexMap++;
+abc[indexMap]="Are you into scary movies?_¿Estas en películas de miedo?"; indexMap++;
+abc[indexMap]="Are you into playing games?_¿Estás jugando?"; indexMap++;
+abc[indexMap]="Are you into jogging?_¿Estás haciendo footing?"; indexMap++;
+abc[indexMap]="Are you into painting?_¿Estás pintando?"; indexMap++;
+abc[indexMap]="Are you into traveling?_¿Estás de viaje?"; indexMap++;
+abc[indexMap]="Are you into fixing cars?_¿Estás arreglando coches?"; indexMap++;
+abc[indexMap]="Are you trying to ignore me?_¿Estás tratando de ignorarme?"; indexMap++;
+abc[indexMap]="Are you trying to manage your money?_¿Estás intentando manejar tu dinero?"; indexMap++;
+abc[indexMap]="Are you trying to memorize that song?_¿Estás tratando de memorizar esa canción?"; indexMap++;
+abc[indexMap]="Are you trying to offer your help?_¿Estás tratando de ofrecer tu ayuda?"; indexMap++;
+abc[indexMap]="Are you trying to program your new phone?_¿Estás intentando programar tu nuevo teléfono?"; indexMap++;
+abc[indexMap]="Are you trying to pretend like it never happened?_¿Estás tratando de fingir que nunca pasó?"; indexMap++;
+abc[indexMap]="Are you trying to remain calm?_¿Estás tratando de mantener la calma?"; indexMap++;
+abc[indexMap]="Are you trying to remember her name?_¿Estás tratando de recordar su nombre?"; indexMap++;
+abc[indexMap]="Are you trying to reflect on the past?_¿Estás tratando de reflexionar sobre el pasado?"; indexMap++;
+abc[indexMap]="Are you trying to switch flights?_¿Estás intentando cambiar de vuelo?"; indexMap++;
+abc[indexMap]="Please pass me the salt._Por favor, pásame la sal."; indexMap++;
+abc[indexMap]="Please order me the steak and potatoes._Por favor, pídame el bistec y las patatas."; indexMap++;
+abc[indexMap]="Please stop bothering me._Por favor, deja de molestarme."; indexMap++;
+abc[indexMap]="Please wash your hands before dinner._Por favor, lávate las manos antes de la cena."; indexMap++;
+abc[indexMap]="Please wait outside until we are ready._Por favor espere afuera hasta que estemos listos."; indexMap++;
+abc[indexMap]="Please zip up your coat before you go outside._Por favor, cierre su abrigo antes de salir."; indexMap++;
+abc[indexMap]="Please stand back._Por favor, vuelve."; indexMap++;
+abc[indexMap]="The smell of the flowers was very pleasing._El olor de las flores era muy agradable."; indexMap++;
+abc[indexMap]="May it please the court to admit this into evidence?_¿Puede que el tribunal admita esto como prueba?"; indexMap++;
+abc[indexMap]="I was very pleased with how the children behaved in class._Estaba muy contento con la forma en que los niños se comportaron en clase."; indexMap++;
+abc[indexMap]="You cannot please everyone all the time._No puedes complacer a todo el mundo todo el tiempo."; indexMap++;
+abc[indexMap]="She was pleased with the dress._Ella estaba contenta con el vestido."; indexMap++;
+abc[indexMap]="Don't try and fool me._No intentes engañarme."; indexMap++;
+abc[indexMap]="Don't allow this to happen._No permitas que esto suceda."; indexMap++;
+abc[indexMap]="Don't watch scary movies before you go to bed._No veas películas de miedo antes de ir a la cama."; indexMap++;
+abc[indexMap]="Don't cause any more trouble._No hagas más problemas."; indexMap++;
+abc[indexMap]="Don't chew gum in class._No mastique chicle en clase."; indexMap++;
+abc[indexMap]="Do not concern yourself with other people's problems._No te preocupes por los problemas de otras personas."; indexMap++;
+abc[indexMap]="Do not behave that way._No te comportes así."; indexMap++;
+abc[indexMap]="Do not announce your decision until you're ready._No anuncies tu decisión hasta que estés listo."; indexMap++;
+abc[indexMap]="Do not argue with me._No discutas conmigo."; indexMap++;
+abc[indexMap]="Do not arrive late for your meeting._No llegue tarde a su reunión."; indexMap++;
+abc[indexMap]="Do you like traveling on a plane?_¿Te gusta viajar en un avión?"; indexMap++;
+abc[indexMap]="Do you like watching baseball on TV?_¿Te gusta ver el béisbol en la televisión?"; indexMap++;
+abc[indexMap]="Do you like skiing or snowboarding?_¿Te gusta el esquí o el snowboard?"; indexMap++;
+abc[indexMap]="Do you like going to bed early?_¿Te gusta acostarte temprano?"; indexMap++;
+abc[indexMap]="Do you like spending time with me?_¿Te gusta pasar tiempo conmigo?"; indexMap++;
+abc[indexMap]="Do you like repeating the class?_¿Te gusta repetir la clase?"; indexMap++;
+abc[indexMap]="Do you like playing video games?_¿Te gusta jugar a los videojuegos?"; indexMap++;
+abc[indexMap]="Do you like listening to music?_¿Te gusta escuchar musica?"; indexMap++;
+abc[indexMap]="Do you like practicing playing the piano?_¿Te gusta practicar el piano?"; indexMap++;
+abc[indexMap]="Do you like jogging with me?_¿Te gusta correr conmigo?"; indexMap++;
+abc[indexMap]="How often do you exercise?_¿Cada cuanto te ejercitas?"; indexMap++;
+abc[indexMap]="How often do you change your password?_¿Con qué frecuencia cambia su contraseña?"; indexMap++;
+abc[indexMap]="How often do you help out at school?_¿Con qué frecuencia ayudas en la escuela?"; indexMap++;
+abc[indexMap]="How often do you listen to your MP3 player?_¿Con qué frecuencia escuchas tu reproductor de MP3?"; indexMap++;
+abc[indexMap]="How often do you need to go to the dentist?_¿Con qué frecuencia necesitas ir al dentista?"; indexMap++;
+abc[indexMap]="How often do you receive your magazine in the mail?_¿Con qué frecuencia recibe su revista por correo?"; indexMap++;
+abc[indexMap]="How often do you report to your supervisor?_¿Con qué frecuencia se reporta a su supervisor?"; indexMap++;
+abc[indexMap]="How often do you stretch before working out?_¿Con qué frecuencia se estira antes de entrenar?"; indexMap++;
+abc[indexMap]="How often do you talk to your parents?_¿Con qué frecuencia hablas con tus padres?"; indexMap++;
+abc[indexMap]="How often do you travel?_¿Con que frecuencia viajas?"; indexMap++;
+abc[indexMap]="Do you want me to pick up the kids?_¿Quieres que recoja a los niños?"; indexMap++;
+abc[indexMap]="Do you want me to fix your flat tire?_¿Quieres que repare tu llanta?"; indexMap++;
+abc[indexMap]="Do you want me to help you read that book?_¿Quieres que te ayude a leer ese libro?"; indexMap++;
+abc[indexMap]="Do you want me to remind you?_¿Quieres que te lo recuerde?"; indexMap++;
+abc[indexMap]="Do you want me to remove my shoes?_¿Quieres que te quite mis zapatos?"; indexMap++;
+abc[indexMap]="I want you to come over._Quiero que vengas."; indexMap++;
+abc[indexMap]="I want you to make a decision._Quiero que tomes una decisión."; indexMap++;
+abc[indexMap]="I want you to water the flowers._Quiero que regar las flores."; indexMap++;
+abc[indexMap]="I want to understand what you are trying to say._Quiero entender lo que estás tratando de decir."; indexMap++;
+abc[indexMap]="I want to be better at swimming._Quiero ser mejor nadando."; indexMap++;
+abc[indexMap]="I want to be more involved at church._Quiero estar más involucrado en la iglesia."; indexMap++;
+abc[indexMap]="What do you think about having a cup of tea with me?_¿Qué piensas de tomar una taza de té conmigo?"; indexMap++;
+abc[indexMap]="What do you think about working overtime next week?_¿Qué piensas acerca de trabajar horas extras la próxima semana?"; indexMap++;
+abc[indexMap]="What do you think about waiting in line for tickets?_¿Qué piensas de esperar en la fila para los boletos?"; indexMap++;
+abc[indexMap]="What do you think about sailing?_¿Qué piensas de la vela?"; indexMap++;
+abc[indexMap]="What do you think about staying here another night?_¿Qué piensas de estar aquí otra noche?"; indexMap++;
+abc[indexMap]="What do you think about retiring from your job?_¿Qué piensa usted de retirarse de su trabajo?"; indexMap++;
+abc[indexMap]="What do you think about planting new trees in the backyard?_¿Qué piensas sobre plantar nuevos árboles en el patio trasero?"; indexMap++;
+abc[indexMap]="What do you think about offering to babysit?_¿Qué piensas de ofrecer a cuidar niños?"; indexMap++;
+abc[indexMap]="What do you think about living in a new city?_¿Qué piensas de vivir en una ciudad nueva?"; indexMap++;
+abc[indexMap]="What do you think about filming our vacation?_¿Qué piensas sobre filmar nuestras vacaciones?"; indexMap++;
+abc[indexMap]="Why don't we go bowling tonight?_¿Por qué no vamos a jugar bolos esta noche?"; indexMap++;
+abc[indexMap]="Why don't we pick some fresh flowers?_¿Por qué no cogemos flores frescas?"; indexMap++;
+abc[indexMap]="Why don't we play a game of chess?_¿Por qué no jugamos al ajedrez?"; indexMap++;
+abc[indexMap]="Why don't we save more money?_¿Por qué no ahorramos más dinero?"; indexMap++;
+abc[indexMap]="Why don't we remember this place?_¿Por qué no recordamos este lugar?"; indexMap++;
+abc[indexMap]="Why don't we test this before using it?_¿Por qué no probamos esto antes de usarlo?"; indexMap++;
+abc[indexMap]="Why don't we try and do it again?_¿Por qué no tratamos de hacerlo de nuevo?"; indexMap++;
+abc[indexMap]="Why don't we post our results online?_¿Por qué no publicamos nuestros resultados en línea?"; indexMap++;
+abc[indexMap]="Why don't we gather more firewood?_¿Por qué no cogemos más leña?"; indexMap++;
+abc[indexMap]="Why don't we earn more money?_¿Por qué no ganamos más dinero?"; indexMap++;
+abc[indexMap]="It's too bad that she lost her job._Es una lástima que ella perdió su trabajo."; indexMap++;
+abc[indexMap]="It's too bad that you have to go._Es una lástima que tengas que irte."; indexMap++;
+abc[indexMap]="It's too bad that I found out about it._Es una pena que me haya enterado."; indexMap++;
+abc[indexMap]="It's too bad we will not be there on time._Es una pena que no llegue a tiempo."; indexMap++;
+abc[indexMap]="It's too bad that tickets are all gone to that concert._Es una pena que los boletos se hayan ido a ese concierto."; indexMap++;
+abc[indexMap]="It's too bad that it is supposed to rain._Es una lástima que se supone que llueva."; indexMap++;
+abc[indexMap]="It's too bad that she got hurt._Es una lástima que se lastime."; indexMap++;
+abc[indexMap]="It's too bad that my work has to lay off people._Es una lástima que mi trabajo tenga que despedir a la gente."; indexMap++;
+abc[indexMap]="It's too bad that you do not understand._Es una pena que no lo entiendas."; indexMap++;
+abc[indexMap]="You could have completed it sooner._Podrías haberlo hecho antes."; indexMap++;
+abc[indexMap]="You could have blown your chance._Podrías haber echado a perder tu oportunidad."; indexMap++;
+abc[indexMap]="You could have done better on your exam._Usted podría haber hecho mejor en su examen."; indexMap++;
+abc[indexMap]="You could have given me more time to get ready._Podrías haberme dado más tiempo para prepararme."; indexMap++;
+abc[indexMap]="You could have heard that from someone else._Podrías oír eso de otra persona."; indexMap++;
+abc[indexMap]="You could have sent that package first class._Podrías haber enviado ese paquete de primera clase."; indexMap++;
+abc[indexMap]="You could have slept in a little longer._Podrías haber dormido un poco más."; indexMap++;
+abc[indexMap]="You could have written him a letter._Podrías haberle escrito una carta."; indexMap++;
+abc[indexMap]="You could have thought of something to do._Podrías haber pensado en algo que hacer."; indexMap++;
+abc[indexMap]="You could have upset her by saying that._Podrías haberla molestado diciendo eso."; indexMap++;
+abc[indexMap]="If I were you, I would enjoy my vacation._Si fuera tú, disfrutaría mis vacaciones."; indexMap++;
+abc[indexMap]="If I were you, I would explain what happened._Si fuera usted, le explicaría lo que pasó."; indexMap++;
+abc[indexMap]="If I were you, I would continue working until it is done._Si yo fuera tú, seguiría trabajando hasta que se haga."; indexMap++;
+abc[indexMap]="If I were you, I would book my reservations now._Si yo fuera tú, reservaría ahora mis reservas."; indexMap++;
+abc[indexMap]="If I were you, I would answer the question._Si yo fuera tú, yo respondería a la pregunta."; indexMap++;
+abc[indexMap]="If I were you, I would have enjoyed my vacation._Si yo fuera tú, habría disfrutado mis vacaciones."; indexMap++;
+abc[indexMap]="If I were you, I would have explained what happened._Si yo fuera tú, habría explicado lo que pasó."; indexMap++;
+abc[indexMap]="If I were you, I would have continued working until it was done._Si yo fuera tú, habría continuado trabajando hasta que se hiciera."; indexMap++;
+abc[indexMap]="If I were you, I would have booked my reservations now._Si yo fuera tú, habría reservado mis reservas ahora."; indexMap++;
+abc[indexMap]="If I were you, I would have answered the question._Si yo fuera tú, habría respondido a la pregunta."; indexMap++;
+abc[indexMap]="It's going to be delicious._Va a ser delicioso."; indexMap++;
+abc[indexMap]="It's gonna be easy._Va a ser fácil."; indexMap++;
+abc[indexMap]="It's gonna be depressing._Va a ser deprimente."; indexMap++;
+abc[indexMap]="It's going to be exciting._Va a ser emocionante."; indexMap++;
+abc[indexMap]="It's going to be disgusting._Va a ser repugnante."; indexMap++;
+abc[indexMap]="He is going to be tough to deal with._Él va a ser difícil de tratar."; indexMap++;
+abc[indexMap]="He is going to be terrific at that._Va a ser estupendo en eso."; indexMap++;
+abc[indexMap]="She is going to be relieved to hear that._Va a sentirse aliviada al oír eso."; indexMap++;
+abc[indexMap]="She is going to be scared after watching that movie._Ella va a tener miedo después de ver esa película."; indexMap++;
+abc[indexMap]="Sally is going to be successful._Sally va a tener éxito."; indexMap++;
+abc[indexMap]="Mike is going to be grumpy after I tell him._Mike va a ser gruñón después de que yo le diga."; indexMap++;
+abc[indexMap]="That's why people admire you._Es por eso que la gente te admira."; indexMap++;
+abc[indexMap]="That's why she appears so happy._Por eso parece tan feliz."; indexMap++;
+abc[indexMap]="That's why babies crawl before they can walk._Por eso los bebés se arrastran antes de que puedan caminar."; indexMap++;
+abc[indexMap]="That's why Pam cries at sad movies._Es por eso que Pam llora en películas tristes."; indexMap++;
+abc[indexMap]="That's why you fail to understand._Por eso no entiendes."; indexMap++;
+abc[indexMap]="That is why you help out people in need._Es por eso que ayudas a las personas necesitadas."; indexMap++;
+abc[indexMap]="That is why you try and include everyone._Es por eso que tratas de incluir a todo el mundo."; indexMap++;
+abc[indexMap]="That is why you lock your doors when you leave home._Es por eso que cierras las puertas cuando sales de casa."; indexMap++;
+abc[indexMap]="That is why she smiles when you walk by._Por eso es que ella sonríe cuando caminas."; indexMap++;
+abc[indexMap]="That is why you use it for emergencies._Es por eso que lo usas para emergencias."; indexMap++;
+abc[indexMap]="It looks like a balloon._Parece un globo."; indexMap++;
+abc[indexMap]="It looks like a jellyfish._Parece una medusa."; indexMap++;
+abc[indexMap]="It looks like a banana._Parece un plátano."; indexMap++;
+abc[indexMap]="It looks like a fish._Parece un pez."; indexMap++;
+abc[indexMap]="It looks like it's going to rain._Parece que va a llover."; indexMap++;
+abc[indexMap]="It looks like it's going to be fun._Parece que va a ser divertido."; indexMap++;
+abc[indexMap]="It looks like it's going to be a long day._Parece que va a ser un día largo."; indexMap++;
+abc[indexMap]="It looks like they are leaving._Parece que se van."; indexMap++;
+abc[indexMap]="It looks like he is waving to us._Parece que nos está saludando."; indexMap++;
+abc[indexMap]="It looks like she is lost._Parece que está perdida."; indexMap++;
+abc[indexMap]="It looks like they are racing._Parece que están corriendo."; indexMap++;
+abc[indexMap]="It's time to say goodbye._Es el momento de decir adiós."; indexMap++;
+abc[indexMap]="It's time to ask for a raise._Es hora de pedir un aumento."; indexMap++;
+abc[indexMap]="It's time to collect our money._Es hora de recoger nuestro dinero."; indexMap++;
+abc[indexMap]="It's time to cheer for our team._Es hora de animar a nuestro equipo."; indexMap++;
+abc[indexMap]="It's time to change the clocks._Es hora de cambiar los relojes."; indexMap++;
+abc[indexMap]="It is time to decide what to do._Es hora de decidir qué hacer."; indexMap++;
+abc[indexMap]="It is time to enjoy ourselves._Es hora de disfrutar de nosotros mismos."; indexMap++;
+abc[indexMap]="It is time to fill me in on what's going on._Es hora de rellenarme en lo que está pasando."; indexMap++;
+abc[indexMap]="It is time to help out._Es hora de ayudar."; indexMap++;
+abc[indexMap]="It is time to join a gym._Es hora de unirse a un gimnasio."; indexMap++;
+abc[indexMap]="The point is that if you study you will do well in school._El punto es que si usted estudia usted hará bien en la escuela."; indexMap++;
+abc[indexMap]="The point is that she does not understand._El punto es que ella no entiende."; indexMap++;
+abc[indexMap]="The point is that we need this done today._El punto es que necesitamos hacer esto hoy."; indexMap++;
+abc[indexMap]="The point is that the world would be a better place._El punto es que el mundo sería un lugar mejor."; indexMap++;
+abc[indexMap]="The point is that we should help._El punto es que deberíamos ayudar."; indexMap++;
+abc[indexMap]="The point is that snakes can be dangerous._La cuestión es que las serpientes pueden ser peligrosas."; indexMap++;
+abc[indexMap]="The point is that leaving a baby alone is not a good idea._El punto es que dejar a un bebé solo no es una buena idea."; indexMap++;
+abc[indexMap]="The point is that if we do not leave now we will be late._El punto es que si no nos vamos ahora llegaremos tarde."; indexMap++;
+abc[indexMap]="The point is that she needs to be more responsible._El punto es que ella necesita ser más responsable."; indexMap++;
+abc[indexMap]="The point is that we need to work together._El punto es que tenemos que trabajar juntos."; indexMap++;
+abc[indexMap]="How about singing?_¿Qué te parece cantar?"; indexMap++;
+abc[indexMap]="How about hanging out tonight?_¿Qué tal salir esta noche?"; indexMap++;
+abc[indexMap]="How about folding the laundry for me?_¿Qué tal si me doblas la ropa?"; indexMap++;
+abc[indexMap]="How about helping us out?_¿Qué te parece si nos ayudas?"; indexMap++;
+abc[indexMap]="How about describing to me what happened?_¿Qué te parece si me describes lo que pasó?"; indexMap++;
+abc[indexMap]="How about exploring new ideas?_¿Qué tal explorar nuevas ideas?"; indexMap++;
+abc[indexMap]="How about comparing prices before we buy it?_¿Qué hay de comparar los precios antes de comprarlo?"; indexMap++;
+abc[indexMap]="How about considering it?_¿Qué te parece si lo consideras?"; indexMap++;
+abc[indexMap]="How about following me to their house?_¿Qué tal si me llevas a su casa?"; indexMap++;
+abc[indexMap]="How about feeding the dogs?_¿Qué hay de alimentar a los perros?"; indexMap++;
+abc[indexMap]="How was your meeting?_¿Cómo fue tu reunión?"; indexMap++;
+abc[indexMap]="How was your doctor's appointment?_¿Cómo fue la cita de su doctor?"; indexMap++;
+abc[indexMap]="How was the birthday party?_¿Cómo fue la fiesta de cumpleaños?"; indexMap++;
+abc[indexMap]="How was lunch?_¿Cómo fue el almuerzo?"; indexMap++;
+abc[indexMap]="How was the airplane ride?_¿Cómo estuvo el avión?"; indexMap++;
+abc[indexMap]="How was vacation?_¿Qué tal las vacaciones?"; indexMap++;
+abc[indexMap]="How were your parents?_¿Cómo estaban tus padres?"; indexMap++;
+abc[indexMap]="How were roads when you drove home?_¿Cómo iban los caminos cuando volviste a casa?"; indexMap++;
+abc[indexMap]="How were people acting after what happened?_¿Cómo estaban las personas actuando después de lo que pasó?"; indexMap++;
+abc[indexMap]="How were holidays with the family?_¿Cómo estuvieron las vacaciones con la familia?"; indexMap++;
+abc[indexMap]="What if I miss the bus?_¿Y si extraño el autobús?"; indexMap++;
+abc[indexMap]="What if I were late to dinner?_¿Y si llego tarde a cenar?"; indexMap++;
+abc[indexMap]="What if I called her tomorrow?_¿Y si la llamara mañana?"; indexMap++;
+abc[indexMap]="What if I don't understand?_¿Y si no lo entiendo?"; indexMap++;
+abc[indexMap]="What if someone sees me?_¿Y si alguien me ve?"; indexMap++;
+abc[indexMap]="What if no one is home?_¿Y si no hay nadie en casa?"; indexMap++;
+abc[indexMap]="What if they decide to stay?_¿Y si deciden quedarse?"; indexMap++;
+abc[indexMap]="What if it rains while we are camping?_¿Y si llueve mientras acampamos?"; indexMap++;
+abc[indexMap]="What if I do not finish on time?_¿Y si no termino a tiempo?"; indexMap++;
+abc[indexMap]="What if we introduce ourselves first?_¿Y si nos presentamos primero?"; indexMap++;
+abc[indexMap]="How much does it cost to fly to Europe?_¿Cuánto cuesta volar a Europa?"; indexMap++;
+abc[indexMap]="How much does it cost to own a house?_¿Cuánto cuesta ser dueña de una casa?"; indexMap++;
+abc[indexMap]="How much does it cost to play a round of golf?_¿Cuánto cuesta jugar una ronda de golf?"; indexMap++;
+abc[indexMap]="How much does it cost to join a gym?_¿Cuánto cuesta unirse a un gimnasio?"; indexMap++;
+abc[indexMap]="How much does it cost to repair my car?_¿Cuánto cuesta reparar mi coche?"; indexMap++;
+abc[indexMap]="How much would it cost to talk long distance?_¿Cuánto costaría hablar a larga distancia?"; indexMap++;
+abc[indexMap]="How much would it cost to run a website?_¿Cuánto cuesta operar un sitio web?"; indexMap++;
+abc[indexMap]="How much would it cost to wash my car?_¿Cuánto costaría lavar mi coche?"; indexMap++;
+abc[indexMap]="How much would it cost to rent a car?_¿Cuánto costaría alquilar un coche?"; indexMap++;
+abc[indexMap]="How much would it cost to go to the movies?_¿Cuánto costaría ir al cine?"; indexMap++;
+abc[indexMap]="What are the chances of getting tickets?_¿Cuáles son las posibilidades de conseguir entradas?"; indexMap++;
+abc[indexMap]="What are the chances of that happening?_¿Cuales Son Las Probabilidades de Que Eso Suceda?"; indexMap++;
+abc[indexMap]="What are the chances of it raining today?_¿Cuáles son las posibilidades de que llueva hoy?"; indexMap++;
+abc[indexMap]="What are the chances of winning the lottery?_¿Cuales son las posibilidades de ganar la loteria?"; indexMap++;
+abc[indexMap]="What are the chances of you staying home today?_¿Cuáles son las probabilidades de que te quedes en casa hoy?"; indexMap++;
+abc[indexMap]="What are your chances of getting the job?_¿Cuáles son sus posibilidades de conseguir el trabajo?"; indexMap++;
+abc[indexMap]="What are your chances of improving?_¿Cuáles son sus posibilidades de mejorar?"; indexMap++;
+abc[indexMap]="What are your chances of moving?_¿Cuáles son tus posibilidades de mudarse?"; indexMap++;
+abc[indexMap]="What are our chances of staying together?_¿Cuáles son nuestras posibilidades de permanecer juntos?"; indexMap++;
+abc[indexMap]="What are our chances of working together?_¿Cuáles son nuestras posibilidades de trabajar juntos?"; indexMap++;
+abc[indexMap]="What are our chances of going together?_¿Cuáles son nuestras posibilidades de ir juntos?"; indexMap++;
+abc[indexMap]="How come parents worry so much?_¿Cómo es que los padres se preocupan tanto?"; indexMap++;
+abc[indexMap]="How come people carpool to work?_¿Cómo es que la gente se comparte para trabajar?"; indexMap++;
+abc[indexMap]="How come you are so upset?_¿Cómo es que estás tan molesta?"; indexMap++;
+abc[indexMap]="How come he will not call you?_¿Por qué no te llama?"; indexMap++;
+abc[indexMap]="How come you stayed out so late?_¿Por qué te quedaste tan tarde?"; indexMap++;
+abc[indexMap]="How come you cannot make a decision?_¿Por qué no puedes tomar una decisión?"; indexMap++;
+abc[indexMap]="How come you always question me?_¿Cómo es que siempre me preguntas?"; indexMap++;
+abc[indexMap]="How come we never agree?_¿Cómo es que nunca estamos de acuerdo?"; indexMap++;
+abc[indexMap]="How come your dog digs in the yard?_¿Cómo es que su perro cava en el patio?"; indexMap++;
+abc[indexMap]="How come she will not come over?_¿Por qué no quiere venir?"; indexMap++;
+abc[indexMap]="Let's not discuss this now._No hablemos de esto ahora."; indexMap++;
+abc[indexMap]="Let's not stay here too long._No nos quedemos aquí mucho tiempo."; indexMap++;
+abc[indexMap]="Let's not stop anywhere on the way._No nos detengamos en ningún lado del camino."; indexMap++;
+abc[indexMap]="Let's not remain mad at each other._No sigamos locos el uno al otro."; indexMap++;
+abc[indexMap]="Let's not meddle in other people's business._No nos metamos en los negocios de otras personas."; indexMap++;
+abc[indexMap]="Let us not get too excited._No nos emocionemos demasiado."; indexMap++;
+abc[indexMap]="Let us not worry too much._No nos preocupemos demasiado."; indexMap++;
+abc[indexMap]="Let us not interrupt them when they are talking._No los interrumpamos cuando hablan."; indexMap++;
+abc[indexMap]="Let us help you._Dejanos ayudarte."; indexMap++;
+abc[indexMap]="Let us get that for you._Vamos a conseguir eso para usted."; indexMap++;
+abc[indexMap]="There is something wrong with my laptop._Hay algo mal con mi computadora portátil."; indexMap++;
+abc[indexMap]="There is something wrong with my car._Hay algo mal en mi auto."; indexMap++;
+abc[indexMap]="There is something wrong with my cell phone._Hay algo mal con mi teléfono celular."; indexMap++;
+abc[indexMap]="There is something wrong with my head._Hay algo mal en mi cabeza."; indexMap++;
+abc[indexMap]="There is something wrong with your answering machine._Hay algo mal con su contestador automático."; indexMap++;
+abc[indexMap]="There is something wrong with your way of thinking._Hay algo mal con tu manera de pensar."; indexMap++;
+abc[indexMap]="There is something wrong with your attitude._Hay algo mal con tu actitud."; indexMap++;
+abc[indexMap]="There is something wrong with your dog._Hay algo mal con tu perro."; indexMap++;
+abc[indexMap]="There is something wrong with our relationship._Hay algo mal en nuestra relación."; indexMap++;
+abc[indexMap]="There is something wrong with our alarm clock._Hay algo mal con nuestro despertador."; indexMap++;
+abc[indexMap]="There's no need to worry._No hay necesidad de preocuparse."; indexMap++;
+abc[indexMap]="There's no need to be upset._No hay necesidad de estar molesto."; indexMap++;
+abc[indexMap]="There's no need to act so strange._No hay necesidad de actuar tan extraño."; indexMap++;
+abc[indexMap]="There's no need to act so shy._No hay necesidad de actuar tan tímido."; indexMap++;
+abc[indexMap]="There's no need to rush off._No hay necesidad de salir corriendo."; indexMap++;
+abc[indexMap]="There's no need to talk now._No hay necesidad de hablar ahora."; indexMap++;
+abc[indexMap]="There is no need to call this late._No hace falta llamar tan tarde."; indexMap++;
+abc[indexMap]="There is no need to bother him._No hay necesidad de molestarlo."; indexMap++;
+abc[indexMap]="There is no need to run away._No hay necesidad de huir."; indexMap++;
+abc[indexMap]="There is no need to stop now._No hay necesidad de parar ahora."; indexMap++;
+abc[indexMap]="Let's say that you love to fish._Digamos que te encanta pescar."; indexMap++;
+abc[indexMap]="Let's say we found it._Digamos que lo encontramos."; indexMap++;
+abc[indexMap]="Let's say that we enjoy being with them._Digamos que disfrutamos estar con ellos."; indexMap++;
+abc[indexMap]="Let's say that we had a good time._Digamos que lo pasamos bien."; indexMap++;
+abc[indexMap]="Let's say that it's hard to decide._Digamos que es difícil de decidir."; indexMap++;
+abc[indexMap]="Let's say that we have to go._Digamos que tenemos que irnos."; indexMap++;
+abc[indexMap]="Let's say that we can host._Digamos que podemos hospedar."; indexMap++;
+abc[indexMap]="Let's say that I have to work._Digamos que tengo que trabajar."; indexMap++;
+abc[indexMap]="Let's say that the movie was really good._Digamos que la película fue realmente buena."; indexMap++;
+abc[indexMap]="It takes one hour to get there._Tarda una hora en llegar."; indexMap++;
+abc[indexMap]="It takes forty-five minutes for me to get ready._Me lleva cuarenta y cinco minutos prepararme."; indexMap++;
+abc[indexMap]="It takes four quarters to complete a football game._Se necesitan cuatro cuartos para completar un partido de fútbol."; indexMap++;
+abc[indexMap]="It takes 7 seconds for my car to go 60 miles per hour._Llevo 7 segundos para que mi coche alcance 60 millas por hora."; indexMap++;
+abc[indexMap]="It takes all day for us to finish golfing._Nos lleva todo el día terminar el golf."; indexMap++;
+abc[indexMap]="It takes years to learn to play guitar._Se necesitan años para aprender a tocar la guitarra."; indexMap++;
+abc[indexMap]="It takes 15 minutes to get to downtown._Se tarda 15 minutos en llegar al centro de la ciudad."; indexMap++;
+abc[indexMap]="It takes me one hour to cook._Me lleva una hora cocinar."; indexMap++;
+abc[indexMap]="Please make sure that she wakes up on time._Por favor, asegúrate de que se despierte a tiempo."; indexMap++;
+abc[indexMap]="Please make sure that she gets to school._Por favor, asegúrese de que ella llegue a la escuela."; indexMap++;
+abc[indexMap]="Please make sure that dinner is ready when we get home._Por favor, asegúrate de que la cena esté lista cuando lleguemos a casa."; indexMap++;
+abc[indexMap]="Please make sure that your assignment is done._Por favor, asegúrese de que su tarea está terminada."; indexMap++;
+abc[indexMap]="Please make sure that the water is not too hot._Por favor, asegúrese de que el agua no está demasiado caliente."; indexMap++;
+abc[indexMap]="Please make sure you cook the meat long enough._Por favor asegúrese de cocinar la carne lo suficiente."; indexMap++;
+abc[indexMap]="Please make sure that she is getting along with her new friends._Por favor, asegúrate de que se está llevando bien con sus nuevos amigos."; indexMap++;
+abc[indexMap]="Please make sure that we leave on time._Por favor, asegúrate de que salgamos a tiempo."; indexMap++;
+abc[indexMap]="Please make sure you record our favorite TV show._Por favor asegúrese de grabar nuestro programa de televisión favorito."; indexMap++;
+abc[indexMap]="Please make sure that you don't stay out too late._Por favor, asegúrate de que no te quedes fuera demasiado tarde."; indexMap++;
+abc[indexMap]="It's no use crying._No sirve de nada llorar."; indexMap++;
+abc[indexMap]="It's no use separating them._No sirve de nada separarlos."; indexMap++;
+abc[indexMap]="It's no use talking to her._No tiene sentido hablar con ella."; indexMap++;
+abc[indexMap]="It's no use whining about it._No sirve de nada quejarse."; indexMap++;
+abc[indexMap]="It's no use apologizing._No sirve de disculpas."; indexMap++;
+abc[indexMap]="It's no use attempting to please him._No sirve intentar complacerlo."; indexMap++;
+abc[indexMap]="It's no use arguing about it._No sirve de nada discutirlo."; indexMap++;
+abc[indexMap]="It's no use behaving that way._No tiene sentido comportarse así."; indexMap++;
+abc[indexMap]="It's no use cleaning up._No sirve de nada limpiar."; indexMap++;
+abc[indexMap]="It's no use checking on it yet._No vale la pena comprobarlo todavía."; indexMap++;
+abc[indexMap]="It's very kind of you to offer me the job._Es muy amable de tu parte ofrecerme el trabajo."; indexMap++;
+abc[indexMap]="It's very kind of you to listen to me._Es muy amable al escucharme."; indexMap++;
+abc[indexMap]="It's very kind of you to join me._Es muy amable de su parte venir conmigo."; indexMap++;
+abc[indexMap]="It's very kind of you to invite us._Es muy amable de su parte invitarnos."; indexMap++;
+abc[indexMap]="It's very kind of you to inform us what happened._Es muy amable de tu parte informarnos de lo que pasó."; indexMap++;
+abc[indexMap]="It is kind of you to help us._Es amable de tu parte ayudarnos."; indexMap++;
+abc[indexMap]="It is kind of you to fill me in._Es amable de tu parte de llenarme."; indexMap++;
+abc[indexMap]="It is kind of you to entertain us._Es amable de tu parte entretenernos."; indexMap++;
+abc[indexMap]="It is kind of you to double my salary._Es amable de tu parte el doble de mi sueldo."; indexMap++;
+abc[indexMap]="It is kind of you to decorate for the party._Es amable de tu parte decorar la fiesta."; indexMap++;
+abc[indexMap]="There's no way you finish on time._No hay manera de que termines a tiempo."; indexMap++;
+abc[indexMap]="There's no way we complete on time._No hay forma de completar a tiempo."; indexMap++;
+abc[indexMap]="There's no way your mother approves._No hay manera de que tu madre apruebe."; indexMap++;
+abc[indexMap]="There's no way no one claims it._No hay manera de que nadie lo reclame."; indexMap++;
+abc[indexMap]="There's no way they expect it._No hay manera de que lo esperen."; indexMap++;
+abc[indexMap]="There's no way he can fix it._No hay manera de que pueda arreglarlo."; indexMap++;
+abc[indexMap]="There's no way he can handle the news._No hay manera de que pueda manejar las noticias."; indexMap++;
+abc[indexMap]="There's no way your brother injured his ankle._No hay manera de que tu hermano se lastime el tobillo."; indexMap++;
+abc[indexMap]="There is no way that horse jumps it._No hay manera de que el caballo salte."; indexMap++;
+abc[indexMap]="There is no way he missed it._No hay manera de que se lo perdiera."; indexMap++;
+abc[indexMap]="Here's to the winner!_¡Aquí está el ganador!"; indexMap++;
+abc[indexMap]="Here's to your marriage!_¡Aquí tienes tu matrimonio!"; indexMap++;
+abc[indexMap]="Here's to the New Year!_¡Aquí está el Año Nuevo!"; indexMap++;
+abc[indexMap]="Here's to great friends!_¡Aquí hay grandes amigos!"; indexMap++;
+abc[indexMap]="Here's to starting a new job!_¡Aquí está para comenzar un nuevo trabajo!"; indexMap++;
+abc[indexMap]="Here is to the luckiest guy in the world!_¡Aquí está el tipo más afortunado del mundo!"; indexMap++;
+abc[indexMap]="Here is to you!_Aquí está para usted!"; indexMap++;
+abc[indexMap]="Here is to happiness!_¡Aquí está la felicidad!"; indexMap++;
+abc[indexMap]="Here is to a wonderful day!_¡Aquí está un día maravilloso!"; indexMap++;
+abc[indexMap]="Here is to great memories!_Aquí hay buenos recuerdos!"; indexMap++;
+abc[indexMap]="There's nothing you can harm._No hay nada que puedas hacer daño."; indexMap++;
+abc[indexMap]="There's nothing the police can identify._No hay nada que la policía pueda identificar."; indexMap++;
+abc[indexMap]="There's nothing we can agree on._No hay nada en lo que podamos estar de acuerdo."; indexMap++;
+abc[indexMap]="There's nothing we can join._No hay nada a lo que podamos unirnos."; indexMap++;
+abc[indexMap]="There's nothing she can cook._No hay nada que pueda cocinar."; indexMap++;
+abc[indexMap]="There's nothing my dog can learn._No hay nada que mi perro pueda aprender."; indexMap++;
+abc[indexMap]="There is nothing I cannot ask for._No hay nada que no pueda pedir."; indexMap++;
+abc[indexMap]="There's nothing we cannot accomplish._No hay nada que no podamos lograr."; indexMap++;
+abc[indexMap]="There's nothing our dog cannot open._No hay nada que nuestro perro no pueda abrir."; indexMap++;
+abc[indexMap]="There's nothing that truck cannot move._No hay nada que camión no se puede mover."; indexMap++;
+abc[indexMap]="Rumor has it that that player will get traded._Se rumorea que ese jugador será cambiado."; indexMap++;
+abc[indexMap]="Rumor has it that she cheated on him._Se rumorea que ella lo engañó."; indexMap++;
+abc[indexMap]="Rumor has it that they are going to get married._Se rumorea que van a casarse."; indexMap++;
+abc[indexMap]="Rumor has it that you like to paint._Hace rumores de que te gusta pintar."; indexMap++;
+abc[indexMap]="Rumor has it that show is going to end._Se rumorea que el show va a terminar."; indexMap++;
+abc[indexMap]="Rumor has it that he is going to get a raise._Se rumorea que él va a conseguir un aumento."; indexMap++;
+abc[indexMap]="Rumor has it that your sister got in trouble._Hace rumores de que tu hermana se metió en problemas."; indexMap++;
+abc[indexMap]="Rumor has it that she goes to our gym._Se rumorea que ella va a nuestro gimnasio."; indexMap++;
+abc[indexMap]="Rumor has it that he will not return._Se rumorea que no volverá."; indexMap++;
+abc[indexMap]="Rumor has it that it happened while texting._Se rumorea que sucedió mientras texting."; indexMap++;
+
+
+
+
+
+
+$(function(){
+$("#btnNext").hide();
+$("#btnQuestion").hide();
+$("#btnRun").hide();
+
+nextQuestion();
+
+});
+var index=0;
+var count=0;
+var WORDS_ENGLISH=abc.lenght; 
+var timeoutID;
+var level=0;
+var timeSleep=675;
+
+
+
+function nextQuestion(){
+	if(index==915){
+	index=0;level=0;
+		abc.sort(function(a, b){return 0.5 - Math.random()});
+	}
+	if(abc[index]==null){
+		index++;
+	}
+	
+	var text1=abc[index];
+	console.log(index+" - "+text1);
+	
+	var values1=text1.split('_');
+	
+	
+	
+	
+	var possibleResponde =[values1[0]];
+	possibleResponde=possibleResponde.sort(function() {return Math.random() - 0.5});
+	possibleResponde=possibleResponde.sort(function() {return Math.random() - 0.5});
+	var htmlResponse="<table><tr><td>";
+	for(var i=0;i<possibleResponde.length;i++){
+	
+		responsiveVoice.speak(values1[0], "US English Female", {
+			rate : 0.6
+		});
+		if(possibleResponde[i]==values1[0]){
+			htmlResponse+="<a id=\"response"+index+"\" href=\"javascript:win();\" style=\"float:left;\" class=\"ui-btn ui-shadow ui-corner-all\">"+possibleResponde[i]+"</a>";					
+			$("#sencences").html(values1[0]);
+			//$("#sentence_"+values1[0]).css('display', 'block');
+		}	
+	}
+	htmlResponse+="</td></tr></table>";
+	
+	
+	$('#english').html(htmlResponse);
+	
+	   	
+	var spanish="";
+	for(var i=1;i<5;i++){
+		if(values1[i]!=null){
+			spanish=spanish+" "+values1[i];
+		}
+	}
+
+	$('#spanish').html(spanish);
+	
+
+	$('#count').html("Index:"+index);		
+	index++;
+	$("#sencences").css("display", "none");
+}
+function clearInterval(interv){
+interv=null;
+}
+function win(){
+
+	count++;
+	nextQuestion();
+	/*timeoutID = window.setTimeout(function(){  		
+		$("#response"+(index-1)).css({"background-color":"rgb(212, 212, 212)","text-shadow":"none"});		
+	  }, timeSleep);*/
+}
+function lose(msg,correct){	
+	//responsiveVoice.OnVoiceReady = function() {	  
+	  responsiveVoice.speak(msg +", the correct answer is: "+correct);
+	  $("#response"+(index-1)).css({"background-color":"rgb(212, 212, 212)","text-shadow":"none"});
+	//};
+}
+
+
+
+function moreAsk(){
+if(level<900){
+	level=level+100;
+	index=level;			
+	}else{
+		level=0;
+		index=0;
+	}
+	nextQuestion();
+}
+
+function showSentence(){
+	$("#sencences").css("display", "block");
+}
+function shuffle (array) {
+  var i = 0
+    , j = 0
+    , temp = null;
+  for (i = WORDS_ENGLISH - 1; i > 0; i -= 1) {
+  
+    j = Math.floor(Math.random() * (i + 1));
+    temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+}
+
+function oir(id){
+	responsiveVoice.speak($("#"+id+"").text());
+}
+
+function hear(){
+console.log($("#english").text())
+	responsiveVoice.speak($("#english").text(), "US English Female", {
+			rate : 0.6
+		});
+}
+</script>
+</head>
+<body>
+<a id="btnMore" onclick="moreAsk()" style="width: 10%;float: right;" class="ui-btn ui-shadow ui-corner-all">Up</a>
+
+<div style="float:left;">
+</div>
+<div id="count">0</div>
+
+<center>
+<div id="spanish" style="font-family: verdana, sans-serif; color: #828282; font-size: 15px;"></div>
+<div id="english" style="font-family: verdana, sans-serif; color: #828282; font-size: 17px;"></div>
+<br/>
+<br/>
+<br/>
+<a id="btnMore" onclick="hear()" style="width: 10%;float: right;" class="ui-btn ui-shadow ui-corner-all">Hear</a>
+</center>
+
+</body>
+</html>
