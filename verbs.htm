@@ -1,0 +1,621 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+<style>body{width:100%;height:100%;}</style>
+<script>
+var abc = [435];
+
+indexMap=0;
+
+abc[indexMap]="however_sin envargo"; indexMap++;
+abc[indexMap]="likely_probable"; indexMap++;
+abc[indexMap]="almost_casi"; indexMap++;
+abc[indexMap]="rather_mas bien"; indexMap++;
+abc[indexMap]="either_tampoco, ya sea"; indexMap++;
+abc[indexMap]="therefore_por lo tanto"; indexMap++;
+abc[indexMap]="properly_correctamente"; indexMap++;
+abc[indexMap]="fairly_bastante"; indexMap++;
+abc[indexMap]="merely_simplemente"; indexMap++;
+abc[indexMap]="gently_suavemente"; indexMap++;
+abc[indexMap]="hopeful_ojala"; indexMap++;
+abc[indexMap]="rougly_aproximadamente"; indexMap++;
+abc[indexMap]="elsewhere_en otra parte"; indexMap++;
+abc[indexMap]="hardly_apenas"; indexMap++;
+abc[indexMap]="forth_adelante"; indexMap++;
+abc[indexMap]="moreover_ademas"; indexMap++;
+abc[indexMap]="otherwise_de otra manera"; indexMap++;
+abc[indexMap]="arise, arose, arisen_surgir"; indexMap++;
+abc[indexMap]="awake, awoke, awoken_despertar(se)"; indexMap++;
+abc[indexMap]="bear, bore, borne_soportar"; indexMap++;
+abc[indexMap]="beat, beat, beaten_latir"; indexMap++;
+abc[indexMap]="become, became, become_convertirse en"; indexMap++;
+abc[indexMap]="begin, began, begun_empezar"; indexMap++;
+abc[indexMap]="bend, bent, bent_doblar(se)"; indexMap++;
+abc[indexMap]="bet, bet, bet_apostar"; indexMap++;
+abc[indexMap]="bid, bid, bid_pujar"; indexMap++;
+abc[indexMap]="bind, bound, bound_encuadernar"; indexMap++;
+abc[indexMap]="bite, bit, bitten_morder"; indexMap++;
+abc[indexMap]="bleed, bled, bled_sangrar"; indexMap++;
+abc[indexMap]="blow, blew, blown_soplar"; indexMap++;
+abc[indexMap]="break, broke, broken_romper"; indexMap++;
+abc[indexMap]="breed, bred, bred_criar"; indexMap++;
+abc[indexMap]="bring, brought, brought_traer"; indexMap++;
+abc[indexMap]="build, built, built_construir"; indexMap++;
+abc[indexMap]="burn, burnt, burnt_quemar(se)"; indexMap++;
+abc[indexMap]="burst, burst, burst_estallar"; indexMap++;
+abc[indexMap]="buy, bought, bought_comprar"; indexMap++;
+abc[indexMap]="cast, cast, cast_tirar"; indexMap++;
+abc[indexMap]="catch, caught, caught_coger"; indexMap++;
+abc[indexMap]="choose, chose, chosen_elegir"; indexMap++;
+abc[indexMap]="cling, clung, clung_aferrarse"; indexMap++;
+abc[indexMap]="come, came, come_venir"; indexMap++;
+abc[indexMap]="cost, cost, cost_costar"; indexMap++;
+abc[indexMap]="creep, crept, crept_arrastrar"; indexMap++;
+abc[indexMap]="cut, cut, cut_cortar"; indexMap++;
+abc[indexMap]="deal, dealt, dealt_tratar"; indexMap++;
+abc[indexMap]="dig, dug, dug_cavar"; indexMap++;
+abc[indexMap]="do, did, done_hacer"; indexMap++;
+abc[indexMap]="draw, drew, drawn_dibujar"; indexMap++;
+abc[indexMap]="dream, dreamt, dreamt_soñar"; indexMap++;
+abc[indexMap]="drink, drank, drunk_beber"; indexMap++;
+abc[indexMap]="drive, drove, driven_conducir"; indexMap++;
+abc[indexMap]="eat, ate, eaten_comer"; indexMap++;
+abc[indexMap]="fall, fell, fallen_caer(se)"; indexMap++;
+abc[indexMap]="feed, fed, fed_alimentar"; indexMap++;
+abc[indexMap]="feel, felt, felt_sentirse"; indexMap++;
+abc[indexMap]="fight, fought, fought_pelearse"; indexMap++;
+abc[indexMap]="find, found, found_encontrar"; indexMap++;
+abc[indexMap]="flee, fled, fled_huir"; indexMap++;
+abc[indexMap]="fly, flew, flown_volar"; indexMap++;
+abc[indexMap]="forbid, forbade, forbidden_prohibir"; indexMap++;
+abc[indexMap]="forget, forgot, forgotten_olvidar(se)"; indexMap++;
+abc[indexMap]="forgive, forgave, forgiven_perdonar"; indexMap++;
+abc[indexMap]="freeze, froze, frozen_congelar"; indexMap++;
+abc[indexMap]="get, got, got_conseguir"; indexMap++;
+abc[indexMap]="give, gave, given_dar"; indexMap++;
+abc[indexMap]="go, went, gone_irse"; indexMap++;
+abc[indexMap]="grind, ground, ground_moler"; indexMap++;
+abc[indexMap]="grow, grew, grown_crecer"; indexMap++;
+abc[indexMap]="hang, hung, hung_colgar"; indexMap++;
+abc[indexMap]="have, had, had_haber, tener"; indexMap++;
+abc[indexMap]="hear, heard, heard_escuchar"; indexMap++;
+abc[indexMap]="hide, hid, hidden_esconder(se)"; indexMap++;
+abc[indexMap]="hit, hit, hit_golpear"; indexMap++;
+abc[indexMap]="hold, held, held_agarrar(se)"; indexMap++;
+abc[indexMap]="hurt, hurt, hurt_dolor"; indexMap++;
+abc[indexMap]="keep, kept, kept_mantenerse, guardar"; indexMap++;
+abc[indexMap]="kneel, knelt, knelt_arrodillarse"; indexMap++;
+abc[indexMap]="know, knew, known_saber, conocer"; indexMap++;
+abc[indexMap]="lay, laid, laid_poner"; indexMap++;
+abc[indexMap]="lead, led, led_llevar"; indexMap++;
+abc[indexMap]="lean, leant, leant_apoyarse"; indexMap++;
+abc[indexMap]="leap, leapt, leapt_brincar"; indexMap++;
+abc[indexMap]="learn, learnt, learnt_aprender"; indexMap++;
+abc[indexMap]="leave, left, left_dejar"; indexMap++;
+abc[indexMap]="lend, lent, lent_prestar"; indexMap++;
+abc[indexMap]="let, let, let_permitir, dejar"; indexMap++;
+abc[indexMap]="lie, lay, lain_echarse"; indexMap++;
+abc[indexMap]="light, lit, lit_encender(se)"; indexMap++;
+abc[indexMap]="lose, lost, lost_perder"; indexMap++;
+abc[indexMap]="make, made, made_hacer"; indexMap++;
+abc[indexMap]="mean, meant, meant_significar"; indexMap++;
+abc[indexMap]="meet, met, met_encontrar(se)"; indexMap++;
+abc[indexMap]="mistake, mistook, mistaken_Equivoca"; indexMap++;
+abc[indexMap]="overcome, overcame, overcome_vencer"; indexMap++;
+abc[indexMap]="pay, paid, paid_pagar"; indexMap++;
+abc[indexMap]="put, put, put_poner"; indexMap++;
+abc[indexMap]="read, read, read_leer"; indexMap++;
+abc[indexMap]="ride, rode, ridden_montar"; indexMap++;
+abc[indexMap]="ring, rang, rung_sonar"; indexMap++;
+abc[indexMap]="rise, rose, risen_levantarse"; indexMap++;
+abc[indexMap]="run, ran, run_correr"; indexMap++;
+abc[indexMap]="saw, sawed, sawn_serrar"; indexMap++;
+abc[indexMap]="say, said, said_decir"; indexMap++;
+abc[indexMap]="see, saw, seen_ver"; indexMap++;
+abc[indexMap]="seek, sought, sought_buscar"; indexMap++;
+abc[indexMap]="sell, sold, sold_vender(se)"; indexMap++;
+abc[indexMap]="send, sent, sent_enviar"; indexMap++;
+abc[indexMap]="set, set, set_poner"; indexMap++;
+abc[indexMap]="sew, sewed, sewn_coser"; indexMap++;
+abc[indexMap]="shake, shook, shaken_agitar"; indexMap++;
+abc[indexMap]="shear, sheared, shorn_esquilar"; indexMap++;
+abc[indexMap]="shine, shone, shone_brillar"; indexMap++;
+abc[indexMap]="shoot, shot, shot_disparar"; indexMap++;
+abc[indexMap]="show, showed, shown_mostrar"; indexMap++;
+abc[indexMap]="shrink, shrank, shrunk_encoger(se)"; indexMap++;
+abc[indexMap]="shut, shut, shut_cerrar(se)"; indexMap++;
+abc[indexMap]="sing, sang, sung_cantar"; indexMap++;
+abc[indexMap]="sink, sank, sunk_hundir(se)"; indexMap++;
+abc[indexMap]="sit, sat, sat_sentar(se)"; indexMap++;
+abc[indexMap]="sleep, slept, slept_dormir"; indexMap++;
+abc[indexMap]="slide, slid, slid_resbalar"; indexMap++;
+abc[indexMap]="smell, smelt, smelt_oler"; indexMap++;
+abc[indexMap]="sow, sowed, sown_sembrar"; indexMap++;
+abc[indexMap]="speak, spoke, spoken_hablar"; indexMap++;
+abc[indexMap]="speed, sped, sped_acelerar"; indexMap++;
+abc[indexMap]="spell, spelt, spelt_deletrear"; indexMap++;
+abc[indexMap]="spend, spent, spent_pasar, gastar"; indexMap++;
+abc[indexMap]="spill, spilt, spilt_derramar"; indexMap++;
+abc[indexMap]="spit, spat, spat_escupir"; indexMap++;
+abc[indexMap]="split, split, split_hender"; indexMap++;
+abc[indexMap]="spoil, spoilt, spoilt_estropear(se)"; indexMap++;
+abc[indexMap]="spread, spread, spread_extender(se)"; indexMap++;
+abc[indexMap]="stand, stood, stood_estar de pie"; indexMap++;
+abc[indexMap]="steal, stole, stolen_robar"; indexMap++;
+abc[indexMap]="stick, stuck, stuck_pegar(se)"; indexMap++;
+abc[indexMap]="sting, stung, stung_picar"; indexMap++;
+abc[indexMap]="stink, stank, stunk_apestar"; indexMap++;
+abc[indexMap]="strike, struck, struck_golpear"; indexMap++;
+abc[indexMap]="strive, strove, striven_esforzarse"; indexMap++;
+abc[indexMap]="swear, swore, sworn_jurar"; indexMap++;
+abc[indexMap]="sweep, swept, swept_barrer"; indexMap++;
+abc[indexMap]="swim, swam, swum_nadar"; indexMap++;
+abc[indexMap]="swing, swung, swung_balancear(se)"; indexMap++;
+abc[indexMap]="take, took, taken_tomar(se)"; indexMap++;
+abc[indexMap]="teach, taught, taught_enseñar"; indexMap++;
+abc[indexMap]="tear, tore, torn_romper(se)"; indexMap++;
+abc[indexMap]="tell, told, told_contar, decir"; indexMap++;
+abc[indexMap]="think, thought, thought_pensar"; indexMap++;
+abc[indexMap]="throw, threw, thrown_lanzar"; indexMap++;
+abc[indexMap]="tread, trod, trodden_pisar"; indexMap++;
+abc[indexMap]="undergo, underwent, undergone_sufrir"; indexMap++;
+abc[indexMap]="understand, understood, understood_entender"; indexMap++;
+abc[indexMap]="upset, upset, upset_afligir"; indexMap++;
+abc[indexMap]="wake, woke, woken_despertar(se)"; indexMap++;
+abc[indexMap]="wear, wore, worn_llevar (puesto)"; indexMap++;
+abc[indexMap]="weave, wove, woven_tejer"; indexMap++;
+abc[indexMap]="weep, wept, wept_llorar"; indexMap++;
+abc[indexMap]="win, won, won_ganar"; indexMap++;
+abc[indexMap]="wind, wound, wound_enrollar"; indexMap++;
+abc[indexMap]="withdraw, withdrew, withdrawn_retirar(se)"; indexMap++;
+abc[indexMap]="wring, wrung, wrung_torcer"; indexMap++;
+abc[indexMap]="write, wrote, written_escribir"; indexMap++;
+abc[indexMap]="Hail_Aclamar, saludar"; indexMap++;
+abc[indexMap]="Guess_Adivinar"; indexMap++;
+abc[indexMap]="Affect_Afectar"; indexMap++;
+abc[indexMap]="Grab_Agarrar"; indexMap++;
+abc[indexMap]="Cluster_Agrupar"; indexMap++;
+abc[indexMap]="Step_Al paso"; indexMap++;
+abc[indexMap]="Appeal_Apelar"; indexMap++;
+abc[indexMap]="Pile_Apilar"; indexMap++;
+abc[indexMap]="Arrange_Arreglar"; indexMap++;
+abc[indexMap]="Fix_Arreglar"; indexMap++;
+abc[indexMap]="Scare_Asustar"; indexMap++;
+abc[indexMap]="Land_Aterrizar"; indexMap++;
+abc[indexMap]="Crash_Chocar"; indexMap++;
+abc[indexMap]="Cook_Cocinar"; indexMap++;
+abc[indexMap]="Purchase_Compra"; indexMap++;
+abc[indexMap]="Shop_Comprar"; indexMap++;
+abc[indexMap]="Freeze_Congelar"; indexMap++;
+abc[indexMap]="Pamper_Consentir"; indexMap++;
+abc[indexMap]="Blame_Culpar"; indexMap++;
+abc[indexMap]="Damage_Dañar"; indexMap++;
+abc[indexMap]="Hurry_Darse prisa"; indexMap++;
+abc[indexMap]="Dicrease_Disminución"; indexMap++;
+abc[indexMap]="Last_Durar"; indexMap++;
+abc[indexMap]="Disagree_En desacuerdo"; indexMap++;
+abc[indexMap]="Entertain_Entretener"; indexMap++;
+abc[indexMap]="Climb_Escalar"; indexMap++;
+abc[indexMap]="Sneeze_Estornudar"; indexMap++;
+abc[indexMap]="Fry_Freir"; indexMap++;
+abc[indexMap]="Brake_Frenar"; indexMap++;
+abc[indexMap]="Turn_Girar"; indexMap++;
+abc[indexMap]="Knock_Golpear"; indexMap++;
+abc[indexMap]="Shout_Gritar"; indexMap++;
+abc[indexMap]="Impress_Impresionar"; indexMap++;
+abc[indexMap]="Pardon_Indultar"; indexMap++;
+abc[indexMap]="Wash_Lavar"; indexMap++;
+abc[indexMap]="Clean_Limpiar"; indexMap++;
+abc[indexMap]="Clear_Limpiar"; indexMap++;
+abc[indexMap]="Agree_Llegar a un acuerdo"; indexMap++;
+abc[indexMap]="Fill_Llenar"; indexMap++;
+abc[indexMap]="Carry_Llevar"; indexMap++;
+abc[indexMap]="Rain_Llover"; indexMap++;
+abc[indexMap]="Achieve_Lograr"; indexMap++;
+abc[indexMap]="Wrestle_Luchar"; indexMap++;
+abc[indexMap]="Handle_Manejar"; indexMap++;
+abc[indexMap]="Mark_Marcar"; indexMap++;
+abc[indexMap]="Bother_Molestar"; indexMap++;
+abc[indexMap]="Disturb_Molestar"; indexMap++;
+abc[indexMap]="Die_Morir"; indexMap++;
+abc[indexMap]="Slow_Muy lento"; indexMap++;
+abc[indexMap]="Snow_nevar"; indexMap++;
+abc[indexMap]="Warn_Para advertir"; indexMap++;
+abc[indexMap]="Tie_Para atar"; indexMap++;
+abc[indexMap]="Grasp_Para captar"; indexMap++;
+abc[indexMap]="Match_Para coincidir"; indexMap++;
+abc[indexMap]="Jog_Para correr"; indexMap++;
+abc[indexMap]="Spell_Para deletrear"; indexMap++;
+abc[indexMap]="Discover_Para descubrir"; indexMap++;
+abc[indexMap]="Discuss_Para discutir"; indexMap++;
+abc[indexMap]="Amuse_Para divertir"; indexMap++;
+abc[indexMap]="Pack_Para empacar"; indexMap++;
+abc[indexMap]="Push_Para empujar"; indexMap++;
+abc[indexMap]="Bake_Para hornear"; indexMap++;
+abc[indexMap]="Measure_Para medir"; indexMap++;
+abc[indexMap]="Sail_Para navegar"; indexMap++;
+abc[indexMap]="Chase_Para perseguir"; indexMap++;
+abc[indexMap]="Receive_Para recibir"; indexMap++;
+abc[indexMap]="Pick_Para recoger"; indexMap++;
+abc[indexMap]="Skate_Patinar"; indexMap++;
+abc[indexMap]="Borrow_Pedir prestado"; indexMap++;
+abc[indexMap]="Persuade_Persuadir"; indexMap++;
+abc[indexMap]="Belong_Pertenecer"; indexMap++;
+abc[indexMap]="Fish_Pescar"; indexMap++;
+abc[indexMap]="Predict_Predecir"; indexMap++;
+abc[indexMap]="Worry_Preocuparse"; indexMap++;
+abc[indexMap]="Taste_Probar"; indexMap++;
+abc[indexMap]="Perform_Realizar, Ejecutar"; indexMap++;
+abc[indexMap]="Relate_Relacionar"; indexMap++;
+abc[indexMap]="Jump_Saltar"; indexMap++;
+abc[indexMap]="Greet_Saludar"; indexMap++;
+abc[indexMap]="Dry_Secar"; indexMap++;
+abc[indexMap]="Tune_Sintonizar"; indexMap++;
+abc[indexMap]="Amaze_Sorprender"; indexMap++;
+abc[indexMap]="Surprise_Sorprender"; indexMap++;
+abc[indexMap]="Underline_Subrayar"; indexMap++;
+abc[indexMap]="Suggest_Sugerir"; indexMap++;
+abc[indexMap]="Terrorize_Terrorizar"; indexMap++;
+abc[indexMap]="Witness_testigo"; indexMap++;
+abc[indexMap]="Cough_Toser"; indexMap++;
+abc[indexMap]="Vary_Variar"; indexMap++;
+abc[indexMap]="ability_Habilidad"; indexMap++;
+abc[indexMap]="able_Capaz, poder"; indexMap++;
+abc[indexMap]="acceptance_aceptación"; indexMap++;
+abc[indexMap]="accessible_accesible"; indexMap++;
+abc[indexMap]="accomplish_Logar, conseguir"; indexMap++;
+abc[indexMap]="accomplishment_Logro, cumplimiento"; indexMap++;
+abc[indexMap]="accountability_Responsabilidad, rendición de cuentas"; indexMap++;
+abc[indexMap]="accounting_contabilidad"; indexMap++;
+abc[indexMap]="accuracy_Precisión, exactitud"; indexMap++;
+abc[indexMap]="accurate_Preciso, exacto; riguroso, acertado"; indexMap++;
+abc[indexMap]="accurately_Exactamente, con exactitud"; indexMap++;
+abc[indexMap]="achievement_Logro,éxito"; indexMap++;
+abc[indexMap]="acknowledge_Agradecer, admitir, reconocer"; indexMap++;
+abc[indexMap]="acquire_adquirir"; indexMap++;
+abc[indexMap]="across_Que cruza, a través de"; indexMap++;
+abc[indexMap]="advanced_avanzado"; indexMap++;
+abc[indexMap]="advantage_ventaja"; indexMap++;
+abc[indexMap]="adventure_aventure"; indexMap++;
+abc[indexMap]="advice_consejo"; indexMap++;
+abc[indexMap]="after_Después"; indexMap++;
+abc[indexMap]="afternoon_tarde"; indexMap++;
+abc[indexMap]="afterward_Después, más tarde"; indexMap++;
+abc[indexMap]="age_Edad, era"; indexMap++;
+abc[indexMap]="aim_Apuntar, objetivo"; indexMap++;
+abc[indexMap]="allow_Permitir, dejar"; indexMap++;
+abc[indexMap]="ally_aliado"; indexMap++;
+abc[indexMap]="almost_Casi"; indexMap++;
+abc[indexMap]="alone_solo"; indexMap++;
+abc[indexMap]="along_A lo largo"; indexMap++;
+abc[indexMap]="alongside_Junto a"; indexMap++;
+abc[indexMap]="already_Ya"; indexMap++;
+abc[indexMap]="alter_Cambiar, alterar"; indexMap++;
+abc[indexMap]="alternative_Alternativo, alternativa"; indexMap++;
+abc[indexMap]="although_aunque"; indexMap++;
+abc[indexMap]="though_aunque"; indexMap++;
+abc[indexMap]="altogether_completamente"; indexMap++;
+abc[indexMap]="amid_Entre, en medio de"; indexMap++;
+abc[indexMap]="among_Entre"; indexMap++;
+abc[indexMap]="announce_anunciar"; indexMap++;
+abc[indexMap]="announcement_anuncio"; indexMap++;
+abc[indexMap]="appeal_Atraer, tener atractivo; apelar"; indexMap++;
+abc[indexMap]="apply_aplicar"; indexMap++;
+abc[indexMap]="appoint_Asignar, nombrar"; indexMap++;
+abc[indexMap]="appointment_Cita, hora; puesto"; indexMap++;
+abc[indexMap]="appreciation_agradecimiento"; indexMap++;
+abc[indexMap]="approach_acercarse, enfoque"; indexMap++;
+abc[indexMap]="appropriate_Apropiado, adecuado"; indexMap++;
+abc[indexMap]="approval_aprobación"; indexMap++;
+abc[indexMap]="approximately_aproximadamente"; indexMap++;
+abc[indexMap]="argue_Argumentar, discutir"; indexMap++;
+abc[indexMap]="argument_Argumento, discusión"; indexMap++;
+abc[indexMap]="aside_A un lado, aparte"; indexMap++;
+abc[indexMap]="assemble_Ensamblar"; indexMap++;
+abc[indexMap]="assert_Aseverar, afirmar"; indexMap++;
+abc[indexMap]="assess_evaluar"; indexMap++;
+abc[indexMap]="assessment_evaluación"; indexMap++;
+abc[indexMap]="asset_Activos, bienes"; indexMap++;
+abc[indexMap]="assign_Asignar, adjudicar"; indexMap++;
+abc[indexMap]="assignment_Encargo, tarea, deberes"; indexMap++;
+abc[indexMap]="assume_Asumir, suponer"; indexMap++;
+abc[indexMap]="assumption_suposición"; indexMap++;
+abc[indexMap]="assure_Asegurar, asegurarse"; indexMap++;
+abc[indexMap]="attempt_intentar"; indexMap++;
+abc[indexMap]="attend_Atender, asistir"; indexMap++;
+abc[indexMap]="award_Premio, galardón"; indexMap++;
+abc[indexMap]="aware_Consciente, informado"; indexMap++;
+abc[indexMap]="awareness_conciencia"; indexMap++;
+abc[indexMap]="awful_horrible"; indexMap++;
+abc[indexMap]="belief_creer"; indexMap++;
+abc[indexMap]="brand_marca"; indexMap++;
+abc[indexMap]="breath_Respiración, aliento"; indexMap++;
+abc[indexMap]="breathe_Respirar, aspirar"; indexMap++;
+abc[indexMap]="breathing_Respiración. aliento"; indexMap++;
+abc[indexMap]="brick_ladrillo"; indexMap++;
+abc[indexMap]="bridge_puente"; indexMap++;
+abc[indexMap]="bright_Brillante"; indexMap++;
+abc[indexMap]="brilliant_brillante"; indexMap++;
+abc[indexMap]="broad_Amplio"; indexMap++;
+abc[indexMap]="broker_Corredor de bolsa"; indexMap++;
+abc[indexMap]="bush_arbusto"; indexMap++;
+abc[indexMap]="butter_mantequilla"; indexMap++;
+abc[indexMap]="capability_capacidad"; indexMap++;
+abc[indexMap]="care_cuidado"; indexMap++;
+abc[indexMap]="career_Carrera, trayectoria"; indexMap++;
+abc[indexMap]="careful_cuidadoso"; indexMap++;
+abc[indexMap]="carefully_Con cuidado"; indexMap++;
+abc[indexMap]="carrier_Transporte, transportista"; indexMap++;
+abc[indexMap]="carrot_zanahoria"; indexMap++;
+abc[indexMap]="casualty_siniestro"; indexMap++;
+abc[indexMap]="cheap_barato"; indexMap++;
+abc[indexMap]="cheat_Engañar, hacer trampa"; indexMap++;
+abc[indexMap]="cheek_mejilla"; indexMap++;
+abc[indexMap]="colleague_colega"; indexMap++;
+abc[indexMap]="coming_próximo"; indexMap++;
+abc[indexMap]="crack_Grieta, agrietarse"; indexMap++;
+abc[indexMap]="crew_tripulación"; indexMap++;
+abc[indexMap]="debt_deuda"; indexMap++;
+abc[indexMap]="decrease_Reducir, disminuir"; indexMap++;
+abc[indexMap]="degree_Grado, diploma"; indexMap++;
+abc[indexMap]="delay_Retraso, demora; retrasar"; indexMap++;
+abc[indexMap]="dirt_suciedad"; indexMap++;
+abc[indexMap]="dirty_sucio"; indexMap++;
+abc[indexMap]="discourage_Disuadir, desalentar"; indexMap++;
+abc[indexMap]="draft_Boceto, borrador"; indexMap++;
+abc[indexMap]="drag_arrastrar"; indexMap++;
+abc[indexMap]="dried_deshidratada"; indexMap++;
+abc[indexMap]="enroll_Enrolarse, inscribirse"; indexMap++;
+abc[indexMap]="fog_Niebla, empañar"; indexMap++;
+abc[indexMap]="gather_Reunir, recoger"; indexMap++;
+abc[indexMap]="gaze_contemplar"; indexMap++;
+abc[indexMap]="glance_Ojeada, vistazo"; indexMap++;
+abc[indexMap]="growing_creciente"; indexMap++;
+abc[indexMap]="growth_Crecimiento"; indexMap++;
+abc[indexMap]="halfway_A medio camino, a medias"; indexMap++;
+abc[indexMap]="hall_Salón, recibidor"; indexMap++;
+abc[indexMap]="hardly_Apenas, difícilmente"; indexMap++;
+abc[indexMap]="hazard_Peligro, riesgo"; indexMap++;
+abc[indexMap]="heal_Curar, curarse"; indexMap++;
+abc[indexMap]="health_Salud"; indexMap++;
+abc[indexMap]="health-care_Asistencia médica"; indexMap++;
+abc[indexMap]="healthy_saludable"; indexMap++;
+abc[indexMap]="lock_Cerradura, cerrar con llave"; indexMap++;
+abc[indexMap]="loose_Flojo, suelto"; indexMap++;
+abc[indexMap]="mainly_principalmente"; indexMap++;
+abc[indexMap]="mainstream_Corriente principal (ideas)"; indexMap++;
+abc[indexMap]="maintenance_mantenimiento"; indexMap++;
+abc[indexMap]="meaning_significado"; indexMap++;
+abc[indexMap]="meaningful_significativo"; indexMap++;
+abc[indexMap]="meanwhile_Mientras tanto"; indexMap++;
+abc[indexMap]="measurement_medidas"; indexMap++;
+abc[indexMap]="nonetheless_No obstante, sin embargo"; indexMap++;
+abc[indexMap]="noon_Mediodía, del mediodía"; indexMap++;
+abc[indexMap]="odd_Impar, inusual"; indexMap++;
+abc[indexMap]="oppose_Oponer, oponerse"; indexMap++;
+abc[indexMap]="opposed_Opuesto, contrario"; indexMap++;
+abc[indexMap]="otherwise_Si no, de lo contrario"; indexMap++;
+abc[indexMap]="ought_Debería, debería"; indexMap++;
+abc[indexMap]="ourselves_Nos, nosotros mismos"; indexMap++;
+abc[indexMap]="outcome_resultado"; indexMap++;
+abc[indexMap]="outdoor_Al aire libre"; indexMap++;
+abc[indexMap]="outer_externo"; indexMap++;
+abc[indexMap]="oversee_Supervisar, monitorear"; indexMap++;
+abc[indexMap]="owe_deber"; indexMap++;
+abc[indexMap]="own_Tener, propio"; indexMap++;
+abc[indexMap]="partly_Parcialmente, en parte"; indexMap++;
+abc[indexMap]="perhaps_Quizás, tal vez"; indexMap++;
+abc[indexMap]="pitch_lanzar"; indexMap++;
+abc[indexMap]="proud_orgulloso"; indexMap++;
+abc[indexMap]="pull_tirar"; indexMap++;
+abc[indexMap]="quit_Dejar de"; indexMap++;
+abc[indexMap]="quite_bastante"; indexMap++;
+abc[indexMap]="relieve_Aliviar"; indexMap++;
+abc[indexMap]="rely_Depende de, confiar de, relé"; indexMap++;
+abc[indexMap]="remain_Permanecer, restos"; indexMap++;
+abc[indexMap]="remark_Comentario, observación"; indexMap++;
+abc[indexMap]="remind_recordar"; indexMap++;
+abc[indexMap]="reminder_Recordatorio, recuerdo"; indexMap++;
+abc[indexMap]="render_Dejar, prestar"; indexMap++;
+abc[indexMap]="resign_renunciar"; indexMap++;
+abc[indexMap]="reward_Recompensa"; indexMap++;
+abc[indexMap]="roughly_Aproximadamente, Rudamente"; indexMap++;
+abc[indexMap]="shadow_sombra"; indexMap++;
+abc[indexMap]="sharply_rápidamente"; indexMap++;
+abc[indexMap]="sheer_Puro, auténtico"; indexMap++;
+abc[indexMap]="shelter_Refugio, albergue"; indexMap++;
+abc[indexMap]="side_Lado"; indexMap++;
+abc[indexMap]="sigh_suspiro"; indexMap++;
+abc[indexMap]="slave_esclavo"; indexMap++;
+abc[indexMap]="slavery_esclavitud"; indexMap++;
+abc[indexMap]="some_Alguno, algo, poco"; indexMap++;
+abc[indexMap]="somebody_Alguien, alguno"; indexMap++;
+abc[indexMap]="someday_Algún día"; indexMap++;
+abc[indexMap]="somehow_De alguna manera"; indexMap++;
+abc[indexMap]="someone_alguien"; indexMap++;
+abc[indexMap]="something_Algo, alguna cosa"; indexMap++;
+abc[indexMap]="sometime_A veces"; indexMap++;
+abc[indexMap]="sometimes_Algunas veces"; indexMap++;
+abc[indexMap]="somewhat_De alguna manera"; indexMap++;
+abc[indexMap]="somewhere_En algún lugar"; indexMap++;
+abc[indexMap]="stone_piedra"; indexMap++;
+abc[indexMap]="straight_Recta, directo"; indexMap++;
+abc[indexMap]="straighten_enderezar"; indexMap++;
+abc[indexMap]="strain_Esfuerzo, tensión"; indexMap++;
+abc[indexMap]="struggle_Luchar, esfuerzo"; indexMap++;
+abc[indexMap]="stumble_tropezar"; indexMap++;
+abc[indexMap]="swallow_tragar"; indexMap++;
+abc[indexMap]="sweat_Sudar, sudor"; indexMap++;
+abc[indexMap]="thick_Grueso, espesor"; indexMap++;
+abc[indexMap]="thigh_muslo"; indexMap++;
+abc[indexMap]="thin_Delgado, fino"; indexMap++;
+abc[indexMap]="thoroughly_A fondo; Completamente; cuidadosamente"; indexMap++;
+abc[indexMap]="though_aunque"; indexMap++;
+abc[indexMap]="thousand_mil"; indexMap++;
+abc[indexMap]="threshold_umbral"; indexMap++;
+abc[indexMap]="through_A través, mediante"; indexMap++;
+abc[indexMap]="throughout_Durante, a lo largo de"; indexMap++;
+abc[indexMap]="trading_Actividad comercial"; indexMap++;
+abc[indexMap]="wonder_Preguntarse; asombro"; indexMap++;
+abc[indexMap]="worth_Mérito, valor"; indexMap++;
+abc[indexMap]="yell_Gritar, chillar"; indexMap++;
+
+
+
+
+
+
+$(function(){
+$("#btnNext").hide();
+$("#btnQuestion").hide();
+$("#btnRun").hide();
+
+nextQuestion();
+
+});
+var index=0;
+var count=0;
+var WORDS_ENGLISH=abc.lenght; 
+var timeoutID;
+var level=0;
+var timeSleep=675;
+
+
+
+function nextQuestion(){
+	if(index==434){
+	index=0;level=0;
+		abc.sort(function(a, b){return 0.5 - Math.random()});
+	}
+	if(abc[index]==null){
+		index++;
+	}
+	
+	var text1=abc[index];
+	console.log(index+" - "+text1);
+	
+	var values1=text1.split('_');
+	
+	
+	
+	
+	var possibleResponde =[values1[0]];
+	possibleResponde=possibleResponde.sort(function() {return Math.random() - 0.5});
+	possibleResponde=possibleResponde.sort(function() {return Math.random() - 0.5});
+	var htmlResponse="<table><tr><td>";
+	for(var i=0;i<possibleResponde.length;i++){
+	
+		responsiveVoice.speak(values1[0], "US English Female", {
+			rate : 0.6
+		});
+		if(possibleResponde[i]==values1[0]){
+			htmlResponse+="<a id=\"response"+index+"\" href=\"javascript:win();\" style=\"float:left;\" class=\"ui-btn ui-shadow ui-corner-all\">"+possibleResponde[i]+"</a>";					
+			$("#sencences").html($("#content_"+values1[0]).html());
+			$("#sentence_"+values1[0]).css('display', 'block');
+		}	
+	}
+	htmlResponse+="</td></tr></table>";
+	
+	
+	$('#english').html(htmlResponse);
+	
+	   	
+	var spanish="";
+	for(var i=1;i<5;i++){
+		if(values1[i]!=null){
+			spanish=spanish+" "+values1[i];
+		}
+	}
+
+	$('#spanish').html(spanish);
+	
+
+	$('#count').html("Index:"+index);		
+	index++;
+	$("#sencences").css("display", "none");
+}
+function clearInterval(interv){
+interv=null;
+}
+function win(){
+
+	count++;
+	nextQuestion();
+	/*timeoutID = window.setTimeout(function(){  		
+		$("#response"+(index-1)).css({"background-color":"rgb(212, 212, 212)","text-shadow":"none"});		
+	  }, timeSleep);*/
+}
+function lose(msg,correct){	
+	//responsiveVoice.OnVoiceReady = function() {	  
+	  responsiveVoice.speak(msg +", the correct answer is: "+correct);
+	  $("#response"+(index-1)).css({"background-color":"rgb(212, 212, 212)","text-shadow":"none"});
+	//};
+}
+
+
+
+function moreAsk(){
+if(level<400){
+	level=level+100;
+	index=level;			
+	}else{
+		level=0;
+		index=0;
+	}
+	nextQuestion();
+}
+
+function showSentence(){
+	$("#sencences").css("display", "block");
+}
+function shuffle (array) {
+  var i = 0
+    , j = 0
+    , temp = null;
+  for (i = WORDS_ENGLISH - 1; i > 0; i -= 1) {
+  
+    j = Math.floor(Math.random() * (i + 1));
+    temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+}
+
+function oir(id){
+	responsiveVoice.speak($("#"+id+"").text());
+}
+function hear(){
+console.log($("#english").text())
+	responsiveVoice.speak($("#english").text(), "US English Female", {
+			rate : 0.6
+		});
+}
+</script>
+</head>
+<body>
+<a id="btnMore" onclick="moreAsk()" style="width: 10%;float: right;" class="ui-btn ui-shadow ui-corner-all">Up</a>
+
+<div style="float:left;">
+</div>
+<div id="count">0</div>
+
+<center>
+<div id="spanish" style="font-family: verdana, sans-serif; color: #828282; font-size: 15px;"></div>
+<div id="english" style="font-family: verdana, sans-serif; color: #828282; font-size: 17px;"></div>
+<br/>
+<br/>
+<br/>
+<a id="btnMore" onclick="hear()" style="width: 10%;float: right;" class="ui-btn ui-shadow ui-corner-all">Hear</a>
+</center>
+
+</body>
+</html>
