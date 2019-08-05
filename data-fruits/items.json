@@ -61,7 +61,7 @@
    "name": "leche klin",
    "price": 3456,
    "discount": 10,
-   "price_discount": 3110,4,
+   "price_discount": 3110,
    "count":0 
  },
  {"public_id":"abc9",
@@ -69,7 +69,7 @@
    "name": "Leche light",
    "price": 2345,
    "discount": 8,
-   "price_discount": 2157,4,
+   "price_discount": 2157,
    "count":0 
  },
  {"public_id":"abc10",
@@ -77,7 +77,7 @@
    "name": "Leche de coco",
    "price": 3467,
    "discount": 7,
-   "price_discount": 3224,31,
+   "price_discount": 3224,
    "count":0 
  },
  {"public_id":"abc11",
