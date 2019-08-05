@@ -5,103 +5,103 @@
    "name": "Queso doble crema",
    "price": 2400,
    "discount": 10,
-   "price_discount": "2160",
-   "count": ""
+   "price_discount": 2160,
+   "count":0 
  },
  {"public_id":"abc2",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Quedo coste�o",
    "price": 3200,
    "discount": 0,
-   "price_discount": "3200",
-   "count": ""
+   "price_discount": 3200,
+   "count":0 
  },
  {"public_id":"abc3",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Quedo de cabra",
    "price": 6700,
    "discount": 5,
-   "price_discount": "6365",
-   "count": ""
+   "price_discount": 6365,
+   "count":0 
  },
  {"public_id":"abc4",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Queso sin grasa",
    "price": 4500,
    "discount": 9,
-   "price_discount": "4095",
-   "count": ""
+   "price_discount": 4095,
+   "count":0 
  },
  {"public_id":"abc5",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Que frances",
    "price": 9800,
    "discount": 0,
-   "price_discount": "9800",
-   "count": ""
+   "price_discount": 9800,
+   "count":0 
  },
  {"public_id":"abc6",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Leche entera",
    "price": 5600,
    "discount": 0,
-   "price_discount": "5600",
-   "count": ""
+   "price_discount": 5600,
+   "count":0 
  },
  {"public_id":"abc7",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Leche deslactosada ",
    "price": 2390,
    "discount": 0,
-   "price_discount": "2390",
-   "count": ""
+   "price_discount": 2390,
+   "count":0 
  },
  {"public_id":"abc8",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "leche klin",
    "price": 3456,
    "discount": 10,
-   "price_discount": "3110,4",
-   "count": ""
+   "price_discount": 3110,4,
+   "count":0 
  },
  {"public_id":"abc9",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Leche light",
    "price": 2345,
    "discount": 8,
-   "price_discount": "2157,4",
-   "count": ""
+   "price_discount": 2157,4,
+   "count":0 
  },
  {"public_id":"abc10",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Leche de coco",
    "price": 3467,
    "discount": 7,
-   "price_discount": "3224,31",
-   "count": ""
+   "price_discount": 3224,31,
+   "count":0 
  },
  {"public_id":"abc11",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Leche de almendras",
    "price": 3400,
    "discount": 0,
-   "price_discount": "3400",
-   "count": ""
+   "price_discount": 3400,
+   "count":0 
  },
  {"public_id":"abc12",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Yogurt Griego",
    "price": 5400,
    "discount": 0,
-   "price_discount": "5400",
-   "count": ""
+   "price_discount": 5400,
+   "count":0 
  },
  {"public_id":"abc13",
    "image": ["https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG","https://risbo.github.io/data-fruits/milk.PNG"],
    "name": "Yogurt Light",
    "price": 6500,
    "discount": 5,
-   "price_discount": "6175",
-   "count": ""
+   "price_discount": 6175,
+   "count":0 
  }
 ]
