@@ -1,0 +1,205 @@
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://www.datacredito.com.co/services/RCTService/v1">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <v1:registrarTransaccion>
+            <v1:reqRegistrarTransaccion>
+                <v1:nombreTipoTran>BEPARTNERS_CON</v1:nombreTipoTran>
+                <v1:idClaseTransaccion>1</v1:idClaseTransaccion>
+                <v1:numeroTransaccion>a4077c48-cdc9-11e9-a99e-0800271b6340</v1:numeroTransaccion>
+                <v1:fechaInicioTransaccion>2019-09-03T11:15:05Z</v1:fechaInicioTransaccion>
+                <v1:fechaFinTransaccion>2019-09-03T11:15:05Z</v1:fechaFinTransaccion>
+                <v1:tiempoDuracion>15</v1:tiempoDuracion>
+                <v1:tipoDocUsuarioEjecutor>1</v1:tipoDocUsuarioEjecutor>
+                <v1:numDocUsuarioEjecutor>1030544725</v1:numDocUsuarioEjecutor>
+                <v1:nitEntidad>900440034</v1:nitEntidad>
+                <v1:direccionIpOrigen>10.98.0.133</v1:direccionIpOrigen>
+                <v1:direccionIpServidor>10.98.0.133</v1:direccionIpServidor>
+                <v1:Metadato>
+                    <v1:nombreMetadato>COD_SUC</v1:nombreMetadato>
+                    <v1:valor>000001</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>COD_SUSC</v1:nombreMetadato>
+                    <v1:valor>000001</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>PAIS_SUSC</v1:nombreMetadato>
+                    <v1:valor>CO</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CALIF_DESFACSO</v1:nombreMetadato>
+                    <v1:valor></v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CIUDAD</v1:nombreMetadato>
+                    <v1:valor>0800271b6340</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CONSULTANTE</v1:nombreMetadato>
+                    <v1:valor>a4077c48-cdc9-11e9-a99e-</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>ID_REGISTRO</v1:nombreMetadato>
+                    <v1:valor>a4077c48</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>NOMBRE_SUSC</v1:nombreMetadato>
+                    <v1:valor>fc6200ba-ce65-11e9-a99e-0800271b6340</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>NUM_ID_CONS</v1:nombreMetadato>
+                    <v1:valor>3425345</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>PROD_PADRE</v1:nombreMetadato>
+                    <v1:valor>A5</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>RAZ_DESFACSO</v1:nombreMetadato>
+                    <v1:valor>BEPARC</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>TERM_FACSOPT</v1:nombreMetadato>
+                    <v1:valor>0</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>TIPO_ID_CONS</v1:nombreMetadato>
+                    <v1:valor>1</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>TIPO_RESP</v1:nombreMetadato>
+                    <v1:valor>1</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>PRODUCTO</v1:nombreMetadato>
+                    <v1:valor>BEPARV</v1:valor>
+                </v1:Metadato>
+            </v1:reqRegistrarTransaccion>
+        </v1:registrarTransaccion>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<soapenv:Envelope
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://www.datacredito.com.co/services/RCTService/v1">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <v1:registrarTransaccion>
+            <v1:reqRegistrarTransaccion>
+                <v1:nombreTipoTran>BEPARTNERS_VEN</v1:nombreTipoTran>
+                <v1:idClaseTransaccion>1</v1:idClaseTransaccion>
+                <v1:numeroTransaccion>55d2f4bf-ce66-11e9-a99e-0800271b6340</v1:numeroTransaccion>
+                <v1:fechaInicioTransaccion>2019-09-03T11:31:24Z</v1:fechaInicioTransaccion>
+                <v1:fechaFinTransaccion>2019-09-03T11:31:24Z</v1:fechaFinTransaccion>
+                <v1:tiempoDuracion>23</v1:tiempoDuracion>
+                <v1:tipoDocUsuarioEjecutor>1</v1:tipoDocUsuarioEjecutor>
+                <v1:numDocUsuarioEjecutor>1030544725</v1:numDocUsuarioEjecutor>
+                <v1:nitEntidad>900440034</v1:nitEntidad>
+                <v1:direccionIpOrigen>10.98.0.133</v1:direccionIpOrigen>
+                <v1:direccionIpServidor>10.98.0.133</v1:direccionIpServidor>
+                <v1:Metadato>
+                    <v1:nombreMetadato>COD_SUC</v1:nombreMetadato>
+                    <v1:valor>000001</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>COD_SUSC</v1:nombreMetadato>
+                    <v1:valor>000001</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>PAIS_SUSC</v1:nombreMetadato>
+                    <v1:valor>CO</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CALIF_DESFACSO</v1:nombreMetadato>
+                    <v1:valor></v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CALIF_FACSOPT</v1:nombreMetadato>
+                    <v1:valor></v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CIUDAD</v1:nombreMetadato>
+                    <v1:valor>1e9-a99e-080027</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>CONSULTANTE</v1:nombreMetadato>
+                    <v1:valor>Sebastian Martínez</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>ID_REGISTRO</v1:nombreMetadato>
+                    <v1:valor>1b6340</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>ID_TEC</v1:nombreMetadato>
+                    <v1:valor></v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>IND_CAMSUSFAC</v1:nombreMetadato>
+                    <v1:valor>1</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>NOMBRE_SUSC</v1:nombreMetadato>
+                    <v1:valor>A4</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>NUM_ID_CONS</v1:nombreMetadato>
+                    <v1:valor></v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>OFICINA</v1:nombreMetadato>
+                    <v1:valor>55d2f4bf-ce66-1</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>PROD_PADRE</v1:nombreMetadato>
+                    <v1:valor>BEPARV</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>RAZ_DESFACSO</v1:nombreMetadato>
+                    <v1:valor>PAYU01010</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>TERM_FACSOPT</v1:nombreMetadato>
+                    <v1:valor>0</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>TIPO_ID_CONS</v1:nombreMetadato>
+                    <v1:valor></v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>TIPO_RESP</v1:nombreMetadato>
+                    <v1:valor>1</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>FECHA_CONS</v1:nombreMetadato>
+                    <v1:valor>03092019</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>HORA_CONS</v1:nombreMetadato>
+                    <v1:valor>113124</v1:valor>
+                </v1:Metadato>
+                <v1:Metadato>
+                    <v1:nombreMetadato>PRODUCTO</v1:nombreMetadato>
+                    <v1:valor>BEPARV</v1:valor>
+                </v1:Metadato>
+            </v1:reqRegistrarTransaccion>
+        </v1:registrarTransaccion>
+    </soapenv:Body>
+</soapenv:Envelope>
