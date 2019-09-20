@@ -74,26 +74,3 @@ spring.jpa.show-sql=true
 
 
 
-server.port = 8080
-
-server.tomcat.max-threads=400
-server.servlet.context-path=/iservice
-
-#TEST--PAYU
-payu.post=https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/
-payu.apiKey=d2L4aQOwWw4yd3IxQwsxx31btX
-payu.merchantId=510553
-payu.accountId=514965
-payu.responseUrl=http://ec2-3-88-110-186.compute-1.amazonaws.com:8080/iservice/payu/get/
-payu.confirmationUrl=http://167.86.93.14:8080/iservice/payu/post/
-payu.test=1
-
-
-#PRODUCTION--PAYU
-#payu.post=https://checkout.payulatam.com/ppp-web-gateway-payu/
-#payu.apiKey=BMMzuHUG54hZ5t2w3W1u9W85a4
-#payu.merchantId=821119
-#payu.accountId=828339
-#payu.responseUrl=http://nginx-example-bepartners-dev.apps.appcanvas.net/payu/confirmation
-#payu.confirmationUrl=http://default-bepartners-dev.apps.appcanvas.net/servicebroker/v1/public/transactionpay/payu/
-#payu.test=0
