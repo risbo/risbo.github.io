@@ -1,3 +1,6 @@
+http://sso-bepartners-dev.apps.appcanvas.net/login?active=eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoiYnBhbGFjaW9zYUBnbWFpbC5jb20iLCJhdXRob3JpdGllcyI6WyJHVUVTVCJdLCJpYXQiOjE1NjkzNjA0OTUsImV4cCI6MTU2OTQ0Njg5NX0.Q3Sd2-98bdrl326cxd47J69zjy2tlNsthlhPk__DLA1x1HdcjCbqB9UDAsYoZrhMQBU3XMHuV2lAxVrVLn04PA
+
+
 Starting mysqld:                                           [  OK  ]
 [root@ip-172-31-28-228 /]# sudo service mysqld stop
 Stopping mysqld:                                           [  OK  ]
