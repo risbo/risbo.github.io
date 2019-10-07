@@ -1,3 +1,6 @@
+https://front-sso-dev-co-sla-bepartners.apps.appcanvas.net/publicDecisor?user=bpalaciosa@gmail.com&to=eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJicGFsYWNpb3NhQGdtYWlsLmNvbSIsInN1YiI6ImJwYWxhY2lvc2FAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOlsiR1VFU1QiXSwiaWF0IjoxNTcwNDgwMzI0LCJleHAiOjE1NzA0ODM5MjR9.0A0RohHl1LCPEBtY8zUC5FxylNQ-pVtewAhzbOqtvYskV9mTKGnXRqvVmdshQCgHMCx-hm8XCFhoyhBSah9Z_A
+
+
 http://sso-bepartners-dev.apps.appcanvas.net/publicDecisor?user=bpalaciosa@gmail.com&to=eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJicGFsYWNpb3NhQGdtYWlsLmNvbSIsInN1YiI6ImJwYWxhY2lvc2FAZ21haWwuY29tIiwiYXV0aG9yaXRpZXMiOlsiR1VFU1QiXSwiaWF0IjoxNTY5MzY2NDc3LCJleHAiOjE1NjkzNzAwNzd9.dPUlo_PBydy9npkTEaULsh41dJ-yLdxbO8wQoWO0xeXM6WXKkpNm5wosOv6zuM8g29dIMsuvJGhsS2OVl7w7pQ
 Starting mysqld:                                           [  OK  ]
 [root@ip-172-31-28-228 /]# sudo service mysqld stop
