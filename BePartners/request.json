@@ -1,0 +1,55 @@
+{
+   "user":{
+      "vEmail":"email_GENERATE_ID_1_@yopmail.com",
+      "vIdUserPublic":"",
+      "vIdType":"101001",
+      "vIdentificationNumber":"99_GENERATE_ID_1_",
+      "vName":"Alex",
+      "vLastName":"Paulo",
+      "vPhone":"3008373627",
+      "vProfilePicture":"foto",
+      "vEnable":1
+   },
+   "userInfo":[
+      {
+         "vIdUserPublic":"",
+         "vIdInfoTypeUser":"232323",
+         "vValue":"",
+         "vEnable":1
+      }
+   ],
+   "third":{
+      "vIdThirdPublic":"",
+      "vIdType":"101002",
+      "vIdentificationNumber":"33_GENERATE_ID_1_",
+      "vBusinessName":"CASA BLANCA",
+      "vEnable":1,
+      "idThird":null
+   },
+   "thirdInfo":[
+      {
+         "idThirdInfioPrimaria":null,
+         "vidInfoTypeThird":"301002",
+         "vidThirdPublic":"",
+         "idThird":null,
+         "vvalue":"email_GENERATE_ID_1_@yopmail.com",
+         "venable":1
+      },
+      {
+         "idThirdInfioPrimaria":null,
+         "vidInfoTypeThird":"301003",
+         "vidThirdPublic":"",
+         "idThird":null,
+         "vvalue":"Calle 22",
+         "venable":1
+      },
+      {
+         "idThirdInfioPrimaria":null,
+         "vidInfoTypeThird":"301004",
+         "vidThirdPublic":"",
+         "idThird":null,
+         "vvalue":"76001",
+         "venable":1
+      }
+   ]
+}
