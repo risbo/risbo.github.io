@@ -1,1 +1,1 @@
-
+http://52.201.43.178:80/api/servicebroker/v1/public/pc/generate/
