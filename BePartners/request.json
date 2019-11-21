@@ -1,13 +1,13 @@
 {
-   "user":{
-      "vEmail":"email_GENERATE_ID_1_@yopmail.com",
+   "user":{      
       "vIdUserPublic":"",
       "vIdType":"101001",
-      "vIdentificationNumber":"99_GENERATE_ID_1_",
-      "vName":"Alex",
-      "vLastName":"Paulo",
-      "vPhone":"3008373627",
-      "vProfilePicture":"foto",
+      "vIdentificationNumber":"3216554564",
+      "vName":"aaa",
+      "vLastName":"",
+      "vEmail":"ax2a@yopmail.com",
+      "vPhone":"1661516516",
+      "vProfilePicture":"foto",     
       "vEnable":1
    },
    "userInfo":[
@@ -21,8 +21,8 @@
    "third":{
       "vIdThirdPublic":"",
       "vIdType":"101002",
-      "vIdentificationNumber":"33_GENERATE_ID_1_",
-      "vBusinessName":"CASA BLANCA",
+      "vIdentificationNumber":"",
+      "vBusinessName":"",
       "vEnable":1,
       "idThird":null
    },
@@ -32,7 +32,7 @@
          "vidInfoTypeThird":"301002",
          "vidThirdPublic":"",
          "idThird":null,
-         "vvalue":"email_GENERATE_ID_1_@yopmail.com",
+         "vvalue":" ",
          "venable":1
       },
       {
@@ -40,7 +40,7 @@
          "vidInfoTypeThird":"301003",
          "vidThirdPublic":"",
          "idThird":null,
-         "vvalue":"Calle 22",
+         "vvalue":"",
          "venable":1
       },
       {
@@ -48,7 +48,7 @@
          "vidInfoTypeThird":"301004",
          "vidThirdPublic":"",
          "idThird":null,
-         "vvalue":"76001",
+         "vvalue":"",
          "venable":1
       }
    ]
