@@ -1,0 +1,67 @@
+package com.iservice.linews.rest;
+ 
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity; 
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController; 
+ 
+import com.iservice.linews.payload.ContentTransfer;
+
+
+@RestController
+@RequestMapping("/api/content/")
+public class ContentApi {
+
+	@RequestMapping(value = "/transform/", method = RequestMethod.POST,
+			consumes = MediaType.APPLICATION_JSON_VALUE)
+	public ResponseEntity<?> createUsers(@RequestBody ContentTransfer transfer) {
+		return new ResponseEntity<Object>(getContentForUser(transfer.getUrl()), HttpStatus.CREATED);
+	}
+	
+	private Object getContentForUser(String url){
+		String content=getContent(url);
+		return getIteration(content);
+	}
+	private String getContent(String url) {
+		String content = "";
+		try {
+			content = org.apache.commons.io.IOUtils.toString(new URL(url), "utf8");
+			Document doc = Jsoup.parse(content);
+			content=doc.body().text();
+		} catch (Exception e) {
+			System.out.println("------------------------------------------>ERR");
+		}
+		return content;
+	}
+
+	
+	private List<String> getIteration(String content) {
+		content=content.replaceAll(Pattern.quote("’"),"'")
+				.replaceAll(Pattern.quote("“"),"\"") 
+				.replaceAll(Pattern.quote("”"),"\"");	
+		
+		
+		String[] list=content.split("\\.");
+		List<String> total=Arrays.asList(list).stream().filter(item-> 
+		item!=null && !item.isEmpty() && item.length()<300
+		).distinct()
+				.collect(Collectors.toList());
+		 
+		return total;
+	}
+}
+
+
+
