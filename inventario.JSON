@@ -1,0 +1,103 @@
+{
+  "status": "202",
+  "content": [
+    {
+      "id": "1",
+      "nombre": "Movilizacion 700",
+      "descripcion": "Cliente XD5",
+      "procesoMovilizacion": [
+        {
+          "id": "1",
+          "nombre": "Inventario Inicial",
+          "descripcion": "Inventario en patio puerto",
+          "inventario": [
+            {
+              "id": "1",
+              "vin": "KJNSKJDN87J",
+              "tipo": "XCA4 TH8",
+              "modelo": "T4",
+              "color": "Blanco"
+            },
+            {
+              "id": "2",
+              "vin": "FKJNSKJDN87J",
+              "tipo": "HJXCA4 TH8",
+              "modelo": "T7",
+              "color": "Verde"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "nombre": "Recepcion DF",
+          "descripcion": "Inventario en concecionario",
+          "inventario": [
+            {
+              "id": "1",
+              "vin": "KFSSKJDN87J",
+              "tipo": "XCHJ4 TH8",
+              "modelo": "T4",
+              "color": "Blanco"
+            },
+            {
+              "id": "2",
+              "vin": "FKJJRFFFKJDN87J",
+              "tipo": "HJXCA4 TH8",
+              "modelo": "T7",
+              "color": "Verde"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Movilizacion 701",
+      "descripcion": "Cliente XD6",
+      "procesoMovilizacion": [
+        {
+          "id": "1",
+          "nombre": "Inventario Inicial",
+          "descripcion": "Inventario en patio puerto",
+          "inventario": [
+            {
+              "id": "1",
+              "vin": "KJNSKJDN87J",
+              "tipo": "XCA4 TH8",
+              "modelo": "T4",
+              "color": "Blanco"
+            },
+            {
+              "id": "2",
+              "vin": "FKJNSKJDN87J",
+              "tipo": "HJXCA4 TH8",
+              "modelo": "T7",
+              "color": "Verde"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "nombre": "Recepcion DF",
+          "descripcion": "Inventario en concecionario",
+          "inventario": [
+            {
+              "id": "1",
+              "vin": "KFSSKJDN87J",
+              "tipo": "XCHJ4 TH8",
+              "modelo": "T4",
+              "color": "Blanco"
+            },
+            {
+              "id": "2",
+              "vin": "FKJJRFFFKJDN87J",
+              "tipo": "HJXCA4 TH8",
+              "modelo": "T7",
+              "color": "Verde"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
