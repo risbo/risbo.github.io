@@ -1,0 +1,7 @@
+
+
+login: que recibe el user, password y el token llamado
+Authorization: dea1d5786420947a0f0ab43d7dead68d
+
+http://kaz-inspector.com/servicios/v1/
+endpoint: login
