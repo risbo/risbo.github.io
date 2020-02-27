@@ -1,103 +1,114 @@
 {
-  "status": "202",
-  "content": [
-    {
-      "id": "1",
-      "nombre": "Movilizacion 700",
-      "descripcion": "Cliente XD5",
-      "procesoMovilizacion": [
-        {
-          "id": "1",
-          "nombre": "Inventario Inicial",
-          "descripcion": "Inventario en patio puerto",
-          "inventario": [
-            {
-              "id": "1",
-              "vin": "KJNSKJDN87J",
-              "tipo": "XCA4 TH8",
-              "modelo": "T4",
-              "color": "Blanco"
-            },
-            {
-              "id": "2",
-              "vin": "FKJNSKJDN87J",
-              "tipo": "HJXCA4 TH8",
-              "modelo": "T7",
-              "color": "Verde"
-            }
-          ]
-        },
-        {
-          "id": "1",
-          "nombre": "Recepcion DF",
-          "descripcion": "Inventario en concecionario",
-          "inventario": [
-            {
-              "id": "1",
-              "vin": "KFSSKJDN87J",
-              "tipo": "XCHJ4 TH8",
-              "modelo": "T4",
-              "color": "Blanco"
-            },
-            {
-              "id": "2",
-              "vin": "FKJJRFFFKJDN87J",
-              "tipo": "HJXCA4 TH8",
-              "modelo": "T7",
-              "color": "Verde"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "nombre": "Movilizacion 701",
-      "descripcion": "Cliente XD6",
-      "procesoMovilizacion": [
-        {
-          "id": "1",
-          "nombre": "Inventario Inicial",
-          "descripcion": "Inventario en patio puerto",
-          "inventario": [
-            {
-              "id": "1",
-              "vin": "KJNSKJDN87J",
-              "tipo": "XCA4 TH8",
-              "modelo": "T4",
-              "color": "Blanco"
-            },
-            {
-              "id": "2",
-              "vin": "FKJNSKJDN87J",
-              "tipo": "HJXCA4 TH8",
-              "modelo": "T7",
-              "color": "Verde"
-            }
-          ]
-        },
-        {
-          "id": "1",
-          "nombre": "Recepcion DF",
-          "descripcion": "Inventario en concecionario",
-          "inventario": [
-            {
-              "id": "1",
-              "vin": "KFSSKJDN87J",
-              "tipo": "XCHJ4 TH8",
-              "modelo": "T4",
-              "color": "Blanco"
-            },
-            {
-              "id": "2",
-              "vin": "FKJJRFFFKJDN87J",
-              "tipo": "HJXCA4 TH8",
-              "modelo": "T7",
-              "color": "Verde"
-            }
-          ]
-        }
-      ]
+    "error": false,
+    "message": "Logueado satisfactoriamente!",
+    "data": {
+        "EXISTS": 1,
+        "USER": "Bogota.Demcautos",
+        "USERNAME": "Everth ",
+        "IDCLIENTE": "0",
+        "IDDESTINO": "29",
+        "IDPERFIL": "18",
+        "NIVEL": "1",
+        "EMAIL": "everthlamprea@demcautos.com.co,lorenadiaz@demcautos.com.co",
+        "MOVILIZACIONES": [{
+            "IDMOVILIZACION": "7557",
+            "CLIENTE": "SK Berge Colombia",
+            "MOTONAVE": "TOMBARRA",
+            "PROCESOS": [{
+                "IDPROCESO": "3",
+                "NOMBREPROCESO": "Revision Patio Puerto",
+                "DESCRIPCION": "Revision Patio Puerto",
+                "UNIDADES": [{
+                    "IDUNIDAD": "76479",
+                    "VIN": "3C4NJCBB1LT158485",
+                    "TIPO": "Compass Longitude Pl",
+                    "MODELO": "S\/D",
+                    "COLOR": "BLANCO"
+                }, {
+                    "IDUNIDAD": "76478",
+                    "VIN": "3C4NJCBB6LT158482",
+                    "TIPO": "Compass Longitude Pl",
+                    "MODELO": "S\/D",
+                    "COLOR": "BLANCO"
+                }, {
+                    "IDUNIDAD": "76477",
+                    "VIN": "3C4NJCBB4LT158481",
+                    "TIPO": "Compass Longitude Pl",
+                    "MODELO": "S\/D",
+                    "COLOR": "BLANCO"
+                }, {
+                    "IDUNIDAD": "76476",
+                    "VIN": "3C4NJCBB9LT158475",
+                    "TIPO": "Compass Longitude Pl",
+                    "MODELO": "S\/D",
+                    "COLOR": "NEGRO DIAMANTE"
+                }, {
+                    "IDUNIDAD": "76475",
+                    "VIN": "3C4NJCBB7LT158474",
+                    "TIPO": "Compass Longitude Pl",
+                    "MODELO": "S\/D",
+                    "COLOR": "GRIS METAL"
+                }]
+            }],
+            "PARTES": [{
+                "IDPARTE": "124",
+                "CODIGOPARTE": "118",
+                "NOMBREPARTE": "Antena de radio"
+            }, {
+                "IDPARTE": "125",
+                "CODIGOPARTE": "0",
+                "NOMBREPARTE": "Bolsa Accesorios Sellada"
+            }, {
+                "IDPARTE": "223",
+                "CODIGOPARTE": "129",
+                "NOMBREPARTE": "Boton Star\/Off"
+            }, {
+                "IDPARTE": "127",
+                "CODIGOPARTE": "108",
+                "NOMBREPARTE": "Cables \/ Cables USB"
+            }, {
+                "IDPARTE": "214",
+                "CODIGOPARTE": "111",
+                "NOMBREPARTE": "Cajas Parales"
+            }],
+            "TIPONOVEDAD": [{
+                "IDTIPONOVEDAD": "24",
+                "NOMBRETIPONOVEDAD": "ROTO"
+            }, {
+                "IDTIPONOVEDAD": "25",
+                "NOMBRETIPONOVEDAD": "Cortado"
+            }, {
+                "IDTIPONOVEDAD": "26",
+                "NOMBRETIPONOVEDAD": "Perforado"
+            }, {
+                "IDTIPONOVEDAD": "27",
+                "NOMBRETIPONOVEDAD": "Golpe"
+            }, {
+                "IDTIPONOVEDAD": "28",
+                "NOMBRETIPONOVEDAD": "Sumidura"
+            }, {
+                "IDTIPONOVEDAD": "29",
+                "NOMBRETIPONOVEDAD": "Raya para pintar"
+            }, {
+                "IDTIPONOVEDAD": "31",
+                "NOMBRETIPONOVEDAD": "Desconche"
+            }, {
+                "IDTIPONOVEDAD": "30",
+                "NOMBRETIPONOVEDAD": "Raya para pulir"
+            }, {
+                "IDTIPONOVEDAD": "32",
+                "NOMBRETIPONOVEDAD": "Faltante"
+            }, {
+                "IDTIPONOVEDAD": "33",
+                "NOMBRETIPONOVEDAD": "Otros"
+            }, {
+                "IDTIPONOVEDAD": "34",
+                "NOMBRETIPONOVEDAD": "No aplica"
+            }]
+        }, {
+            "IDMOVILIZACION": "7558",
+            "CLIENTE": "SK Berge Colombia",
+            "MOTONAVE": "CHIQUITA"
+        }]
     }
-  ]
 }
