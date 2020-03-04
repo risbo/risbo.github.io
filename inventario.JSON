@@ -1,114 +1,318 @@
 {
-    "error": false,
-    "message": "Logueado satisfactoriamente!",
-    "data": {
-        "EXISTS": 1,
-        "USER": "Bogota.Demcautos",
-        "USERNAME": "Everth ",
-        "IDCLIENTE": "0",
-        "IDDESTINO": "29",
-        "IDPERFIL": "18",
-        "NIVEL": "1",
-        "EMAIL": "everthlamprea@demcautos.com.co,lorenadiaz@demcautos.com.co",
-        "MOVILIZACIONES": [{
-            "IDMOVILIZACION": "7557",
-            "CLIENTE": "SK Berge Colombia",
-            "MOTONAVE": "TOMBARRA",
-            "PROCESOS": [{
-                "IDPROCESO": "3",
-                "NOMBREPROCESO": "Revision Patio Puerto",
-                "DESCRIPCION": "Revision Patio Puerto",
-                "UNIDADES": [{
-                    "IDUNIDAD": "76479",
-                    "VIN": "3C4NJCBB1LT158485",
-                    "TIPO": "Compass Longitude Pl",
-                    "MODELO": "S\/D",
-                    "COLOR": "BLANCO"
-                }, {
-                    "IDUNIDAD": "76478",
-                    "VIN": "12345678",
-                    "TIPO": "Compass Longitude Pl",
-                    "MODELO": "S\/D",
-                    "COLOR": "BLANCO"
-                }, {
-                    "IDUNIDAD": "76477",
-                    "VIN": "3C4NJCBB4LT158481",
-                    "TIPO": "Compass Longitude Pl",
-                    "MODELO": "S\/D",
-                    "COLOR": "BLANCO"
-                }, {
-                    "IDUNIDAD": "76476",
-                    "VIN": "3C4NJCBB9LT158475",
-                    "TIPO": "Compass Longitude Pl",
-                    "MODELO": "S\/D",
-                    "COLOR": "NEGRO DIAMANTE"
-                }, {
-                    "IDUNIDAD": "76475",
-                    "VIN": "3C4NJCBB7LT158474",
-                    "TIPO": "Compass Longitude Pl",
-                    "MODELO": "S\/D",
-                    "COLOR": "GRIS METAL"
-                }]
-            }],
-            "PARTES": [{
-                "IDPARTE": "124",
-                "CODIGOPARTE": "118",
-                "NOMBREPARTE": "Antena de radio"
-            }, {
-                "IDPARTE": "125",
-                "CODIGOPARTE": "0",
-                "NOMBREPARTE": "Bolsa Accesorios Sellada"
-            }, {
-                "IDPARTE": "223",
-                "CODIGOPARTE": "129",
-                "NOMBREPARTE": "Boton Star\/Off"
-            }, {
-                "IDPARTE": "127",
-                "CODIGOPARTE": "108",
-                "NOMBREPARTE": "Cables \/ Cables USB"
-            }, {
-                "IDPARTE": "214",
-                "CODIGOPARTE": "111",
-                "NOMBREPARTE": "Cajas Parales"
-            }],
-            "TIPONOVEDAD": [{
-                "IDTIPONOVEDAD": "24",
-                "NOMBRETIPONOVEDAD": "ROTO"
-            }, {
-                "IDTIPONOVEDAD": "25",
-                "NOMBRETIPONOVEDAD": "Cortado"
-            }, {
-                "IDTIPONOVEDAD": "26",
-                "NOMBRETIPONOVEDAD": "Perforado"
-            }, {
-                "IDTIPONOVEDAD": "27",
-                "NOMBRETIPONOVEDAD": "Golpe"
-            }, {
-                "IDTIPONOVEDAD": "28",
-                "NOMBRETIPONOVEDAD": "Sumidura"
-            }, {
-                "IDTIPONOVEDAD": "29",
-                "NOMBRETIPONOVEDAD": "Raya para pintar"
-            }, {
-                "IDTIPONOVEDAD": "31",
-                "NOMBRETIPONOVEDAD": "Desconche"
-            }, {
-                "IDTIPONOVEDAD": "30",
-                "NOMBRETIPONOVEDAD": "Raya para pulir"
-            }, {
-                "IDTIPONOVEDAD": "32",
-                "NOMBRETIPONOVEDAD": "Faltante"
-            }, {
-                "IDTIPONOVEDAD": "33",
-                "NOMBRETIPONOVEDAD": "Otros"
-            }, {
-                "IDTIPONOVEDAD": "34",
-                "NOMBRETIPONOVEDAD": "No aplica"
-            }]
-        }, {
-            "IDMOVILIZACION": "7558",
-            "CLIENTE": "SK Berge Colombia",
-            "MOTONAVE": "CHIQUITA"
-        }]
-    }
+  "error": false,
+  "message": "Logueado satisfactoriamente!",
+  "data": {
+    "EXISTS": 1,
+    "USER": "Bogota.Demcautos",
+    "USERNAME": "Everth ",
+    "IDCLIENTE": "0",
+    "IDDESTINO": "29",
+    "IDPERFIL": "18",
+    "NIVEL": "1",
+    "EMAIL": "everthlamprea@demcautos.com.co,lorenadiaz@demcautos.com.co",
+    "MOVILIZACIONES": [
+      {
+        "IDMOVILIZACION": "7557",
+        "CLIENTE": "SK Berge Colombia",
+        "MOTONAVE": "TOMBARRA",
+        "PROCESOS": [
+          {
+            "IDPROCESO": "3",
+            "NOMBREPROCESO": "Revision Patio Puerto",
+            "DESCRIPCION": "Revision Patio Puerto",
+            "UNIDADES": [
+              {
+                "IDUNIDAD": "76479",
+                "VIN": "3C4NJCBB1LT158485",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "76478",
+                "VIN": "12345678",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "76477",
+                "VIN": "3C4NJCBB4LT158481",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "76476",
+                "VIN": "3C4NJCBB9LT158475",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "NEGRO DIAMANTE"
+              },
+              {
+                "IDUNIDAD": "76475",
+                "VIN": "3C4NJCBB7LT158474",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "GRIS METAL"
+              },
+              {
+                "IDUNIDAD": "764791",
+                "VIN": "3C4NJCBB1LT158485",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "764782",
+                "VIN": "12345678",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "764773",
+                "VIN": "3C4NJCBB4LT158481",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "764764",
+                "VIN": "3C4NJCBB9LT158475",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "NEGRO DIAMANTE"
+              },
+              {
+                "IDUNIDAD": "764755",
+                "VIN": "3C4NJCBB7LT158474",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "GRIS METAL"
+              },
+              {
+                "IDUNIDAD": "764796",
+                "VIN": "3C4NJCBB1LT158485",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "764787",
+                "VIN": "12345678",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "764778",
+                "VIN": "3C4NJCBB4LT158481",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "764769",
+                "VIN": "3C4NJCBB9LT158475",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "NEGRO DIAMANTE"
+              },
+              {
+                "IDUNIDAD": "7647510",
+                "VIN": "3C4NJCBB7LT158474",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "GRIS METAL"
+              },
+              {
+                "IDUNIDAD": "7647911",
+                "VIN": "3C4NJCBB1LT158485",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647812",
+                "VIN": "12345678",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647713",
+                "VIN": "3C4NJCBB4LT158481",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647614",
+                "VIN": "3C4NJCBB9LT158475",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "NEGRO DIAMANTE"
+              },
+              {
+                "IDUNIDAD": "7647515",
+                "VIN": "3C4NJCBB7LT158474",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "GRIS METAL"
+              },
+              {
+                "IDUNIDAD": "7647916",
+                "VIN": "3C4NJCBB1LT158485",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647817",
+                "VIN": "12345678",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647718",
+                "VIN": "3C4NJCBB4LT158481",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647619",
+                "VIN": "3C4NJCBB9LT158475",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "NEGRO DIAMANTE"
+              },
+              {
+                "IDUNIDAD": "7647520",
+                "VIN": "3C4NJCBB7LT158474",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "GRIS METAL"
+              },
+              {
+                "IDUNIDAD": "7647921",
+                "VIN": "3C4NJCBB1LT158485",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647822",
+                "VIN": "12345678",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647723",
+                "VIN": "3C4NJCBB4LT158481",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "BLANCO"
+              },
+              {
+                "IDUNIDAD": "7647624",
+                "VIN": "3C4NJCBB9LT158475",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "NEGRO DIAMANTE"
+              },
+              {
+                "IDUNIDAD": "7647525",
+                "VIN": "3C4NJCBB7LT158474",
+                "TIPO": "Compass Longitude Pl",
+                "MODELO": "S/D",
+                "COLOR": "GRIS METAL"
+              }
+            ]
+          }
+        ],
+        "PARTES": [
+          {
+            "IDPARTE": "124",
+            "CODIGOPARTE": "118",
+            "NOMBREPARTE": "Antena de radio"
+          },
+          {
+            "IDPARTE": "125",
+            "CODIGOPARTE": "0",
+            "NOMBREPARTE": "Bolsa Accesorios Sellada"
+          },
+          {
+            "IDPARTE": "223",
+            "CODIGOPARTE": "129",
+            "NOMBREPARTE": "Boton Star/Off"
+          },
+          {
+            "IDPARTE": "127",
+            "CODIGOPARTE": "108",
+            "NOMBREPARTE": "Cables / Cables USB"
+          },
+          {
+            "IDPARTE": "214",
+            "CODIGOPARTE": "111",
+            "NOMBREPARTE": "Cajas Parales"
+          }
+        ],
+        "TIPONOVEDAD": [
+          {
+            "IDTIPONOVEDAD": "24",
+            "NOMBRETIPONOVEDAD": "ROTO"
+          },
+          {
+            "IDTIPONOVEDAD": "25",
+            "NOMBRETIPONOVEDAD": "Cortado"
+          },
+          {
+            "IDTIPONOVEDAD": "26",
+            "NOMBRETIPONOVEDAD": "Perforado"
+          },
+          {
+            "IDTIPONOVEDAD": "27",
+            "NOMBRETIPONOVEDAD": "Golpe"
+          },
+          {
+            "IDTIPONOVEDAD": "28",
+            "NOMBRETIPONOVEDAD": "Sumidura"
+          },
+          {
+            "IDTIPONOVEDAD": "29",
+            "NOMBRETIPONOVEDAD": "Raya para pintar"
+          },
+          {
+            "IDTIPONOVEDAD": "31",
+            "NOMBRETIPONOVEDAD": "Desconche"
+          },
+          {
+            "IDTIPONOVEDAD": "30",
+            "NOMBRETIPONOVEDAD": "Raya para pulir"
+          },
+          {
+            "IDTIPONOVEDAD": "32",
+            "NOMBRETIPONOVEDAD": "Faltante"
+          },
+          {
+            "IDTIPONOVEDAD": "33",
+            "NOMBRETIPONOVEDAD": "Otros"
+          },
+          {
+            "IDTIPONOVEDAD": "34",
+            "NOMBRETIPONOVEDAD": "No aplica"
+          }
+        ]
+      },
+      {
+        "IDMOVILIZACION": "7558",
+        "CLIENTE": "SK Berge Colombia",
+        "MOTONAVE": "CHIQUITA"
+      }
+    ]
+  }
 }
