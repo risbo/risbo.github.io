@@ -1,318 +1,3215 @@
 {
-  "error": false,
-  "message": "Logueado satisfactoriamente!",
-  "data": {
-    "EXISTS": 1,
-    "USER": "Bogota.Demcautos",
-    "USERNAME": "Everth ",
-    "IDCLIENTE": "0",
-    "IDDESTINO": "29",
-    "IDPERFIL": "18",
-    "NIVEL": "1",
-    "EMAIL": "everthlamprea@demcautos.com.co,lorenadiaz@demcautos.com.co",
-    "MOVILIZACIONES": [
-      {
-        "IDMOVILIZACION": "7557",
-        "CLIENTE": "SK Berge Colombia",
-        "MOTONAVE": "TOMBARRA",
-        "PROCESOS": [
-          {
-            "IDPROCESO": "3",
-            "NOMBREPROCESO": "Revision Patio Puerto",
-            "DESCRIPCION": "Revision Patio Puerto",
-            "UNIDADES": [
-              {
-                "IDUNIDAD": "76479",
-                "VIN": "3C4NJCBB1LT158485",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "76478",
-                "VIN": "12345678",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "76477",
-                "VIN": "3C4NJCBB4LT158481",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "76476",
-                "VIN": "3C4NJCBB9LT158475",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "NEGRO DIAMANTE"
-              },
-              {
-                "IDUNIDAD": "76475",
-                "VIN": "3C4NJCBB7LT158474",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "GRIS METAL"
-              },
-              {
-                "IDUNIDAD": "764791",
-                "VIN": "3C4NJCBB1LT158485",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "764782",
-                "VIN": "12345678",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "764773",
-                "VIN": "3C4NJCBB4LT158481",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "764764",
-                "VIN": "3C4NJCBB9LT158475",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "NEGRO DIAMANTE"
-              },
-              {
-                "IDUNIDAD": "764755",
-                "VIN": "3C4NJCBB7LT158474",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "GRIS METAL"
-              },
-              {
-                "IDUNIDAD": "764796",
-                "VIN": "3C4NJCBB1LT158485",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "764787",
-                "VIN": "12345678",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "764778",
-                "VIN": "3C4NJCBB4LT158481",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "764769",
-                "VIN": "3C4NJCBB9LT158475",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "NEGRO DIAMANTE"
-              },
-              {
-                "IDUNIDAD": "7647510",
-                "VIN": "3C4NJCBB7LT158474",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "GRIS METAL"
-              },
-              {
-                "IDUNIDAD": "7647911",
-                "VIN": "3C4NJCBB1LT158485",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647812",
-                "VIN": "12345678",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647713",
-                "VIN": "3C4NJCBB4LT158481",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647614",
-                "VIN": "3C4NJCBB9LT158475",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "NEGRO DIAMANTE"
-              },
-              {
-                "IDUNIDAD": "7647515",
-                "VIN": "3C4NJCBB7LT158474",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "GRIS METAL"
-              },
-              {
-                "IDUNIDAD": "7647916",
-                "VIN": "3C4NJCBB1LT158485",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647817",
-                "VIN": "12345678",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647718",
-                "VIN": "3C4NJCBB4LT158481",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647619",
-                "VIN": "3C4NJCBB9LT158475",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "NEGRO DIAMANTE"
-              },
-              {
-                "IDUNIDAD": "7647520",
-                "VIN": "3C4NJCBB7LT158474",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "GRIS METAL"
-              },
-              {
-                "IDUNIDAD": "7647921",
-                "VIN": "3C4NJCBB1LT158485",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647822",
-                "VIN": "12345678",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647723",
-                "VIN": "3C4NJCBB4LT158481",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "BLANCO"
-              },
-              {
-                "IDUNIDAD": "7647624",
-                "VIN": "3C4NJCBB9LT158475",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "NEGRO DIAMANTE"
-              },
-              {
-                "IDUNIDAD": "7647525",
-                "VIN": "3C4NJCBB7LT158474",
-                "TIPO": "Compass Longitude Pl",
-                "MODELO": "S/D",
-                "COLOR": "GRIS METAL"
-              }
-            ]
-          }
-        ],
-        "PARTES": [
-          {
-            "IDPARTE": "124",
-            "CODIGOPARTE": "118",
-            "NOMBREPARTE": "Antena de radio"
-          },
-          {
-            "IDPARTE": "125",
-            "CODIGOPARTE": "0",
-            "NOMBREPARTE": "Bolsa Accesorios Sellada"
-          },
-          {
-            "IDPARTE": "223",
-            "CODIGOPARTE": "129",
-            "NOMBREPARTE": "Boton Star/Off"
-          },
-          {
-            "IDPARTE": "127",
-            "CODIGOPARTE": "108",
-            "NOMBREPARTE": "Cables / Cables USB"
-          },
-          {
-            "IDPARTE": "214",
-            "CODIGOPARTE": "111",
-            "NOMBREPARTE": "Cajas Parales"
-          }
-        ],
-        "TIPONOVEDAD": [
-          {
-            "IDTIPONOVEDAD": "24",
-            "NOMBRETIPONOVEDAD": "ROTO"
-          },
-          {
-            "IDTIPONOVEDAD": "25",
-            "NOMBRETIPONOVEDAD": "Cortado"
-          },
-          {
-            "IDTIPONOVEDAD": "26",
-            "NOMBRETIPONOVEDAD": "Perforado"
-          },
-          {
-            "IDTIPONOVEDAD": "27",
-            "NOMBRETIPONOVEDAD": "Golpe"
-          },
-          {
-            "IDTIPONOVEDAD": "28",
-            "NOMBRETIPONOVEDAD": "Sumidura"
-          },
-          {
-            "IDTIPONOVEDAD": "29",
-            "NOMBRETIPONOVEDAD": "Raya para pintar"
-          },
-          {
-            "IDTIPONOVEDAD": "31",
-            "NOMBRETIPONOVEDAD": "Desconche"
-          },
-          {
-            "IDTIPONOVEDAD": "30",
-            "NOMBRETIPONOVEDAD": "Raya para pulir"
-          },
-          {
-            "IDTIPONOVEDAD": "32",
-            "NOMBRETIPONOVEDAD": "Faltante"
-          },
-          {
-            "IDTIPONOVEDAD": "33",
-            "NOMBRETIPONOVEDAD": "Otros"
-          },
-          {
-            "IDTIPONOVEDAD": "34",
-            "NOMBRETIPONOVEDAD": "No aplica"
-          }
+    "error": false,
+    "message": "Logueado satisfactoriamente!",
+    "data": {
+        "EXISTS": 1,
+        "USER": "Pablo1",
+        "USERNAME": "Pablo",
+        "IDCLIENTE": "0",
+        "IDDESTINO": "0",
+        "IDPERFIL": "17",
+        "NIVEL": "1",
+        "EMAIL": "Pablo.Martinez.SE@carportsantamarta.com",
+        "MOVILIZACIONES": [
+            {
+                "IDMOVILIZACION": "2507",
+                "CLIENTE": "SK Berge Colombia SAS",
+                "MOTONAVE": "CHIQUITA ITALIA",
+                "PROCESOS": [
+                    {
+                        "IDPROCESO": "3",
+                        "NOMBREPROCESO": "Revision Patio Puerto",
+                        "DESCRIPCION": "Revision Patio Puerto",
+                        "UNIDADES": [
+                            {
+                                "IDUNIDAD": "8345",
+                                "VIN": "AV00001",
+                                "TIPO": "CAMIONETA",
+                                "MODELO": "N/A",
+                                "COLOR": "NEGRO"
+                            },
+                            {
+                                "IDUNIDAD": "8346",
+                                "VIN": "AV00002",
+                                "TIPO": "CAMIONETA",
+                                "MODELO": "N/A",
+                                "COLOR": "ROJO"
+                            },
+                            {
+                                "IDUNIDAD": "8347",
+                                "VIN": "AV00003",
+                                "TIPO": "CAMIONETA",
+                                "MODELO": "N/A",
+                                "COLOR": "ROJO"
+                            }
+                        ]
+                    }
+                ],
+                "PARTES": [
+                    {
+                        "IDPARTE": "13",
+                        "CODIGOPARTE": "109",
+                        "NOMBREPARTE": "Cenicero"
+                    },
+                    {
+                        "IDPARTE": "18",
+                        "CODIGOPARTE": "110",
+                        "NOMBREPARTE": "Encendedor"
+                    },
+                    {
+                        "IDPARTE": "20",
+                        "CODIGOPARTE": "126",
+                        "NOMBREPARTE": "Estuche de manuales"
+                    },
+                    {
+                        "IDPARTE": "23",
+                        "CODIGOPARTE": "130",
+                        "NOMBREPARTE": "Llaves de Encendido /Telecomandos"
+                    },
+                    {
+                        "IDPARTE": "124",
+                        "CODIGOPARTE": "118",
+                        "NOMBREPARTE": "Antena de radio"
+                    },
+                    {
+                        "IDPARTE": "127",
+                        "CODIGOPARTE": "108",
+                        "NOMBREPARTE": "Cables / Cables USB"
+                    },
+                    {
+                        "IDPARTE": "140",
+                        "CODIGOPARTE": "116",
+                        "NOMBREPARTE": "Guantes"
+                    },
+                    {
+                        "IDPARTE": "142",
+                        "CODIGOPARTE": "119",
+                        "NOMBREPARTE": "Linterna"
+                    },
+                    {
+                        "IDPARTE": "147",
+                        "CODIGOPARTE": "124",
+                        "NOMBREPARTE": "Perno Guia / de Seguridad"
+                    },
+                    {
+                        "IDPARTE": "152",
+                        "CODIGOPARTE": "117",
+                        "NOMBREPARTE": "Tapetes"
+                    },
+                    {
+                        "IDPARTE": "154",
+                        "CODIGOPARTE": "121",
+                        "NOMBREPARTE": "Porta-Placa"
+                    },
+                    {
+                        "IDPARTE": "155",
+                        "CODIGOPARTE": "131",
+                        "NOMBREPARTE": "Triángulo"
+                    },
+                    {
+                        "IDPARTE": "167",
+                        "CODIGOPARTE": "106",
+                        "NOMBREPARTE": "Malla"
+                    },
+                    {
+                        "IDPARTE": "171",
+                        "CODIGOPARTE": "113",
+                        "NOMBREPARTE": "Parales de Techo / Travesaño"
+                    },
+                    {
+                        "IDPARTE": "187",
+                        "CODIGOPARTE": "132",
+                        "NOMBREPARTE": "Otra Parte No Codificada"
+                    },
+                    {
+                        "IDPARTE": "213",
+                        "CODIGOPARTE": "125",
+                        "NOMBREPARTE": "Manual Conductor"
+                    },
+                    {
+                        "IDPARTE": "214",
+                        "CODIGOPARTE": "111",
+                        "NOMBREPARTE": "Cajas Parales"
+                    },
+                    {
+                        "IDPARTE": "215",
+                        "CODIGOPARTE": "112",
+                        "NOMBREPARTE": "Cajas Ventanas"
+                    },
+                    {
+                        "IDPARTE": "216",
+                        "CODIGOPARTE": "114",
+                        "NOMBREPARTE": "Carpa"
+                    },
+                    {
+                        "IDPARTE": "217",
+                        "CODIGOPARTE": "115",
+                        "NOMBREPARTE": "Forro Repuesto"
+                    },
+                    {
+                        "IDPARTE": "218",
+                        "CODIGOPARTE": "120",
+                        "NOMBREPARTE": "Tornillos de Placa"
+                    },
+                    {
+                        "IDPARTE": "220",
+                        "CODIGOPARTE": "123",
+                        "NOMBREPARTE": "Correas"
+                    },
+                    {
+                        "IDPARTE": "221",
+                        "CODIGOPARTE": "127",
+                        "NOMBREPARTE": "Llaves sencillas"
+                    },
+                    {
+                        "IDPARTE": "222",
+                        "CODIGOPARTE": "128",
+                        "NOMBREPARTE": "Inserto"
+                    },
+                    {
+                        "IDPARTE": "223",
+                        "CODIGOPARTE": "129",
+                        "NOMBREPARTE": "Boton Star/Off"
+                    },
+                    {
+                        "IDPARTE": "125",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Bolsa Accesorios Sellada"
+                    },
+                    {
+                        "IDPARTE": "225",
+                        "CODIGOPARTE": "122",
+                        "NOMBREPARTE": "Tapa Manija"
+                    },
+                    {
+                        "IDPARTE": "44",
+                        "CODIGOPARTE": "99",
+                        "NOMBREPARTE": "Biseles / Boseles"
+                    },
+                    {
+                        "IDPARTE": "45",
+                        "CODIGOPARTE": "68",
+                        "NOMBREPARTE": "Bomper Delantero"
+                    },
+                    {
+                        "IDPARTE": "48",
+                        "CODIGOPARTE": "72",
+                        "NOMBREPARTE": "Capot"
+                    },
+                    {
+                        "IDPARTE": "49",
+                        "CODIGOPARTE": "85",
+                        "NOMBREPARTE": "Cauchos / Empaques"
+                    },
+                    {
+                        "IDPARTE": "55",
+                        "CODIGOPARTE": "53",
+                        "NOMBREPARTE": "Espejo Retrovisor Der."
+                    },
+                    {
+                        "IDPARTE": "56",
+                        "CODIGOPARTE": "54",
+                        "NOMBREPARTE": "Espejo Retrovisor Izq."
+                    },
+                    {
+                        "IDPARTE": "61",
+                        "CODIGOPARTE": "61",
+                        "NOMBREPARTE": "Faros delanteros"
+                    },
+                    {
+                        "IDPARTE": "62",
+                        "CODIGOPARTE": "90",
+                        "NOMBREPARTE": "Guardafangos Delantero Derecho"
+                    },
+                    {
+                        "IDPARTE": "63",
+                        "CODIGOPARTE": "92",
+                        "NOMBREPARTE": "Guardafangos Delantero Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "64",
+                        "CODIGOPARTE": "62",
+                        "NOMBREPARTE": "Lámparas exploradoras"
+                    },
+                    {
+                        "IDPARTE": "65",
+                        "CODIGOPARTE": "96",
+                        "NOMBREPARTE": "Limpia-parabrisas"
+                    },
+                    {
+                        "IDPARTE": "71",
+                        "CODIGOPARTE": "58",
+                        "NOMBREPARTE": "Manija Delant Derecha"
+                    },
+                    {
+                        "IDPARTE": "72",
+                        "CODIGOPARTE": "56",
+                        "NOMBREPARTE": "Manija Delant. Izquierda"
+                    },
+                    {
+                        "IDPARTE": "75",
+                        "CODIGOPARTE": "67",
+                        "NOMBREPARTE": "Persiana"
+                    },
+                    {
+                        "IDPARTE": "76",
+                        "CODIGOPARTE": "82",
+                        "NOMBREPARTE": "Puerta Delant. Derecha"
+                    },
+                    {
+                        "IDPARTE": "77",
+                        "CODIGOPARTE": "80",
+                        "NOMBREPARTE": "Puerta Delant. Izquierda"
+                    },
+                    {
+                        "IDPARTE": "93",
+                        "CODIGOPARTE": "84",
+                        "NOMBREPARTE": "Baúl / Puerta Baúl"
+                    },
+                    {
+                        "IDPARTE": "95",
+                        "CODIGOPARTE": "70",
+                        "NOMBREPARTE": "Bomper Trasero / Tapas"
+                    },
+                    {
+                        "IDPARTE": "96",
+                        "CODIGOPARTE": "98",
+                        "NOMBREPARTE": "Capota de Lona"
+                    },
+                    {
+                        "IDPARTE": "99",
+                        "CODIGOPARTE": "63",
+                        "NOMBREPARTE": "Direccionales"
+                    },
+                    {
+                        "IDPARTE": "100",
+                        "CODIGOPARTE": "14",
+                        "NOMBREPARTE": "Emblema Trasero"
+                    },
+                    {
+                        "IDPARTE": "102",
+                        "CODIGOPARTE": "91",
+                        "NOMBREPARTE": "Guardafango Trasero Derecho"
+                    },
+                    {
+                        "IDPARTE": "103",
+                        "CODIGOPARTE": "93",
+                        "NOMBREPARTE": "Guardafango Trasero Izq"
+                    },
+                    {
+                        "IDPARTE": "104",
+                        "CODIGOPARTE": "95",
+                        "NOMBREPARTE": "Limpia-parabrisas Trasero"
+                    },
+                    {
+                        "IDPARTE": "108",
+                        "CODIGOPARTE": "59",
+                        "NOMBREPARTE": "Manija Tras Derecha"
+                    },
+                    {
+                        "IDPARTE": "109",
+                        "CODIGOPARTE": "57",
+                        "NOMBREPARTE": "Manija Trasera Izquierda"
+                    },
+                    {
+                        "IDPARTE": "111",
+                        "CODIGOPARTE": "83",
+                        "NOMBREPARTE": "Puerta Trasera Derecha"
+                    },
+                    {
+                        "IDPARTE": "112",
+                        "CODIGOPARTE": "81",
+                        "NOMBREPARTE": "Puerta Trasera Izquierda"
+                    },
+                    {
+                        "IDPARTE": "113",
+                        "CODIGOPARTE": "60",
+                        "NOMBREPARTE": "Manija Quinta Puerta (Baúl)"
+                    },
+                    {
+                        "IDPARTE": "116",
+                        "CODIGOPARTE": "55",
+                        "NOMBREPARTE": "Lunas espejos"
+                    },
+                    {
+                        "IDPARTE": "118",
+                        "CODIGOPARTE": "94",
+                        "NOMBREPARTE": "Tapa Combustible"
+                    },
+                    {
+                        "IDPARTE": "141",
+                        "CODIGOPARTE": "100",
+                        "NOMBREPARTE": "Juego de Plumillas"
+                    },
+                    {
+                        "IDPARTE": "193",
+                        "CODIGOPARTE": "64",
+                        "NOMBREPARTE": "Luz de Reversa"
+                    },
+                    {
+                        "IDPARTE": "194",
+                        "CODIGOPARTE": "65",
+                        "NOMBREPARTE": "Stop Derecho"
+                    },
+                    {
+                        "IDPARTE": "195",
+                        "CODIGOPARTE": "66",
+                        "NOMBREPARTE": "Stop Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "196",
+                        "CODIGOPARTE": "69",
+                        "NOMBREPARTE": "Deflector Bomper Del. (Babero)"
+                    },
+                    {
+                        "IDPARTE": "197",
+                        "CODIGOPARTE": "71",
+                        "NOMBREPARTE": "Deflector Bomper Tras. (Babero)"
+                    },
+                    {
+                        "IDPARTE": "198",
+                        "CODIGOPARTE": "73",
+                        "NOMBREPARTE": "Insonorizante Capot"
+                    },
+                    {
+                        "IDPARTE": "199",
+                        "CODIGOPARTE": "74",
+                        "NOMBREPARTE": "Paral Delantero Dere."
+                    },
+                    {
+                        "IDPARTE": "200",
+                        "CODIGOPARTE": "76",
+                        "NOMBREPARTE": "Paral Delantero Izq."
+                    },
+                    {
+                        "IDPARTE": "201",
+                        "CODIGOPARTE": "75",
+                        "NOMBREPARTE": "Paral Trasero Dere."
+                    },
+                    {
+                        "IDPARTE": "202",
+                        "CODIGOPARTE": "79",
+                        "NOMBREPARTE": "Paral Trasero Izq."
+                    },
+                    {
+                        "IDPARTE": "203",
+                        "CODIGOPARTE": "77",
+                        "NOMBREPARTE": "Paral Central Izq."
+                    },
+                    {
+                        "IDPARTE": "204",
+                        "CODIGOPARTE": "86",
+                        "NOMBREPARTE": "Estribo Delantero Der."
+                    },
+                    {
+                        "IDPARTE": "205",
+                        "CODIGOPARTE": "89",
+                        "NOMBREPARTE": "Estribo Delantero Izq."
+                    },
+                    {
+                        "IDPARTE": "206",
+                        "CODIGOPARTE": "87",
+                        "NOMBREPARTE": "Estribo Trasero Der."
+                    },
+                    {
+                        "IDPARTE": "207",
+                        "CODIGOPARTE": "88",
+                        "NOMBREPARTE": "Estribo Trasero Izq."
+                    },
+                    {
+                        "IDPARTE": "208",
+                        "CODIGOPARTE": "97",
+                        "NOMBREPARTE": "Techo (Capota)"
+                    },
+                    {
+                        "IDPARTE": "224",
+                        "CODIGOPARTE": "101",
+                        "NOMBREPARTE": "Piso Platón"
+                    },
+                    {
+                        "IDPARTE": "236",
+                        "CODIGOPARTE": "78",
+                        "NOMBREPARTE": "Paral Central Dere."
+                    },
+                    {
+                        "IDPARTE": "1",
+                        "CODIGOPARTE": "22",
+                        "NOMBREPARTE": "Aire Acondicionado - Controles "
+                    },
+                    {
+                        "IDPARTE": "3",
+                        "CODIGOPARTE": "17",
+                        "NOMBREPARTE": "Apoya Cabezas"
+                    },
+                    {
+                        "IDPARTE": "4",
+                        "CODIGOPARTE": "06",
+                        "NOMBREPARTE": "Asiento Derecho"
+                    },
+                    {
+                        "IDPARTE": "5",
+                        "CODIGOPARTE": "05",
+                        "NOMBREPARTE": "Asiento Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "7",
+                        "CODIGOPARTE": "07",
+                        "NOMBREPARTE": "Asientos Traseros"
+                    },
+                    {
+                        "IDPARTE": "9",
+                        "CODIGOPARTE": "26",
+                        "NOMBREPARTE": "Bloqueo Central"
+                    },
+                    {
+                        "IDPARTE": "10",
+                        "CODIGOPARTE": "19",
+                        "NOMBREPARTE": "Bocina / Pito"
+                    },
+                    {
+                        "IDPARTE": "14",
+                        "CODIGOPARTE": "09",
+                        "NOMBREPARTE": "Luz de Cortesía"
+                    },
+                    {
+                        "IDPARTE": "15",
+                        "CODIGOPARTE": "10",
+                        "NOMBREPARTE": "Cinturones Delanteros"
+                    },
+                    {
+                        "IDPARTE": "16",
+                        "CODIGOPARTE": "0",
+                        "NOMBREPARTE": "Cinturones Traseros"
+                    },
+                    {
+                        "IDPARTE": "19",
+                        "CODIGOPARTE": "04",
+                        "NOMBREPARTE": "Espejo retrovisor"
+                    },
+                    {
+                        "IDPARTE": "22",
+                        "CODIGOPARTE": "02",
+                        "NOMBREPARTE": "Guantera"
+                    },
+                    {
+                        "IDPARTE": "27",
+                        "CODIGOPARTE": "18",
+                        "NOMBREPARTE": "Manijas Internas"
+                    },
+                    {
+                        "IDPARTE": "29",
+                        "CODIGOPARTE": "01",
+                        "NOMBREPARTE": "Millaré / Tablero"
+                    },
+                    {
+                        "IDPARTE": "30",
+                        "CODIGOPARTE": "15",
+                        "NOMBREPARTE": "Panel Interior Puertas"
+                    },
+                    {
+                        "IDPARTE": "32",
+                        "CODIGOPARTE": "16",
+                        "NOMBREPARTE": "Parasoles"
+                    },
+                    {
+                        "IDPARTE": "34",
+                        "CODIGOPARTE": "23",
+                        "NOMBREPARTE": "Radio"
+                    },
+                    {
+                        "IDPARTE": "36",
+                        "CODIGOPARTE": "13",
+                        "NOMBREPARTE": "Reloj"
+                    },
+                    {
+                        "IDPARTE": "40",
+                        "CODIGOPARTE": "08",
+                        "NOMBREPARTE": "Tercera Fila"
+                    },
+                    {
+                        "IDPARTE": "53",
+                        "CODIGOPARTE": "0",
+                        "NOMBREPARTE": "Emblema Delantero"
+                    },
+                    {
+                        "IDPARTE": "74",
+                        "CODIGOPARTE": "30",
+                        "NOMBREPARTE": "Palanca de Cambios"
+                    },
+                    {
+                        "IDPARTE": "80",
+                        "CODIGOPARTE": "20",
+                        "NOMBREPARTE": "Tapiceria en Cuero"
+                    },
+                    {
+                        "IDPARTE": "86",
+                        "CODIGOPARTE": "21",
+                        "NOMBREPARTE": "Tapiceria en Tela"
+                    },
+                    {
+                        "IDPARTE": "94",
+                        "CODIGOPARTE": "12",
+                        "NOMBREPARTE": "Parlantes"
+                    },
+                    {
+                        "IDPARTE": "107",
+                        "CODIGOPARTE": "31",
+                        "NOMBREPARTE": "Consola Caja  de Cambios"
+                    },
+                    {
+                        "IDPARTE": "163",
+                        "CODIGOPARTE": "107",
+                        "NOMBREPARTE": "Cubre Maletero"
+                    },
+                    {
+                        "IDPARTE": "165",
+                        "CODIGOPARTE": "27",
+                        "NOMBREPARTE": "Espejos Electricos"
+                    },
+                    {
+                        "IDPARTE": "170",
+                        "CODIGOPARTE": "25",
+                        "NOMBREPARTE": "Pantalla DVD"
+                    },
+                    {
+                        "IDPARTE": "177",
+                        "CODIGOPARTE": "28",
+                        "NOMBREPARTE": "Techo Corredizo"
+                    },
+                    {
+                        "IDPARTE": "180",
+                        "CODIGOPARTE": "24",
+                        "NOMBREPARTE": "Vidrios Electricos"
+                    },
+                    {
+                        "IDPARTE": "181",
+                        "CODIGOPARTE": "29",
+                        "NOMBREPARTE": "Volante de Lujo"
+                    },
+                    {
+                        "IDPARTE": "188",
+                        "CODIGOPARTE": "03",
+                        "NOMBREPARTE": "Tablero"
+                    },
+                    {
+                        "IDPARTE": "189",
+                        "CODIGOPARTE": "11",
+                        "NOMBREPARTE": "Tapa Base Cinturones"
+                    },
+                    {
+                        "IDPARTE": "190",
+                        "CODIGOPARTE": "32",
+                        "NOMBREPARTE": "Cajuela Izquierda"
+                    },
+                    {
+                        "IDPARTE": "191",
+                        "CODIGOPARTE": "33",
+                        "NOMBREPARTE": "Cajuela Derecha"
+                    },
+                    {
+                        "IDPARTE": "156",
+                        "CODIGOPARTE": "134",
+                        "NOMBREPARTE": "Audifonos"
+                    },
+                    {
+                        "IDPARTE": "159",
+                        "CODIGOPARTE": "133",
+                        "NOMBREPARTE": "Control Remoto DVD "
+                    },
+                    {
+                        "IDPARTE": "131",
+                        "CODIGOPARTE": "140",
+                        "NOMBREPARTE": "Compresor"
+                    },
+                    {
+                        "IDPARTE": "133",
+                        "CODIGOPARTE": "137",
+                        "NOMBREPARTE": "Cruceta / Llave de pernos"
+                    },
+                    {
+                        "IDPARTE": "138",
+                        "CODIGOPARTE": "138",
+                        "NOMBREPARTE": "Gancho de arrastre"
+                    },
+                    {
+                        "IDPARTE": "139",
+                        "CODIGOPARTE": "135",
+                        "NOMBREPARTE": "Gato"
+                    },
+                    {
+                        "IDPARTE": "146",
+                        "CODIGOPARTE": "136",
+                        "NOMBREPARTE": "Palanca de Gato"
+                    },
+                    {
+                        "IDPARTE": "153",
+                        "CODIGOPARTE": "139",
+                        "NOMBREPARTE": "Tapa gancho de arrastre"
+                    },
+                    {
+                        "IDPARTE": "226",
+                        "CODIGOPARTE": "141",
+                        "NOMBREPARTE": "Líquido Sellante"
+                    },
+                    {
+                        "IDPARTE": "232",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Kit Despinche"
+                    },
+                    {
+                        "IDPARTE": "66",
+                        "CODIGOPARTE": "43",
+                        "NOMBREPARTE": "Llantas Delant. Dere."
+                    },
+                    {
+                        "IDPARTE": "67",
+                        "CODIGOPARTE": "45",
+                        "NOMBREPARTE": "Llantas Delant. Izq."
+                    },
+                    {
+                        "IDPARTE": "78",
+                        "CODIGOPARTE": "48",
+                        "NOMBREPARTE": "Rines Delant. Dere."
+                    },
+                    {
+                        "IDPARTE": "79",
+                        "CODIGOPARTE": "50",
+                        "NOMBREPARTE": "Rines Delant. Izq."
+                    },
+                    {
+                        "IDPARTE": "105",
+                        "CODIGOPARTE": "46",
+                        "NOMBREPARTE": "Llantas Traseras Izq."
+                    },
+                    {
+                        "IDPARTE": "106",
+                        "CODIGOPARTE": "44",
+                        "NOMBREPARTE": "Llantas Trasera Dere."
+                    },
+                    {
+                        "IDPARTE": "114",
+                        "CODIGOPARTE": "49",
+                        "NOMBREPARTE": "Rines Traseros Dere."
+                    },
+                    {
+                        "IDPARTE": "115",
+                        "CODIGOPARTE": "51",
+                        "NOMBREPARTE": "Rines Traseros Izq."
+                    },
+                    {
+                        "IDPARTE": "132",
+                        "CODIGOPARTE": "52",
+                        "NOMBREPARTE": "Copas / Tapas de Rin"
+                    },
+                    {
+                        "IDPARTE": "143",
+                        "CODIGOPARTE": "47",
+                        "NOMBREPARTE": "Llanta de repuesto"
+                    },
+                    {
+                        "IDPARTE": "185",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Encendido"
+                    },
+                    {
+                        "IDPARTE": "73",
+                        "CODIGOPARTE": "34",
+                        "NOMBREPARTE": "Panorámico Delantero"
+                    },
+                    {
+                        "IDPARTE": "88",
+                        "CODIGOPARTE": "37",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Del Derecha"
+                    },
+                    {
+                        "IDPARTE": "89",
+                        "CODIGOPARTE": "39",
+                        "NOMBREPARTE": "Vidrio Custodia Der."
+                    },
+                    {
+                        "IDPARTE": "90",
+                        "CODIGOPARTE": "40",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Del Izquierda"
+                    },
+                    {
+                        "IDPARTE": "91",
+                        "CODIGOPARTE": "42",
+                        "NOMBREPARTE": "Vidrio Custodia Izq."
+                    },
+                    {
+                        "IDPARTE": "110",
+                        "CODIGOPARTE": "35",
+                        "NOMBREPARTE": "Panoramico Trasero"
+                    },
+                    {
+                        "IDPARTE": "120",
+                        "CODIGOPARTE": "38",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Tras Derecha"
+                    },
+                    {
+                        "IDPARTE": "121",
+                        "CODIGOPARTE": "41",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Tras. Izq."
+                    },
+                    {
+                        "IDPARTE": "192",
+                        "CODIGOPARTE": "36",
+                        "NOMBREPARTE": "Tapa Bisagra panorámico trasero"
+                    },
+                    {
+                        "IDPARTE": "182",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Kilometraje"
+                    },
+                    {
+                        "IDPARTE": "183",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Nivel Combustible"
+                    },
+                    {
+                        "IDPARTE": "209",
+                        "CODIGOPARTE": "102",
+                        "NOMBREPARTE": "Manual Propietario"
+                    },
+                    {
+                        "IDPARTE": "210",
+                        "CODIGOPARTE": "103",
+                        "NOMBREPARTE": "Certificado Garantía"
+                    },
+                    {
+                        "IDPARTE": "211",
+                        "CODIGOPARTE": "104",
+                        "NOMBREPARTE": "Sticker Cinturon"
+                    },
+                    {
+                        "IDPARTE": "212",
+                        "CODIGOPARTE": "105",
+                        "NOMBREPARTE": "Sticker Habitaculo Motor"
+                    },
+                    {
+                        "IDPARTE": "234",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Sello de puertas"
+                    }
+                ],
+                "TIPONOVEDAD": [
+                    {
+                        "IDTIPONOVEDAD": "24",
+                        "NOMBRETIPONOVEDAD": "Roto"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "25",
+                        "NOMBRETIPONOVEDAD": "Cortado"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "26",
+                        "NOMBRETIPONOVEDAD": "Perforado"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "27",
+                        "NOMBRETIPONOVEDAD": "Golpe"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "28",
+                        "NOMBRETIPONOVEDAD": "Sumidura"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "29",
+                        "NOMBRETIPONOVEDAD": "Raya para pintar"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "30",
+                        "NOMBRETIPONOVEDAD": "Raya para pulir"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "31",
+                        "NOMBRETIPONOVEDAD": "Desconche"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "32",
+                        "NOMBRETIPONOVEDAD": "Faltante"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "33",
+                        "NOMBRETIPONOVEDAD": "Otros"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "34",
+                        "NOMBRETIPONOVEDAD": "No aplica"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "41",
+                        "NOMBRETIPONOVEDAD": "Picadura"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "42",
+                        "NOMBRETIPONOVEDAD": "Grumo"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "43",
+                        "NOMBRETIPONOVEDAD": "Oxidacion"
+                    }
+                ]
+            },
+            {
+                "IDMOVILIZACION": "7557",
+                "CLIENTE": "SK Berge Colombia SAS",
+                "MOTONAVE": "TOMBARRA ",
+                "PROCESOS": [
+                    {
+                        "IDPROCESO": "2",
+                        "NOMBREPROCESO": "Revision Descarga",
+                        "DESCRIPCION": "Revision Descarga",
+                        "UNIDADES": [
+                            {
+                                "IDUNIDAD": "76437",
+                                "VIN": "1C4HJXAG6LW221494",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "STING GRAY"
+                            },
+                            {
+                                "IDUNIDAD": "76438",
+                                "VIN": "1C4HJXAG3LW221517",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76439",
+                                "VIN": "1C4HJXAG2LW225736",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76440",
+                                "VIN": "1C4HJXAG6LW224685",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "ROJO METALICO"
+                            },
+                            {
+                                "IDUNIDAD": "76441",
+                                "VIN": "1C4HJXAG8LW224686",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "ROJO METALICO"
+                            },
+                            {
+                                "IDUNIDAD": "76442",
+                                "VIN": "1C4HJXAG7LW221536",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76443",
+                                "VIN": "1C4HJXAG1LW224691",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76444",
+                                "VIN": "1C4HJXAG6LW225738",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76445",
+                                "VIN": "1C4HJXAG1LW233844",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76446",
+                                "VIN": "1C4HJXDG8LW211853",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76447",
+                                "VIN": "1C4HJXDG6LW221538",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76448",
+                                "VIN": "1C4HJXDG9LW224692",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76449",
+                                "VIN": "1C4HJXDG6LW224696",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76450",
+                                "VIN": "1C4HJXDG8LW231746",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "AMARILLO HELLAYELLA"
+                            },
+                            {
+                                "IDUNIDAD": "76451",
+                                "VIN": "1C4HJXFG2LW224708",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO BRILLANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76452",
+                                "VIN": "1C4HJXFG4LW224709",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO"
+                            },
+                            {
+                                "IDUNIDAD": "76453",
+                                "VIN": "1C4HJXFG4LW224712",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76454",
+                                "VIN": "1C4HJXFG2LW233845",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76455",
+                                "VIN": "1C4HJXFG2LW246224",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76456",
+                                "VIN": "1C4HJXFG2LW240469",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76457",
+                                "VIN": "1C4HJXFG9LW240470",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76458",
+                                "VIN": "1C4HJXFG0LW240471",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76459",
+                                "VIN": "1C4HJXFG2LW240472",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76460",
+                                "VIN": "1C4HJXFG4LW246225",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76461",
+                                "VIN": "1C4HJXFG6LW246226",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76462",
+                                "VIN": "1C6RRFFG2LN201126",
+                                "TIPO": "RAM DT 1500 BIG HORN",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76463",
+                                "VIN": "1C4RJFDJ6LC215668",
+                                "TIPO": "Grand Cherokee SRT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76464",
+                                "VIN": "1C4RJFDJ4LC224675",
+                                "TIPO": "Grand Cherokee SRT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76465",
+                                "VIN": "1C4RJFBGXLC195545",
+                                "TIPO": "Grand Cherokee Limit",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76466",
+                                "VIN": "1C4PJMCX9LD590451",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO BRILLANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76467",
+                                "VIN": "1C4PJMCX0LD597160",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76468",
+                                "VIN": "1C4PJMCX0LD590452",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76469",
+                                "VIN": "1C4PJMCX6LD597163",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76470",
+                                "VIN": "3C4NJCBB5LT158487",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76471",
+                                "VIN": "3C4NJCBB9LT158489",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76472",
+                                "VIN": "3C4NJCBB5LT158490",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76473",
+                                "VIN": "3C4NJCBB7LT158491",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76474",
+                                "VIN": "3C4NJCBB9LT158492",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76475",
+                                "VIN": "3C4NJCBB7LT158474",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76476",
+                                "VIN": "3C4NJCBB9LT158475",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76477",
+                                "VIN": "3C4NJCBB4LT158481",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76478",
+                                "VIN": "3C4NJCBB6LT158482",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76479",
+                                "VIN": "3C4NJCBB1LT158485",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            }
+                        ]
+                    }
+                ],
+                "PARTES": [
+                    {
+                        "IDPARTE": "13",
+                        "CODIGOPARTE": "109",
+                        "NOMBREPARTE": "Cenicero"
+                    },
+                    {
+                        "IDPARTE": "18",
+                        "CODIGOPARTE": "110",
+                        "NOMBREPARTE": "Encendedor"
+                    },
+                    {
+                        "IDPARTE": "20",
+                        "CODIGOPARTE": "126",
+                        "NOMBREPARTE": "Estuche de manuales"
+                    },
+                    {
+                        "IDPARTE": "23",
+                        "CODIGOPARTE": "130",
+                        "NOMBREPARTE": "Llaves de Encendido /Telecomandos"
+                    },
+                    {
+                        "IDPARTE": "124",
+                        "CODIGOPARTE": "118",
+                        "NOMBREPARTE": "Antena de radio"
+                    },
+                    {
+                        "IDPARTE": "127",
+                        "CODIGOPARTE": "108",
+                        "NOMBREPARTE": "Cables / Cables USB"
+                    },
+                    {
+                        "IDPARTE": "140",
+                        "CODIGOPARTE": "116",
+                        "NOMBREPARTE": "Guantes"
+                    },
+                    {
+                        "IDPARTE": "142",
+                        "CODIGOPARTE": "119",
+                        "NOMBREPARTE": "Linterna"
+                    },
+                    {
+                        "IDPARTE": "147",
+                        "CODIGOPARTE": "124",
+                        "NOMBREPARTE": "Perno Guia / de Seguridad"
+                    },
+                    {
+                        "IDPARTE": "152",
+                        "CODIGOPARTE": "117",
+                        "NOMBREPARTE": "Tapetes"
+                    },
+                    {
+                        "IDPARTE": "154",
+                        "CODIGOPARTE": "121",
+                        "NOMBREPARTE": "Porta-Placa"
+                    },
+                    {
+                        "IDPARTE": "155",
+                        "CODIGOPARTE": "131",
+                        "NOMBREPARTE": "Triángulo"
+                    },
+                    {
+                        "IDPARTE": "167",
+                        "CODIGOPARTE": "106",
+                        "NOMBREPARTE": "Malla"
+                    },
+                    {
+                        "IDPARTE": "171",
+                        "CODIGOPARTE": "113",
+                        "NOMBREPARTE": "Parales de Techo / Travesaño"
+                    },
+                    {
+                        "IDPARTE": "187",
+                        "CODIGOPARTE": "132",
+                        "NOMBREPARTE": "Otra Parte No Codificada"
+                    },
+                    {
+                        "IDPARTE": "213",
+                        "CODIGOPARTE": "125",
+                        "NOMBREPARTE": "Manual Conductor"
+                    },
+                    {
+                        "IDPARTE": "214",
+                        "CODIGOPARTE": "111",
+                        "NOMBREPARTE": "Cajas Parales"
+                    },
+                    {
+                        "IDPARTE": "215",
+                        "CODIGOPARTE": "112",
+                        "NOMBREPARTE": "Cajas Ventanas"
+                    },
+                    {
+                        "IDPARTE": "216",
+                        "CODIGOPARTE": "114",
+                        "NOMBREPARTE": "Carpa"
+                    },
+                    {
+                        "IDPARTE": "217",
+                        "CODIGOPARTE": "115",
+                        "NOMBREPARTE": "Forro Repuesto"
+                    },
+                    {
+                        "IDPARTE": "218",
+                        "CODIGOPARTE": "120",
+                        "NOMBREPARTE": "Tornillos de Placa"
+                    },
+                    {
+                        "IDPARTE": "220",
+                        "CODIGOPARTE": "123",
+                        "NOMBREPARTE": "Correas"
+                    },
+                    {
+                        "IDPARTE": "221",
+                        "CODIGOPARTE": "127",
+                        "NOMBREPARTE": "Llaves sencillas"
+                    },
+                    {
+                        "IDPARTE": "222",
+                        "CODIGOPARTE": "128",
+                        "NOMBREPARTE": "Inserto"
+                    },
+                    {
+                        "IDPARTE": "223",
+                        "CODIGOPARTE": "129",
+                        "NOMBREPARTE": "Boton Star/Off"
+                    },
+                    {
+                        "IDPARTE": "125",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Bolsa Accesorios Sellada"
+                    },
+                    {
+                        "IDPARTE": "225",
+                        "CODIGOPARTE": "122",
+                        "NOMBREPARTE": "Tapa Manija"
+                    },
+                    {
+                        "IDPARTE": "44",
+                        "CODIGOPARTE": "99",
+                        "NOMBREPARTE": "Biseles / Boseles"
+                    },
+                    {
+                        "IDPARTE": "45",
+                        "CODIGOPARTE": "68",
+                        "NOMBREPARTE": "Bomper Delantero"
+                    },
+                    {
+                        "IDPARTE": "48",
+                        "CODIGOPARTE": "72",
+                        "NOMBREPARTE": "Capot"
+                    },
+                    {
+                        "IDPARTE": "49",
+                        "CODIGOPARTE": "85",
+                        "NOMBREPARTE": "Cauchos / Empaques"
+                    },
+                    {
+                        "IDPARTE": "55",
+                        "CODIGOPARTE": "53",
+                        "NOMBREPARTE": "Espejo Retrovisor Der."
+                    },
+                    {
+                        "IDPARTE": "56",
+                        "CODIGOPARTE": "54",
+                        "NOMBREPARTE": "Espejo Retrovisor Izq."
+                    },
+                    {
+                        "IDPARTE": "61",
+                        "CODIGOPARTE": "61",
+                        "NOMBREPARTE": "Faros delanteros"
+                    },
+                    {
+                        "IDPARTE": "62",
+                        "CODIGOPARTE": "90",
+                        "NOMBREPARTE": "Guardafangos Delantero Derecho"
+                    },
+                    {
+                        "IDPARTE": "63",
+                        "CODIGOPARTE": "92",
+                        "NOMBREPARTE": "Guardafangos Delantero Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "64",
+                        "CODIGOPARTE": "62",
+                        "NOMBREPARTE": "Lámparas exploradoras"
+                    },
+                    {
+                        "IDPARTE": "65",
+                        "CODIGOPARTE": "96",
+                        "NOMBREPARTE": "Limpia-parabrisas"
+                    },
+                    {
+                        "IDPARTE": "71",
+                        "CODIGOPARTE": "58",
+                        "NOMBREPARTE": "Manija Delant Derecha"
+                    },
+                    {
+                        "IDPARTE": "72",
+                        "CODIGOPARTE": "56",
+                        "NOMBREPARTE": "Manija Delant. Izquierda"
+                    },
+                    {
+                        "IDPARTE": "75",
+                        "CODIGOPARTE": "67",
+                        "NOMBREPARTE": "Persiana"
+                    },
+                    {
+                        "IDPARTE": "76",
+                        "CODIGOPARTE": "82",
+                        "NOMBREPARTE": "Puerta Delant. Derecha"
+                    },
+                    {
+                        "IDPARTE": "77",
+                        "CODIGOPARTE": "80",
+                        "NOMBREPARTE": "Puerta Delant. Izquierda"
+                    },
+                    {
+                        "IDPARTE": "93",
+                        "CODIGOPARTE": "84",
+                        "NOMBREPARTE": "Baúl / Puerta Baúl"
+                    },
+                    {
+                        "IDPARTE": "95",
+                        "CODIGOPARTE": "70",
+                        "NOMBREPARTE": "Bomper Trasero / Tapas"
+                    },
+                    {
+                        "IDPARTE": "96",
+                        "CODIGOPARTE": "98",
+                        "NOMBREPARTE": "Capota de Lona"
+                    },
+                    {
+                        "IDPARTE": "99",
+                        "CODIGOPARTE": "63",
+                        "NOMBREPARTE": "Direccionales"
+                    },
+                    {
+                        "IDPARTE": "100",
+                        "CODIGOPARTE": "14",
+                        "NOMBREPARTE": "Emblema Trasero"
+                    },
+                    {
+                        "IDPARTE": "102",
+                        "CODIGOPARTE": "91",
+                        "NOMBREPARTE": "Guardafango Trasero Derecho"
+                    },
+                    {
+                        "IDPARTE": "103",
+                        "CODIGOPARTE": "93",
+                        "NOMBREPARTE": "Guardafango Trasero Izq"
+                    },
+                    {
+                        "IDPARTE": "104",
+                        "CODIGOPARTE": "95",
+                        "NOMBREPARTE": "Limpia-parabrisas Trasero"
+                    },
+                    {
+                        "IDPARTE": "108",
+                        "CODIGOPARTE": "59",
+                        "NOMBREPARTE": "Manija Tras Derecha"
+                    },
+                    {
+                        "IDPARTE": "109",
+                        "CODIGOPARTE": "57",
+                        "NOMBREPARTE": "Manija Trasera Izquierda"
+                    },
+                    {
+                        "IDPARTE": "111",
+                        "CODIGOPARTE": "83",
+                        "NOMBREPARTE": "Puerta Trasera Derecha"
+                    },
+                    {
+                        "IDPARTE": "112",
+                        "CODIGOPARTE": "81",
+                        "NOMBREPARTE": "Puerta Trasera Izquierda"
+                    },
+                    {
+                        "IDPARTE": "113",
+                        "CODIGOPARTE": "60",
+                        "NOMBREPARTE": "Manija Quinta Puerta (Baúl)"
+                    },
+                    {
+                        "IDPARTE": "116",
+                        "CODIGOPARTE": "55",
+                        "NOMBREPARTE": "Lunas espejos"
+                    },
+                    {
+                        "IDPARTE": "118",
+                        "CODIGOPARTE": "94",
+                        "NOMBREPARTE": "Tapa Combustible"
+                    },
+                    {
+                        "IDPARTE": "141",
+                        "CODIGOPARTE": "100",
+                        "NOMBREPARTE": "Juego de Plumillas"
+                    },
+                    {
+                        "IDPARTE": "193",
+                        "CODIGOPARTE": "64",
+                        "NOMBREPARTE": "Luz de Reversa"
+                    },
+                    {
+                        "IDPARTE": "194",
+                        "CODIGOPARTE": "65",
+                        "NOMBREPARTE": "Stop Derecho"
+                    },
+                    {
+                        "IDPARTE": "195",
+                        "CODIGOPARTE": "66",
+                        "NOMBREPARTE": "Stop Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "196",
+                        "CODIGOPARTE": "69",
+                        "NOMBREPARTE": "Deflector Bomper Del. (Babero)"
+                    },
+                    {
+                        "IDPARTE": "197",
+                        "CODIGOPARTE": "71",
+                        "NOMBREPARTE": "Deflector Bomper Tras. (Babero)"
+                    },
+                    {
+                        "IDPARTE": "198",
+                        "CODIGOPARTE": "73",
+                        "NOMBREPARTE": "Insonorizante Capot"
+                    },
+                    {
+                        "IDPARTE": "199",
+                        "CODIGOPARTE": "74",
+                        "NOMBREPARTE": "Paral Delantero Dere."
+                    },
+                    {
+                        "IDPARTE": "200",
+                        "CODIGOPARTE": "76",
+                        "NOMBREPARTE": "Paral Delantero Izq."
+                    },
+                    {
+                        "IDPARTE": "201",
+                        "CODIGOPARTE": "75",
+                        "NOMBREPARTE": "Paral Trasero Dere."
+                    },
+                    {
+                        "IDPARTE": "202",
+                        "CODIGOPARTE": "79",
+                        "NOMBREPARTE": "Paral Trasero Izq."
+                    },
+                    {
+                        "IDPARTE": "203",
+                        "CODIGOPARTE": "77",
+                        "NOMBREPARTE": "Paral Central Izq."
+                    },
+                    {
+                        "IDPARTE": "204",
+                        "CODIGOPARTE": "86",
+                        "NOMBREPARTE": "Estribo Delantero Der."
+                    },
+                    {
+                        "IDPARTE": "205",
+                        "CODIGOPARTE": "89",
+                        "NOMBREPARTE": "Estribo Delantero Izq."
+                    },
+                    {
+                        "IDPARTE": "206",
+                        "CODIGOPARTE": "87",
+                        "NOMBREPARTE": "Estribo Trasero Der."
+                    },
+                    {
+                        "IDPARTE": "207",
+                        "CODIGOPARTE": "88",
+                        "NOMBREPARTE": "Estribo Trasero Izq."
+                    },
+                    {
+                        "IDPARTE": "208",
+                        "CODIGOPARTE": "97",
+                        "NOMBREPARTE": "Techo (Capota)"
+                    },
+                    {
+                        "IDPARTE": "224",
+                        "CODIGOPARTE": "101",
+                        "NOMBREPARTE": "Piso Platón"
+                    },
+                    {
+                        "IDPARTE": "236",
+                        "CODIGOPARTE": "78",
+                        "NOMBREPARTE": "Paral Central Dere."
+                    },
+                    {
+                        "IDPARTE": "1",
+                        "CODIGOPARTE": "22",
+                        "NOMBREPARTE": "Aire Acondicionado - Controles "
+                    },
+                    {
+                        "IDPARTE": "3",
+                        "CODIGOPARTE": "17",
+                        "NOMBREPARTE": "Apoya Cabezas"
+                    },
+                    {
+                        "IDPARTE": "4",
+                        "CODIGOPARTE": "06",
+                        "NOMBREPARTE": "Asiento Derecho"
+                    },
+                    {
+                        "IDPARTE": "5",
+                        "CODIGOPARTE": "05",
+                        "NOMBREPARTE": "Asiento Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "7",
+                        "CODIGOPARTE": "07",
+                        "NOMBREPARTE": "Asientos Traseros"
+                    },
+                    {
+                        "IDPARTE": "9",
+                        "CODIGOPARTE": "26",
+                        "NOMBREPARTE": "Bloqueo Central"
+                    },
+                    {
+                        "IDPARTE": "10",
+                        "CODIGOPARTE": "19",
+                        "NOMBREPARTE": "Bocina / Pito"
+                    },
+                    {
+                        "IDPARTE": "14",
+                        "CODIGOPARTE": "09",
+                        "NOMBREPARTE": "Luz de Cortesía"
+                    },
+                    {
+                        "IDPARTE": "15",
+                        "CODIGOPARTE": "10",
+                        "NOMBREPARTE": "Cinturones Delanteros"
+                    },
+                    {
+                        "IDPARTE": "16",
+                        "CODIGOPARTE": "0",
+                        "NOMBREPARTE": "Cinturones Traseros"
+                    },
+                    {
+                        "IDPARTE": "19",
+                        "CODIGOPARTE": "04",
+                        "NOMBREPARTE": "Espejo retrovisor"
+                    },
+                    {
+                        "IDPARTE": "22",
+                        "CODIGOPARTE": "02",
+                        "NOMBREPARTE": "Guantera"
+                    },
+                    {
+                        "IDPARTE": "27",
+                        "CODIGOPARTE": "18",
+                        "NOMBREPARTE": "Manijas Internas"
+                    },
+                    {
+                        "IDPARTE": "29",
+                        "CODIGOPARTE": "01",
+                        "NOMBREPARTE": "Millaré / Tablero"
+                    },
+                    {
+                        "IDPARTE": "30",
+                        "CODIGOPARTE": "15",
+                        "NOMBREPARTE": "Panel Interior Puertas"
+                    },
+                    {
+                        "IDPARTE": "32",
+                        "CODIGOPARTE": "16",
+                        "NOMBREPARTE": "Parasoles"
+                    },
+                    {
+                        "IDPARTE": "34",
+                        "CODIGOPARTE": "23",
+                        "NOMBREPARTE": "Radio"
+                    },
+                    {
+                        "IDPARTE": "36",
+                        "CODIGOPARTE": "13",
+                        "NOMBREPARTE": "Reloj"
+                    },
+                    {
+                        "IDPARTE": "40",
+                        "CODIGOPARTE": "08",
+                        "NOMBREPARTE": "Tercera Fila"
+                    },
+                    {
+                        "IDPARTE": "53",
+                        "CODIGOPARTE": "0",
+                        "NOMBREPARTE": "Emblema Delantero"
+                    },
+                    {
+                        "IDPARTE": "74",
+                        "CODIGOPARTE": "30",
+                        "NOMBREPARTE": "Palanca de Cambios"
+                    },
+                    {
+                        "IDPARTE": "80",
+                        "CODIGOPARTE": "20",
+                        "NOMBREPARTE": "Tapiceria en Cuero"
+                    },
+                    {
+                        "IDPARTE": "86",
+                        "CODIGOPARTE": "21",
+                        "NOMBREPARTE": "Tapiceria en Tela"
+                    },
+                    {
+                        "IDPARTE": "94",
+                        "CODIGOPARTE": "12",
+                        "NOMBREPARTE": "Parlantes"
+                    },
+                    {
+                        "IDPARTE": "107",
+                        "CODIGOPARTE": "31",
+                        "NOMBREPARTE": "Consola Caja  de Cambios"
+                    },
+                    {
+                        "IDPARTE": "163",
+                        "CODIGOPARTE": "107",
+                        "NOMBREPARTE": "Cubre Maletero"
+                    },
+                    {
+                        "IDPARTE": "165",
+                        "CODIGOPARTE": "27",
+                        "NOMBREPARTE": "Espejos Electricos"
+                    },
+                    {
+                        "IDPARTE": "170",
+                        "CODIGOPARTE": "25",
+                        "NOMBREPARTE": "Pantalla DVD"
+                    },
+                    {
+                        "IDPARTE": "177",
+                        "CODIGOPARTE": "28",
+                        "NOMBREPARTE": "Techo Corredizo"
+                    },
+                    {
+                        "IDPARTE": "180",
+                        "CODIGOPARTE": "24",
+                        "NOMBREPARTE": "Vidrios Electricos"
+                    },
+                    {
+                        "IDPARTE": "181",
+                        "CODIGOPARTE": "29",
+                        "NOMBREPARTE": "Volante de Lujo"
+                    },
+                    {
+                        "IDPARTE": "188",
+                        "CODIGOPARTE": "03",
+                        "NOMBREPARTE": "Tablero"
+                    },
+                    {
+                        "IDPARTE": "189",
+                        "CODIGOPARTE": "11",
+                        "NOMBREPARTE": "Tapa Base Cinturones"
+                    },
+                    {
+                        "IDPARTE": "190",
+                        "CODIGOPARTE": "32",
+                        "NOMBREPARTE": "Cajuela Izquierda"
+                    },
+                    {
+                        "IDPARTE": "191",
+                        "CODIGOPARTE": "33",
+                        "NOMBREPARTE": "Cajuela Derecha"
+                    },
+                    {
+                        "IDPARTE": "156",
+                        "CODIGOPARTE": "134",
+                        "NOMBREPARTE": "Audifonos"
+                    },
+                    {
+                        "IDPARTE": "159",
+                        "CODIGOPARTE": "133",
+                        "NOMBREPARTE": "Control Remoto DVD "
+                    },
+                    {
+                        "IDPARTE": "131",
+                        "CODIGOPARTE": "140",
+                        "NOMBREPARTE": "Compresor"
+                    },
+                    {
+                        "IDPARTE": "133",
+                        "CODIGOPARTE": "137",
+                        "NOMBREPARTE": "Cruceta / Llave de pernos"
+                    },
+                    {
+                        "IDPARTE": "138",
+                        "CODIGOPARTE": "138",
+                        "NOMBREPARTE": "Gancho de arrastre"
+                    },
+                    {
+                        "IDPARTE": "139",
+                        "CODIGOPARTE": "135",
+                        "NOMBREPARTE": "Gato"
+                    },
+                    {
+                        "IDPARTE": "146",
+                        "CODIGOPARTE": "136",
+                        "NOMBREPARTE": "Palanca de Gato"
+                    },
+                    {
+                        "IDPARTE": "153",
+                        "CODIGOPARTE": "139",
+                        "NOMBREPARTE": "Tapa gancho de arrastre"
+                    },
+                    {
+                        "IDPARTE": "226",
+                        "CODIGOPARTE": "141",
+                        "NOMBREPARTE": "Líquido Sellante"
+                    },
+                    {
+                        "IDPARTE": "232",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Kit Despinche"
+                    },
+                    {
+                        "IDPARTE": "66",
+                        "CODIGOPARTE": "43",
+                        "NOMBREPARTE": "Llantas Delant. Dere."
+                    },
+                    {
+                        "IDPARTE": "67",
+                        "CODIGOPARTE": "45",
+                        "NOMBREPARTE": "Llantas Delant. Izq."
+                    },
+                    {
+                        "IDPARTE": "78",
+                        "CODIGOPARTE": "48",
+                        "NOMBREPARTE": "Rines Delant. Dere."
+                    },
+                    {
+                        "IDPARTE": "79",
+                        "CODIGOPARTE": "50",
+                        "NOMBREPARTE": "Rines Delant. Izq."
+                    },
+                    {
+                        "IDPARTE": "105",
+                        "CODIGOPARTE": "46",
+                        "NOMBREPARTE": "Llantas Traseras Izq."
+                    },
+                    {
+                        "IDPARTE": "106",
+                        "CODIGOPARTE": "44",
+                        "NOMBREPARTE": "Llantas Trasera Dere."
+                    },
+                    {
+                        "IDPARTE": "114",
+                        "CODIGOPARTE": "49",
+                        "NOMBREPARTE": "Rines Traseros Dere."
+                    },
+                    {
+                        "IDPARTE": "115",
+                        "CODIGOPARTE": "51",
+                        "NOMBREPARTE": "Rines Traseros Izq."
+                    },
+                    {
+                        "IDPARTE": "132",
+                        "CODIGOPARTE": "52",
+                        "NOMBREPARTE": "Copas / Tapas de Rin"
+                    },
+                    {
+                        "IDPARTE": "143",
+                        "CODIGOPARTE": "47",
+                        "NOMBREPARTE": "Llanta de repuesto"
+                    },
+                    {
+                        "IDPARTE": "185",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Encendido"
+                    },
+                    {
+                        "IDPARTE": "73",
+                        "CODIGOPARTE": "34",
+                        "NOMBREPARTE": "Panorámico Delantero"
+                    },
+                    {
+                        "IDPARTE": "88",
+                        "CODIGOPARTE": "37",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Del Derecha"
+                    },
+                    {
+                        "IDPARTE": "89",
+                        "CODIGOPARTE": "39",
+                        "NOMBREPARTE": "Vidrio Custodia Der."
+                    },
+                    {
+                        "IDPARTE": "90",
+                        "CODIGOPARTE": "40",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Del Izquierda"
+                    },
+                    {
+                        "IDPARTE": "91",
+                        "CODIGOPARTE": "42",
+                        "NOMBREPARTE": "Vidrio Custodia Izq."
+                    },
+                    {
+                        "IDPARTE": "110",
+                        "CODIGOPARTE": "35",
+                        "NOMBREPARTE": "Panoramico Trasero"
+                    },
+                    {
+                        "IDPARTE": "120",
+                        "CODIGOPARTE": "38",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Tras Derecha"
+                    },
+                    {
+                        "IDPARTE": "121",
+                        "CODIGOPARTE": "41",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Tras. Izq."
+                    },
+                    {
+                        "IDPARTE": "192",
+                        "CODIGOPARTE": "36",
+                        "NOMBREPARTE": "Tapa Bisagra panorámico trasero"
+                    },
+                    {
+                        "IDPARTE": "182",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Kilometraje"
+                    },
+                    {
+                        "IDPARTE": "183",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Nivel Combustible"
+                    },
+                    {
+                        "IDPARTE": "209",
+                        "CODIGOPARTE": "102",
+                        "NOMBREPARTE": "Manual Propietario"
+                    },
+                    {
+                        "IDPARTE": "210",
+                        "CODIGOPARTE": "103",
+                        "NOMBREPARTE": "Certificado Garantía"
+                    },
+                    {
+                        "IDPARTE": "211",
+                        "CODIGOPARTE": "104",
+                        "NOMBREPARTE": "Sticker Cinturon"
+                    },
+                    {
+                        "IDPARTE": "212",
+                        "CODIGOPARTE": "105",
+                        "NOMBREPARTE": "Sticker Habitaculo Motor"
+                    },
+                    {
+                        "IDPARTE": "234",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Sello de puertas"
+                    }
+                ],
+                "TIPONOVEDAD": [
+                    {
+                        "IDTIPONOVEDAD": "24",
+                        "NOMBRETIPONOVEDAD": "Roto"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "25",
+                        "NOMBRETIPONOVEDAD": "Cortado"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "26",
+                        "NOMBRETIPONOVEDAD": "Perforado"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "27",
+                        "NOMBRETIPONOVEDAD": "Golpe"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "28",
+                        "NOMBRETIPONOVEDAD": "Sumidura"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "29",
+                        "NOMBRETIPONOVEDAD": "Raya para pintar"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "30",
+                        "NOMBRETIPONOVEDAD": "Raya para pulir"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "31",
+                        "NOMBRETIPONOVEDAD": "Desconche"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "32",
+                        "NOMBRETIPONOVEDAD": "Faltante"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "33",
+                        "NOMBRETIPONOVEDAD": "Otros"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "34",
+                        "NOMBRETIPONOVEDAD": "No aplica"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "41",
+                        "NOMBRETIPONOVEDAD": "Picadura"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "42",
+                        "NOMBRETIPONOVEDAD": "Grumo"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "43",
+                        "NOMBRETIPONOVEDAD": "Oxidacion"
+                    }
+                ]
+            },
+            {
+                "IDMOVILIZACION": "7562",
+                "CLIENTE": "SK Berge Colombia SAS",
+                "MOTONAVE": "DONINGTON",
+                "PROCESOS": [
+                    "2": {
+                        "IDPROCESO": "7",
+                        "NOMBREPROCESO": "Recepción en Permanencia",
+                        "DESCRIPCION": "Recepción en Permanencia",
+                        "UNIDADES": [
+                            {
+                                "IDUNIDAD": "76437",
+                                "VIN": "1C4HJXAG6LW221494",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "STING GRAY"
+                            },
+                            {
+                                "IDUNIDAD": "76438",
+                                "VIN": "1C4HJXAG3LW221517",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76439",
+                                "VIN": "1C4HJXAG2LW225736",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76440",
+                                "VIN": "1C4HJXAG6LW224685",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "ROJO METALICO"
+                            },
+                            {
+                                "IDUNIDAD": "76441",
+                                "VIN": "1C4HJXAG8LW224686",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "ROJO METALICO"
+                            },
+                            {
+                                "IDUNIDAD": "76442",
+                                "VIN": "1C4HJXAG7LW221536",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76443",
+                                "VIN": "1C4HJXAG1LW224691",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76444",
+                                "VIN": "1C4HJXAG6LW225738",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76445",
+                                "VIN": "1C4HJXAG1LW233844",
+                                "TIPO": "Wrangler Sport JL AT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76446",
+                                "VIN": "1C4HJXDG8LW211853",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76447",
+                                "VIN": "1C4HJXDG6LW221538",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76448",
+                                "VIN": "1C4HJXDG9LW224692",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76449",
+                                "VIN": "1C4HJXDG6LW224696",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76450",
+                                "VIN": "1C4HJXDG8LW231746",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "AMARILLO HELLAYELLA"
+                            },
+                            {
+                                "IDUNIDAD": "76451",
+                                "VIN": "1C4HJXFG2LW224708",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO BRILLANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76452",
+                                "VIN": "1C4HJXFG4LW224709",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO"
+                            },
+                            {
+                                "IDUNIDAD": "76453",
+                                "VIN": "1C4HJXFG4LW224712",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76454",
+                                "VIN": "1C4HJXFG2LW233845",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76455",
+                                "VIN": "1C4HJXFG2LW246224",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76456",
+                                "VIN": "1C4HJXFG2LW240469",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76457",
+                                "VIN": "1C4HJXFG9LW240470",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76458",
+                                "VIN": "1C4HJXFG0LW240471",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76459",
+                                "VIN": "1C4HJXFG2LW240472",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76460",
+                                "VIN": "1C4HJXFG4LW246225",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76461",
+                                "VIN": "1C4HJXFG6LW246226",
+                                "TIPO": "Wrangler JL Unlimite",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76462",
+                                "VIN": "1C6RRFFG2LN201126",
+                                "TIPO": "RAM DT 1500 BIG HORN",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76463",
+                                "VIN": "1C4RJFDJ6LC215668",
+                                "TIPO": "Grand Cherokee SRT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76464",
+                                "VIN": "1C4RJFDJ4LC224675",
+                                "TIPO": "Grand Cherokee SRT",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS GRANITO"
+                            },
+                            {
+                                "IDUNIDAD": "76465",
+                                "VIN": "1C4RJFBGXLC195545",
+                                "TIPO": "Grand Cherokee Limit",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76466",
+                                "VIN": "1C4PJMCX9LD590451",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO BRILLANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76467",
+                                "VIN": "1C4PJMCX0LD597160",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76468",
+                                "VIN": "1C4PJMCX0LD590452",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76469",
+                                "VIN": "1C4PJMCX6LD597163",
+                                "TIPO": "Cherokee Longitude 4",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76470",
+                                "VIN": "3C4NJCBB5LT158487",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76471",
+                                "VIN": "3C4NJCBB9LT158489",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76472",
+                                "VIN": "3C4NJCBB5LT158490",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76473",
+                                "VIN": "3C4NJCBB7LT158491",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76474",
+                                "VIN": "3C4NJCBB9LT158492",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76475",
+                                "VIN": "3C4NJCBB7LT158474",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "GRIS METAL"
+                            },
+                            {
+                                "IDUNIDAD": "76476",
+                                "VIN": "3C4NJCBB9LT158475",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "NEGRO DIAMANTE"
+                            },
+                            {
+                                "IDUNIDAD": "76477",
+                                "VIN": "3C4NJCBB4LT158481",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76478",
+                                "VIN": "3C4NJCBB6LT158482",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            },
+                            {
+                                "IDUNIDAD": "76479",
+                                "VIN": "3C4NJCBB1LT158485",
+                                "TIPO": "Compass Longitude Pl",
+                                "MODELO": "S/D",
+                                "COLOR": "BLANCO"
+                            }
+                        ]
+                    },
+                   {
+                        "IDPROCESO": "7",
+                        "NOMBREPROCESO": "Recepción en Permanencia",
+                        "DESCRIPCION": "Recepción en Permanencia",
+                        "UNIDADES": [
+                            {
+                                "IDUNIDAD": "76589",
+                                "VIN": "ZFA334000LP820193",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Moda"
+                            },
+                            {
+                                "IDUNIDAD": "76590",
+                                "VIN": "ZFA334000LP819617",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Argento"
+                            },
+                            {
+                                "IDUNIDAD": "76591",
+                                "VIN": "ZFA334000LP819604",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Argento"
+                            },
+                            {
+                                "IDUNIDAD": "76592",
+                                "VIN": "ZFA334000LP818383",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Negro Cinema"
+                            },
+                            {
+                                "IDUNIDAD": "76593",
+                                "VIN": "ZFA334000LP820210",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Blanco Glory"
+                            },
+                            {
+                                "IDUNIDAD": "76594",
+                                "VIN": "ZFA334000LP819615",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Rojo Passione"
+                            },
+                            {
+                                "IDUNIDAD": "76595",
+                                "VIN": "ZFA334000LP820178",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Rojo Passione"
+                            },
+                            {
+                                "IDUNIDAD": "76596",
+                                "VIN": "ZFA334000LP819416",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Blanco Gelato"
+                            },
+                            {
+                                "IDUNIDAD": "76597",
+                                "VIN": "ZFA334000LP822953",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Moda"
+                            },
+                            {
+                                "IDUNIDAD": "76598",
+                                "VIN": "ZFA334000LP820167",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Moda"
+                            },
+                            {
+                                "IDUNIDAD": "76599",
+                                "VIN": "ZFA334000LP820033",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Moda"
+                            },
+                            {
+                                "IDUNIDAD": "76600",
+                                "VIN": "ZFA334000LP819607",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Azul Venecia"
+                            },
+                            {
+                                "IDUNIDAD": "76601",
+                                "VIN": "ZFA334000LP823016",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Argento"
+                            },
+                            {
+                                "IDUNIDAD": "76602",
+                                "VIN": "ZFA334000LP819600",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Gris Argento"
+                            },
+                            {
+                                "IDUNIDAD": "76603",
+                                "VIN": "ZFA334000LP818377",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Negro Cinema"
+                            },
+                            {
+                                "IDUNIDAD": "76604",
+                                "VIN": "ZFA334000LP819261",
+                                "TIPO": "500X LATITUDE 4X2",
+                                "MODELO": "S/D",
+                                "COLOR": "Blanco Glory"
+                            }
+                        ]
+                    }
+                ],
+                "PARTES": [
+                    {
+                        "IDPARTE": "13",
+                        "CODIGOPARTE": "109",
+                        "NOMBREPARTE": "Cenicero"
+                    },
+                    {
+                        "IDPARTE": "18",
+                        "CODIGOPARTE": "110",
+                        "NOMBREPARTE": "Encendedor"
+                    },
+                    {
+                        "IDPARTE": "20",
+                        "CODIGOPARTE": "126",
+                        "NOMBREPARTE": "Estuche de manuales"
+                    },
+                    {
+                        "IDPARTE": "23",
+                        "CODIGOPARTE": "130",
+                        "NOMBREPARTE": "Llaves de Encendido /Telecomandos"
+                    },
+                    {
+                        "IDPARTE": "124",
+                        "CODIGOPARTE": "118",
+                        "NOMBREPARTE": "Antena de radio"
+                    },
+                    {
+                        "IDPARTE": "127",
+                        "CODIGOPARTE": "108",
+                        "NOMBREPARTE": "Cables / Cables USB"
+                    },
+                    {
+                        "IDPARTE": "140",
+                        "CODIGOPARTE": "116",
+                        "NOMBREPARTE": "Guantes"
+                    },
+                    {
+                        "IDPARTE": "142",
+                        "CODIGOPARTE": "119",
+                        "NOMBREPARTE": "Linterna"
+                    },
+                    {
+                        "IDPARTE": "147",
+                        "CODIGOPARTE": "124",
+                        "NOMBREPARTE": "Perno Guia / de Seguridad"
+                    },
+                    {
+                        "IDPARTE": "152",
+                        "CODIGOPARTE": "117",
+                        "NOMBREPARTE": "Tapetes"
+                    },
+                    {
+                        "IDPARTE": "154",
+                        "CODIGOPARTE": "121",
+                        "NOMBREPARTE": "Porta-Placa"
+                    },
+                    {
+                        "IDPARTE": "155",
+                        "CODIGOPARTE": "131",
+                        "NOMBREPARTE": "Triángulo"
+                    },
+                    {
+                        "IDPARTE": "167",
+                        "CODIGOPARTE": "106",
+                        "NOMBREPARTE": "Malla"
+                    },
+                    {
+                        "IDPARTE": "171",
+                        "CODIGOPARTE": "113",
+                        "NOMBREPARTE": "Parales de Techo / Travesaño"
+                    },
+                    {
+                        "IDPARTE": "187",
+                        "CODIGOPARTE": "132",
+                        "NOMBREPARTE": "Otra Parte No Codificada"
+                    },
+                    {
+                        "IDPARTE": "213",
+                        "CODIGOPARTE": "125",
+                        "NOMBREPARTE": "Manual Conductor"
+                    },
+                    {
+                        "IDPARTE": "214",
+                        "CODIGOPARTE": "111",
+                        "NOMBREPARTE": "Cajas Parales"
+                    },
+                    {
+                        "IDPARTE": "215",
+                        "CODIGOPARTE": "112",
+                        "NOMBREPARTE": "Cajas Ventanas"
+                    },
+                    {
+                        "IDPARTE": "216",
+                        "CODIGOPARTE": "114",
+                        "NOMBREPARTE": "Carpa"
+                    },
+                    {
+                        "IDPARTE": "217",
+                        "CODIGOPARTE": "115",
+                        "NOMBREPARTE": "Forro Repuesto"
+                    },
+                    {
+                        "IDPARTE": "218",
+                        "CODIGOPARTE": "120",
+                        "NOMBREPARTE": "Tornillos de Placa"
+                    },
+                    {
+                        "IDPARTE": "220",
+                        "CODIGOPARTE": "123",
+                        "NOMBREPARTE": "Correas"
+                    },
+                    {
+                        "IDPARTE": "221",
+                        "CODIGOPARTE": "127",
+                        "NOMBREPARTE": "Llaves sencillas"
+                    },
+                    {
+                        "IDPARTE": "222",
+                        "CODIGOPARTE": "128",
+                        "NOMBREPARTE": "Inserto"
+                    },
+                    {
+                        "IDPARTE": "223",
+                        "CODIGOPARTE": "129",
+                        "NOMBREPARTE": "Boton Star/Off"
+                    },
+                    {
+                        "IDPARTE": "125",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Bolsa Accesorios Sellada"
+                    },
+                    {
+                        "IDPARTE": "225",
+                        "CODIGOPARTE": "122",
+                        "NOMBREPARTE": "Tapa Manija"
+                    },
+                    {
+                        "IDPARTE": "44",
+                        "CODIGOPARTE": "99",
+                        "NOMBREPARTE": "Biseles / Boseles"
+                    },
+                    {
+                        "IDPARTE": "45",
+                        "CODIGOPARTE": "68",
+                        "NOMBREPARTE": "Bomper Delantero"
+                    },
+                    {
+                        "IDPARTE": "48",
+                        "CODIGOPARTE": "72",
+                        "NOMBREPARTE": "Capot"
+                    },
+                    {
+                        "IDPARTE": "49",
+                        "CODIGOPARTE": "85",
+                        "NOMBREPARTE": "Cauchos / Empaques"
+                    },
+                    {
+                        "IDPARTE": "55",
+                        "CODIGOPARTE": "53",
+                        "NOMBREPARTE": "Espejo Retrovisor Der."
+                    },
+                    {
+                        "IDPARTE": "56",
+                        "CODIGOPARTE": "54",
+                        "NOMBREPARTE": "Espejo Retrovisor Izq."
+                    },
+                    {
+                        "IDPARTE": "61",
+                        "CODIGOPARTE": "61",
+                        "NOMBREPARTE": "Faros delanteros"
+                    },
+                    {
+                        "IDPARTE": "62",
+                        "CODIGOPARTE": "90",
+                        "NOMBREPARTE": "Guardafangos Delantero Derecho"
+                    },
+                    {
+                        "IDPARTE": "63",
+                        "CODIGOPARTE": "92",
+                        "NOMBREPARTE": "Guardafangos Delantero Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "64",
+                        "CODIGOPARTE": "62",
+                        "NOMBREPARTE": "Lámparas exploradoras"
+                    },
+                    {
+                        "IDPARTE": "65",
+                        "CODIGOPARTE": "96",
+                        "NOMBREPARTE": "Limpia-parabrisas"
+                    },
+                    {
+                        "IDPARTE": "71",
+                        "CODIGOPARTE": "58",
+                        "NOMBREPARTE": "Manija Delant Derecha"
+                    },
+                    {
+                        "IDPARTE": "72",
+                        "CODIGOPARTE": "56",
+                        "NOMBREPARTE": "Manija Delant. Izquierda"
+                    },
+                    {
+                        "IDPARTE": "75",
+                        "CODIGOPARTE": "67",
+                        "NOMBREPARTE": "Persiana"
+                    },
+                    {
+                        "IDPARTE": "76",
+                        "CODIGOPARTE": "82",
+                        "NOMBREPARTE": "Puerta Delant. Derecha"
+                    },
+                    {
+                        "IDPARTE": "77",
+                        "CODIGOPARTE": "80",
+                        "NOMBREPARTE": "Puerta Delant. Izquierda"
+                    },
+                    {
+                        "IDPARTE": "93",
+                        "CODIGOPARTE": "84",
+                        "NOMBREPARTE": "Baúl / Puerta Baúl"
+                    },
+                    {
+                        "IDPARTE": "95",
+                        "CODIGOPARTE": "70",
+                        "NOMBREPARTE": "Bomper Trasero / Tapas"
+                    },
+                    {
+                        "IDPARTE": "96",
+                        "CODIGOPARTE": "98",
+                        "NOMBREPARTE": "Capota de Lona"
+                    },
+                    {
+                        "IDPARTE": "99",
+                        "CODIGOPARTE": "63",
+                        "NOMBREPARTE": "Direccionales"
+                    },
+                    {
+                        "IDPARTE": "100",
+                        "CODIGOPARTE": "14",
+                        "NOMBREPARTE": "Emblema Trasero"
+                    },
+                    {
+                        "IDPARTE": "102",
+                        "CODIGOPARTE": "91",
+                        "NOMBREPARTE": "Guardafango Trasero Derecho"
+                    },
+                    {
+                        "IDPARTE": "103",
+                        "CODIGOPARTE": "93",
+                        "NOMBREPARTE": "Guardafango Trasero Izq"
+                    },
+                    {
+                        "IDPARTE": "104",
+                        "CODIGOPARTE": "95",
+                        "NOMBREPARTE": "Limpia-parabrisas Trasero"
+                    },
+                    {
+                        "IDPARTE": "108",
+                        "CODIGOPARTE": "59",
+                        "NOMBREPARTE": "Manija Tras Derecha"
+                    },
+                    {
+                        "IDPARTE": "109",
+                        "CODIGOPARTE": "57",
+                        "NOMBREPARTE": "Manija Trasera Izquierda"
+                    },
+                    {
+                        "IDPARTE": "111",
+                        "CODIGOPARTE": "83",
+                        "NOMBREPARTE": "Puerta Trasera Derecha"
+                    },
+                    {
+                        "IDPARTE": "112",
+                        "CODIGOPARTE": "81",
+                        "NOMBREPARTE": "Puerta Trasera Izquierda"
+                    },
+                    {
+                        "IDPARTE": "113",
+                        "CODIGOPARTE": "60",
+                        "NOMBREPARTE": "Manija Quinta Puerta (Baúl)"
+                    },
+                    {
+                        "IDPARTE": "116",
+                        "CODIGOPARTE": "55",
+                        "NOMBREPARTE": "Lunas espejos"
+                    },
+                    {
+                        "IDPARTE": "118",
+                        "CODIGOPARTE": "94",
+                        "NOMBREPARTE": "Tapa Combustible"
+                    },
+                    {
+                        "IDPARTE": "141",
+                        "CODIGOPARTE": "100",
+                        "NOMBREPARTE": "Juego de Plumillas"
+                    },
+                    {
+                        "IDPARTE": "193",
+                        "CODIGOPARTE": "64",
+                        "NOMBREPARTE": "Luz de Reversa"
+                    },
+                    {
+                        "IDPARTE": "194",
+                        "CODIGOPARTE": "65",
+                        "NOMBREPARTE": "Stop Derecho"
+                    },
+                    {
+                        "IDPARTE": "195",
+                        "CODIGOPARTE": "66",
+                        "NOMBREPARTE": "Stop Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "196",
+                        "CODIGOPARTE": "69",
+                        "NOMBREPARTE": "Deflector Bomper Del. (Babero)"
+                    },
+                    {
+                        "IDPARTE": "197",
+                        "CODIGOPARTE": "71",
+                        "NOMBREPARTE": "Deflector Bomper Tras. (Babero)"
+                    },
+                    {
+                        "IDPARTE": "198",
+                        "CODIGOPARTE": "73",
+                        "NOMBREPARTE": "Insonorizante Capot"
+                    },
+                    {
+                        "IDPARTE": "199",
+                        "CODIGOPARTE": "74",
+                        "NOMBREPARTE": "Paral Delantero Dere."
+                    },
+                    {
+                        "IDPARTE": "200",
+                        "CODIGOPARTE": "76",
+                        "NOMBREPARTE": "Paral Delantero Izq."
+                    },
+                    {
+                        "IDPARTE": "201",
+                        "CODIGOPARTE": "75",
+                        "NOMBREPARTE": "Paral Trasero Dere."
+                    },
+                    {
+                        "IDPARTE": "202",
+                        "CODIGOPARTE": "79",
+                        "NOMBREPARTE": "Paral Trasero Izq."
+                    },
+                    {
+                        "IDPARTE": "203",
+                        "CODIGOPARTE": "77",
+                        "NOMBREPARTE": "Paral Central Izq."
+                    },
+                    {
+                        "IDPARTE": "204",
+                        "CODIGOPARTE": "86",
+                        "NOMBREPARTE": "Estribo Delantero Der."
+                    },
+                    {
+                        "IDPARTE": "205",
+                        "CODIGOPARTE": "89",
+                        "NOMBREPARTE": "Estribo Delantero Izq."
+                    },
+                    {
+                        "IDPARTE": "206",
+                        "CODIGOPARTE": "87",
+                        "NOMBREPARTE": "Estribo Trasero Der."
+                    },
+                    {
+                        "IDPARTE": "207",
+                        "CODIGOPARTE": "88",
+                        "NOMBREPARTE": "Estribo Trasero Izq."
+                    },
+                    {
+                        "IDPARTE": "208",
+                        "CODIGOPARTE": "97",
+                        "NOMBREPARTE": "Techo (Capota)"
+                    },
+                    {
+                        "IDPARTE": "224",
+                        "CODIGOPARTE": "101",
+                        "NOMBREPARTE": "Piso Platón"
+                    },
+                    {
+                        "IDPARTE": "236",
+                        "CODIGOPARTE": "78",
+                        "NOMBREPARTE": "Paral Central Dere."
+                    },
+                    {
+                        "IDPARTE": "1",
+                        "CODIGOPARTE": "22",
+                        "NOMBREPARTE": "Aire Acondicionado - Controles "
+                    },
+                    {
+                        "IDPARTE": "3",
+                        "CODIGOPARTE": "17",
+                        "NOMBREPARTE": "Apoya Cabezas"
+                    },
+                    {
+                        "IDPARTE": "4",
+                        "CODIGOPARTE": "06",
+                        "NOMBREPARTE": "Asiento Derecho"
+                    },
+                    {
+                        "IDPARTE": "5",
+                        "CODIGOPARTE": "05",
+                        "NOMBREPARTE": "Asiento Izquierdo"
+                    },
+                    {
+                        "IDPARTE": "7",
+                        "CODIGOPARTE": "07",
+                        "NOMBREPARTE": "Asientos Traseros"
+                    },
+                    {
+                        "IDPARTE": "9",
+                        "CODIGOPARTE": "26",
+                        "NOMBREPARTE": "Bloqueo Central"
+                    },
+                    {
+                        "IDPARTE": "10",
+                        "CODIGOPARTE": "19",
+                        "NOMBREPARTE": "Bocina / Pito"
+                    },
+                    {
+                        "IDPARTE": "14",
+                        "CODIGOPARTE": "09",
+                        "NOMBREPARTE": "Luz de Cortesía"
+                    },
+                    {
+                        "IDPARTE": "15",
+                        "CODIGOPARTE": "10",
+                        "NOMBREPARTE": "Cinturones Delanteros"
+                    },
+                    {
+                        "IDPARTE": "16",
+                        "CODIGOPARTE": "0",
+                        "NOMBREPARTE": "Cinturones Traseros"
+                    },
+                    {
+                        "IDPARTE": "19",
+                        "CODIGOPARTE": "04",
+                        "NOMBREPARTE": "Espejo retrovisor"
+                    },
+                    {
+                        "IDPARTE": "22",
+                        "CODIGOPARTE": "02",
+                        "NOMBREPARTE": "Guantera"
+                    },
+                    {
+                        "IDPARTE": "27",
+                        "CODIGOPARTE": "18",
+                        "NOMBREPARTE": "Manijas Internas"
+                    },
+                    {
+                        "IDPARTE": "29",
+                        "CODIGOPARTE": "01",
+                        "NOMBREPARTE": "Millaré / Tablero"
+                    },
+                    {
+                        "IDPARTE": "30",
+                        "CODIGOPARTE": "15",
+                        "NOMBREPARTE": "Panel Interior Puertas"
+                    },
+                    {
+                        "IDPARTE": "32",
+                        "CODIGOPARTE": "16",
+                        "NOMBREPARTE": "Parasoles"
+                    },
+                    {
+                        "IDPARTE": "34",
+                        "CODIGOPARTE": "23",
+                        "NOMBREPARTE": "Radio"
+                    },
+                    {
+                        "IDPARTE": "36",
+                        "CODIGOPARTE": "13",
+                        "NOMBREPARTE": "Reloj"
+                    },
+                    {
+                        "IDPARTE": "40",
+                        "CODIGOPARTE": "08",
+                        "NOMBREPARTE": "Tercera Fila"
+                    },
+                    {
+                        "IDPARTE": "53",
+                        "CODIGOPARTE": "0",
+                        "NOMBREPARTE": "Emblema Delantero"
+                    },
+                    {
+                        "IDPARTE": "74",
+                        "CODIGOPARTE": "30",
+                        "NOMBREPARTE": "Palanca de Cambios"
+                    },
+                    {
+                        "IDPARTE": "80",
+                        "CODIGOPARTE": "20",
+                        "NOMBREPARTE": "Tapiceria en Cuero"
+                    },
+                    {
+                        "IDPARTE": "86",
+                        "CODIGOPARTE": "21",
+                        "NOMBREPARTE": "Tapiceria en Tela"
+                    },
+                    {
+                        "IDPARTE": "94",
+                        "CODIGOPARTE": "12",
+                        "NOMBREPARTE": "Parlantes"
+                    },
+                    {
+                        "IDPARTE": "107",
+                        "CODIGOPARTE": "31",
+                        "NOMBREPARTE": "Consola Caja  de Cambios"
+                    },
+                    {
+                        "IDPARTE": "163",
+                        "CODIGOPARTE": "107",
+                        "NOMBREPARTE": "Cubre Maletero"
+                    },
+                    {
+                        "IDPARTE": "165",
+                        "CODIGOPARTE": "27",
+                        "NOMBREPARTE": "Espejos Electricos"
+                    },
+                    {
+                        "IDPARTE": "170",
+                        "CODIGOPARTE": "25",
+                        "NOMBREPARTE": "Pantalla DVD"
+                    },
+                    {
+                        "IDPARTE": "177",
+                        "CODIGOPARTE": "28",
+                        "NOMBREPARTE": "Techo Corredizo"
+                    },
+                    {
+                        "IDPARTE": "180",
+                        "CODIGOPARTE": "24",
+                        "NOMBREPARTE": "Vidrios Electricos"
+                    },
+                    {
+                        "IDPARTE": "181",
+                        "CODIGOPARTE": "29",
+                        "NOMBREPARTE": "Volante de Lujo"
+                    },
+                    {
+                        "IDPARTE": "188",
+                        "CODIGOPARTE": "03",
+                        "NOMBREPARTE": "Tablero"
+                    },
+                    {
+                        "IDPARTE": "189",
+                        "CODIGOPARTE": "11",
+                        "NOMBREPARTE": "Tapa Base Cinturones"
+                    },
+                    {
+                        "IDPARTE": "190",
+                        "CODIGOPARTE": "32",
+                        "NOMBREPARTE": "Cajuela Izquierda"
+                    },
+                    {
+                        "IDPARTE": "191",
+                        "CODIGOPARTE": "33",
+                        "NOMBREPARTE": "Cajuela Derecha"
+                    },
+                    {
+                        "IDPARTE": "156",
+                        "CODIGOPARTE": "134",
+                        "NOMBREPARTE": "Audifonos"
+                    },
+                    {
+                        "IDPARTE": "159",
+                        "CODIGOPARTE": "133",
+                        "NOMBREPARTE": "Control Remoto DVD "
+                    },
+                    {
+                        "IDPARTE": "131",
+                        "CODIGOPARTE": "140",
+                        "NOMBREPARTE": "Compresor"
+                    },
+                    {
+                        "IDPARTE": "133",
+                        "CODIGOPARTE": "137",
+                        "NOMBREPARTE": "Cruceta / Llave de pernos"
+                    },
+                    {
+                        "IDPARTE": "138",
+                        "CODIGOPARTE": "138",
+                        "NOMBREPARTE": "Gancho de arrastre"
+                    },
+                    {
+                        "IDPARTE": "139",
+                        "CODIGOPARTE": "135",
+                        "NOMBREPARTE": "Gato"
+                    },
+                    {
+                        "IDPARTE": "146",
+                        "CODIGOPARTE": "136",
+                        "NOMBREPARTE": "Palanca de Gato"
+                    },
+                    {
+                        "IDPARTE": "153",
+                        "CODIGOPARTE": "139",
+                        "NOMBREPARTE": "Tapa gancho de arrastre"
+                    },
+                    {
+                        "IDPARTE": "226",
+                        "CODIGOPARTE": "141",
+                        "NOMBREPARTE": "Líquido Sellante"
+                    },
+                    {
+                        "IDPARTE": "232",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Kit Despinche"
+                    },
+                    {
+                        "IDPARTE": "66",
+                        "CODIGOPARTE": "43",
+                        "NOMBREPARTE": "Llantas Delant. Dere."
+                    },
+                    {
+                        "IDPARTE": "67",
+                        "CODIGOPARTE": "45",
+                        "NOMBREPARTE": "Llantas Delant. Izq."
+                    },
+                    {
+                        "IDPARTE": "78",
+                        "CODIGOPARTE": "48",
+                        "NOMBREPARTE": "Rines Delant. Dere."
+                    },
+                    {
+                        "IDPARTE": "79",
+                        "CODIGOPARTE": "50",
+                        "NOMBREPARTE": "Rines Delant. Izq."
+                    },
+                    {
+                        "IDPARTE": "105",
+                        "CODIGOPARTE": "46",
+                        "NOMBREPARTE": "Llantas Traseras Izq."
+                    },
+                    {
+                        "IDPARTE": "106",
+                        "CODIGOPARTE": "44",
+                        "NOMBREPARTE": "Llantas Trasera Dere."
+                    },
+                    {
+                        "IDPARTE": "114",
+                        "CODIGOPARTE": "49",
+                        "NOMBREPARTE": "Rines Traseros Dere."
+                    },
+                    {
+                        "IDPARTE": "115",
+                        "CODIGOPARTE": "51",
+                        "NOMBREPARTE": "Rines Traseros Izq."
+                    },
+                    {
+                        "IDPARTE": "132",
+                        "CODIGOPARTE": "52",
+                        "NOMBREPARTE": "Copas / Tapas de Rin"
+                    },
+                    {
+                        "IDPARTE": "143",
+                        "CODIGOPARTE": "47",
+                        "NOMBREPARTE": "Llanta de repuesto"
+                    },
+                    {
+                        "IDPARTE": "185",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Encendido"
+                    },
+                    {
+                        "IDPARTE": "73",
+                        "CODIGOPARTE": "34",
+                        "NOMBREPARTE": "Panorámico Delantero"
+                    },
+                    {
+                        "IDPARTE": "88",
+                        "CODIGOPARTE": "37",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Del Derecha"
+                    },
+                    {
+                        "IDPARTE": "89",
+                        "CODIGOPARTE": "39",
+                        "NOMBREPARTE": "Vidrio Custodia Der."
+                    },
+                    {
+                        "IDPARTE": "90",
+                        "CODIGOPARTE": "40",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Del Izquierda"
+                    },
+                    {
+                        "IDPARTE": "91",
+                        "CODIGOPARTE": "42",
+                        "NOMBREPARTE": "Vidrio Custodia Izq."
+                    },
+                    {
+                        "IDPARTE": "110",
+                        "CODIGOPARTE": "35",
+                        "NOMBREPARTE": "Panoramico Trasero"
+                    },
+                    {
+                        "IDPARTE": "120",
+                        "CODIGOPARTE": "38",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Tras Derecha"
+                    },
+                    {
+                        "IDPARTE": "121",
+                        "CODIGOPARTE": "41",
+                        "NOMBREPARTE": "Vidrio(s) Puerta Tras. Izq."
+                    },
+                    {
+                        "IDPARTE": "192",
+                        "CODIGOPARTE": "36",
+                        "NOMBREPARTE": "Tapa Bisagra panorámico trasero"
+                    },
+                    {
+                        "IDPARTE": "182",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Kilometraje"
+                    },
+                    {
+                        "IDPARTE": "183",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Nivel Combustible"
+                    },
+                    {
+                        "IDPARTE": "209",
+                        "CODIGOPARTE": "102",
+                        "NOMBREPARTE": "Manual Propietario"
+                    },
+                    {
+                        "IDPARTE": "210",
+                        "CODIGOPARTE": "103",
+                        "NOMBREPARTE": "Certificado Garantía"
+                    },
+                    {
+                        "IDPARTE": "211",
+                        "CODIGOPARTE": "104",
+                        "NOMBREPARTE": "Sticker Cinturon"
+                    },
+                    {
+                        "IDPARTE": "212",
+                        "CODIGOPARTE": "105",
+                        "NOMBREPARTE": "Sticker Habitaculo Motor"
+                    },
+                    {
+                        "IDPARTE": "234",
+                        "CODIGOPARTE": "",
+                        "NOMBREPARTE": "Sello de puertas"
+                    }
+                ],
+                "TIPONOVEDAD": [
+                    {
+                        "IDTIPONOVEDAD": "24",
+                        "NOMBRETIPONOVEDAD": "Roto"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "25",
+                        "NOMBRETIPONOVEDAD": "Cortado"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "26",
+                        "NOMBRETIPONOVEDAD": "Perforado"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "27",
+                        "NOMBRETIPONOVEDAD": "Golpe"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "28",
+                        "NOMBRETIPONOVEDAD": "Sumidura"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "29",
+                        "NOMBRETIPONOVEDAD": "Raya para pintar"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "30",
+                        "NOMBRETIPONOVEDAD": "Raya para pulir"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "31",
+                        "NOMBRETIPONOVEDAD": "Desconche"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "32",
+                        "NOMBRETIPONOVEDAD": "Faltante"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "33",
+                        "NOMBRETIPONOVEDAD": "Otros"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "34",
+                        "NOMBRETIPONOVEDAD": "No aplica"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "41",
+                        "NOMBRETIPONOVEDAD": "Picadura"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "42",
+                        "NOMBRETIPONOVEDAD": "Grumo"
+                    },
+                    {
+                        "IDTIPONOVEDAD": "43",
+                        "NOMBRETIPONOVEDAD": "Oxidacion"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "IDMOVILIZACION": "7558",
-        "CLIENTE": "SK Berge Colombia",
-        "MOTONAVE": "CHIQUITA"
-      }
-    ]
-  }
+    }
 }
