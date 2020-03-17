@@ -1,5 +1,45 @@
 https://cintegroup-my.sharepoint.com/:x:/g/personal/cac_colombia_grupocinte_com/ESoD2nvOc2ZOp6sczr80jloByne5dX1ZCCdpxpvE0G5Q-A?e=4%3a52oRiU&at=9
 https://api.mercadopago.com:443/checkout/preferences?access_token=TEST-7881524812663254-081523-e6f3886b47ab4486713205fe3939920f-161326487
+{
+  "items": [
+    {
+      "id": "item-ID-1234",
+      "title": "Mi producto",
+      "currency_id": "COP",
+      "description": "Descripción del Item",
+      "category_id": "art",
+      "quantity": 2,
+      "unit_price": 15000
+    }
+  ],
+  "payer": {
+    "name": "Carlos",
+    "surname": "Pacheco",
+    "email": "bpalaciosa@yopmail.com",
+    "phone": {
+      "area_code": "57",
+      "number": "3051545"
+    },
+    "identification": {
+      "type": "CC",
+      "number": "1140819684"
+    },
+    "address": {
+      "street_name": "Calle 22#15aa",
+      "street_number": 0
+    }
+  },
+  "back_urls": {
+    "success": "success.com/data/",
+    "failure": "failure.com",
+    "pending": "pending.com"
+  },
+  "auto_return": "approved",
+  "external_reference": "EXTERNAL-REF01",
+  "expires": false,
+  "notification_url": "www.iservice.com.co"
+}
+
 
 
 https://ci4.googleusercontent.com/proxy/bN4VLbrvgcdjbvQb36Z_2ZIB0JMqBL6QRIOMBU06GlGtrhptKzRs-J-WhthTf-dcKeP2toTUSXzvNXDOEt3T-KZVZGTTSsVJCt8-Bg=s0-d-e1-ft#https://r1.res.outlook.com/owa/prem/images/xlsx_16x16.png
