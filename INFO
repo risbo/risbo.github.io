@@ -1,4 +1,201 @@
 X-Requested-With:XMLHttpRequest
+//Content-Type:application/x-www-form-urlencoded; charset=UTF-8
+Origin:https://urldefense.com/v3/__https://www.rues.org.co__;!!MfzFaTml5A!3fnwNzmtfdERkzpR9iheFVHlldbRGIJYTkOMCWN62o2J-hq3TqJiYMNM2n-SJk04_B3c$ 
+Sec-Fetch-Site:same-origin
+Sec-Fetch-Mode:cors
+Sec-Fetch-Dest:empty
+Referer:https://urldefense.com/v3/__https://www.rues.org.co/RM__;!!MfzFaTml5A!3fnwNzmtfdERkzpR9iheFVHlldbRGIJYTkOMCWN62o2J-hq3TqJiYMNM2n-SJqI2bBXb$ 
+Cookie:__RequestVerificationToken=4kdRJS8c6f_GlaMvySt6du5JoycFopZgYSb0kEhOqy_G8SmsgpvjjnyVh83PQDpO8mOjmBENBvm5iu6Kr6AOoMrf3RJ1OzES_l4A-Sp9C5M1; _ga=GA1.3.1081409311.1600180117; _gid=GA1.3.1342792521.1600180117
+
+https://www.rues.org.co/RM/ConsultaFacultades
+
+__RequestVerificationToken:DjKhLALub0R1copNEKLqNAXFn2lAOvSI_LFSaMZ2V11Hi24-b2K-ElDrcJQqXRiyVSKUrSqnmagHOAKK060jSbZbG4GdhcxwMSLlc8O5XWg1
+codigo_camara:04
+matricula:0002078644
+
+
+package com.experian.bepartners.entity.payload;
+
+public class RuesOrgResponseRows {
+
+	private String categoria_matricula;
+	private String clase_identificacion;
+	private String codigo_camara;
+	private String codigo_estado;
+	private String identificacion;
+	private String estado;
+	private String matricula;
+	private String nombre_camara;
+	private String organizacion_juridica;
+	private String razon_social;
+	private String sigla;
+	private String tipo;
+	private String enlaceVer;
+
+	public String getCategoria_matricula() {
+		return categoria_matricula;
+	}
+
+	public void setCategoria_matricula(String categoria_matricula) {
+		this.categoria_matricula = categoria_matricula;
+	}
+
+	public String getClase_identificacion() {
+		return clase_identificacion;
+	}
+
+	public void setClase_identificacion(String clase_identificacion) {
+		this.clase_identificacion = clase_identificacion;
+	}
+
+	public String getCodigo_camara() {
+		return codigo_camara;
+	}
+
+	public void setCodigo_camara(String codigo_camara) {
+		this.codigo_camara = codigo_camara;
+	}
+
+	public String getCodigo_estado() {
+		return codigo_estado;
+	}
+
+	public void setCodigo_estado(String codigo_estado) {
+		this.codigo_estado = codigo_estado;
+	}
+
+	public String getIdentificacion() {
+		return identificacion;
+	}
+
+	public void setIdentificacion(String identificacion) {
+		this.identificacion = identificacion;
+	}
+
+	public String getEstado() {
+		return estado;
+	}
+
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
+
+	public String getMatricula() {
+		return matricula;
+	}
+
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+	public String getNombre_camara() {
+		return nombre_camara;
+	}
+
+	public void setNombre_camara(String nombre_camara) {
+		this.nombre_camara = nombre_camara;
+	}
+
+	public String getOrganizacion_juridica() {
+		return organizacion_juridica;
+	}
+
+	public void setOrganizacion_juridica(String organizacion_juridica) {
+		this.organizacion_juridica = organizacion_juridica;
+	}
+
+	public String getRazon_social() {
+		return razon_social;
+	}
+
+	public void setRazon_social(String razon_social) {
+		this.razon_social = razon_social;
+	}
+
+	public String getSigla() {
+		return sigla;
+	}
+
+	public void setSigla(String sigla) {
+		this.sigla = sigla;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public String getEnlaceVer() {
+		return enlaceVer;
+	}
+
+	public void setEnlaceVer(String enlaceVer) {
+		this.enlaceVer = enlaceVer;
+	}
+
+}
+
+
+package com.experian.bepartners.entity.payload;
+
+import java.util.List;
+
+public class RuesOrgResponse {
+
+	private String page;
+	private String codigo_error;
+	private String mensaje_error;
+	private String records;
+	private List<RuesOrgResponseRows> rows;
+
+	public String getPage() {
+		return page;
+	}
+
+	public void setPage(String page) {
+		this.page = page;
+	}
+
+	public String getCodigo_error() {
+		return codigo_error;
+	}
+
+	public void setCodigo_error(String codigo_error) {
+		this.codigo_error = codigo_error;
+	}
+
+	public String getMensaje_error() {
+		return mensaje_error;
+	}
+
+	public void setMensaje_error(String mensaje_error) {
+		this.mensaje_error = mensaje_error;
+	}
+
+	public String getRecords() {
+		return records;
+	}
+
+	public void setRecords(String records) {
+		this.records = records;
+	}
+
+	public List<RuesOrgResponseRows> getRows() {
+		return rows;
+	}
+
+	public void setRows(List<RuesOrgResponseRows> rows) {
+		this.rows = rows;
+	}
+
+}
+
+
+
+X-Requested-With:XMLHttpRequest
 Content-Type:application/x-www-form-urlencoded; charset=UTF-8
 Origin:https://www.rues.org.co
 Sec-Fetch-Site:same-origin
