@@ -1,3 +1,48 @@
+find  / -name java
+
+cd /usr/lib/jvm/java-11-openjdk-amd64/bin
+
+./keytool -genkey -alias ssl -keyalg RSA -keystore keystore.jks -keysize 2048 -ext SAN=dns:www.restituciondetierras.gov.co
+
+contraseña: urtjboss
+
+./keytool -certreq -alias ssl -keystore keystore.jks -file UrtCert.csr -ext SAN=dns:www.restituciondetierras.gov.co
+
+contraseña: urtjboss
+
+
+cd /home/work/dev/jboss-eap-6.4/standalone/configuration
+
+
+ <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
+<ssl key-alias="ssl" password="urtjboss" certificate-key-file="./keystore.jks" verify-client="false" />
+</connector>
+
+
+
+<subsystem xmlns="urn:jboss:domain:web:2.2" default-virtual-server="default-host" native="false">
+        
+        <connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
+<ssl key-alias="ssl" password="urtjboss" certificate-key-file="./keystore.jks" verify-client="false" />
+</connector>
+
+            <connector name="http" protocol="HTTP/1.1" scheme="http" socket-binding="http"/>
+            <virtual-server name="default-host" enable-welcome-root="true">
+                <alias name="localhost"/>
+                <alias name="example.com"/>
+            </virtual-server>
+        </subsystem>
+        
+        
+     OPTIONAL REMOVER DE standalone.conf -XX:MaxPermSize=256m
+     
+     https://stackoverflow.com/questions/22634644/java-hotspottm-64-bit-server-vm-warning-ignoring-option-maxpermsize
+     
+     
+   https://stackoverflow.com/questions/22634644/java-hotspottm-64-bit-server-vm-warning-ignoring-option-maxpermsize  
+     
+        
+
 work@work:~/Descargas$ cd Error al iniciar el contenedor: java.lang.NoClassDefFoundError: javax/security/auth/Policy
 bash: cd: demasiados argumentos
 work@work:~/Descargas$ sudo su
