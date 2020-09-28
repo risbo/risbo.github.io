@@ -1,8 +1,100 @@
+work@work:~/Descargas$ cd Error al iniciar el contenedor: java.lang.NoClassDefFoundError: javax/security/auth/Policy
+bash: cd: demasiados argumentos
+work@work:~/Descargas$ sudo su
+[sudo] contraseña para work:     
+root@work:/home/work/Descargas# cd /usr/lib/jvm/java-8-openjdk-amd64/bin/java
+bash: cd: /usr/lib/jvm/java-8-openjdk-amd64/bin/java: No es un directorio
+root@work:/home/work/Descargas# cd /usr/lib/jvm/java-8-openjdk-amd64/bin/
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# ls
+java          jjs      orbd     policytool  rmiregistry  tnameserv
+java-rmi.cgi  keytool  pack200  rmid        servertool   unpack200
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# pwd
+/usr/lib/jvm/java-8-openjdk-amd64/bin
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# cd ..
+root@work:/usr/lib/jvm/java-8-openjdk-amd64# ls
+bin  docs  jre  man
+root@work:/usr/lib/jvm/java-8-openjdk-amd64# pwd
+/usr/lib/jvm/java-8-openjdk-amd64
+root@work:/usr/lib/jvm/java-8-openjdk-amd64# cd bin
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# ls
+java          jjs      orbd     policytool  rmiregistry  tnameserv
+java-rmi.cgi  keytool  pack200  rmid        servertool   unpack200
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# ./keytool -genkey -alias ssl -keyalg RSA -keystore keystore.jks -keysize 2048 -ext SAN=dns:www.restituciondetierras.gov.co
+Introduzca la contraseña del almacén de claves:  
+Volver a escribir la contraseña nueva: 
+¿Cuáles son su nombre y su apellido?
+  [Unknown]:  URT
+¿Cuál es el nombre de su unidad de organización?
+  [Unknown]:  URT
+¿Cuál es el nombre de su organización?
+  [Unknown]:  URT
+¿Cuál es el nombre de su ciudad o localidad?
+  [Unknown]:  Bogota
+¿Cuál es el nombre de su estado o provincia?
+  [Unknown]:  Cundinamarca
+¿Cuál es el código de país de dos letras de la unidad?
+  [Unknown]:  CO
+¿Es correcto CN=URT, OU=URT, O=URT, L=Bogota, ST=Cundinamarca, C=CO?
+  [no]:  si
+
+Introduzca la contraseña de clave para <ssl>
+	(INTRO si es la misma contraseña que la del almacén de claves):  
+Volver a escribir la contraseña nueva: 
+
+Warning:
+El almacén de claves JKS utiliza un formato propietario. Se recomienda migrar a PKCS12, que es un formato estándar del sector que utiliza "keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.jks -deststoretype pkcs12".
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# ls
+java          keystore.jks  pack200     rmiregistry  unpack200
+java-rmi.cgi  keytool       policytool  servertool
+jjs           orbd          rmid        tnameserv
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# 
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# 
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# ./keytool -certreq -alias ssl -keystore keystore.jks -file UrtCert.csr -ext SAN=dns:www.restituciondetierras.gov.co
+Introduzca la contraseña del almacén de claves:  
+
+Warning:
+El almacén de claves JKS utiliza un formato propietario. Se recomienda migrar a PKCS12, que es un formato estándar del sector que utiliza "keytool -importkeystore -srckeystore keystore.jks -destkeystore keystore.jks -deststoretype pkcs12".
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# ls
+java          keystore.jks  pack200     rmiregistry  unpack200
+java-rmi.cgi  keytool       policytool  servertool   UrtCert.csr
+jjs           orbd          rmid        tnameserv
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# pwd
+/usr/lib/jvm/java-8-openjdk-amd64/bin
+root@work:/usr/lib/jvm/java-8-openjdk-amd64/bin# cd /
+root@work:/# 
+root@work:/# 
+root@work:/# 
 root@work:/# java -version
 openjdk version "11.0.7" 2020-04-14
 OpenJDK Runtime Environment (build 11.0.7+10-post-Ubuntu-3ubuntu1)
 OpenJDK 64-Bit Server VM (build 11.0.7+10-post-Ubuntu-3ubuntu1, mixed mode)
 root@work:/# 
+root@work:/# 
+root@work:/# 
+root@work:/# find / -find java
+find: predicado desconocido `-find'
+root@work:/# find / -name java
+/var/lib/dpkg/alternatives/java
+find: ‘/proc/1475/task/1475/net’: Argumento inválido
+find: ‘/proc/1475/net’: Argumento inválido
+find: ‘/run/user/1000/doc’: Permiso denegado
+find: ‘/run/user/1000/gvfs’: Permiso denegado
+/usr/share/doc/bison/examples/java
+/usr/share/java
+/usr/share/bash-completion/completions/java
+/usr/share/lintian/data/java
+/usr/share/lintian/checks/languages/java
+/usr/lib/libreoffice/share/Scripts/java
+/usr/lib/jvm/java-11-openjdk-amd64/bin/java
+/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java
+/usr/bin/java
+/etc/apparmor.d/abstractions/ubuntu-browsers.d/java
+/etc/alternatives/java
+/etc/ssl/certs/java
+root@work:/# 
+
+
 
 
 https://www.middlewarebox.com/2017/08/how-to-create-self-signed-certificate.html
