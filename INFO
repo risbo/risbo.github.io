@@ -1,3 +1,7 @@
+<connector name="https" protocol="HTTP/1.1" scheme="https" socket-binding="https" secure="true">
+<ssl key-alias="ssl" password="urtjboss" certificate-key-file="/usr/lib/jvm/java-8-openjdk-amd64/bin/keystore.jks" verify-client="false" />
+</connector>
+
 find  / -name java
 
 cd /usr/lib/jvm/java-11-openjdk-amd64/bin
