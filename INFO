@@ -1,3 +1,23 @@
+descargar el archivo
+https://openlayers.org/api/OpenLayers.js 
+ponerlo en la ruta 
+
+C:\dev\registro\02.Aplicacion\01.Codigo\Registro-war\WebContent\resources\js
+
+luego cambiar donde haya
+
+<script type="text/javascript"
+				src="http://openlayers.org/api/OpenLayers.js"></script>
+				
+a				
+			<h:outputScript library="js" name="OpenLayers.js" />
+			
+		o ponerle https
+		
+<script type="text/javascript"
+				src="https://openlayers.org/api/OpenLayers.js"></script>			
+				
+				
 C:\dev\tomcat-7.0.22-geoserver-urt\webapps\geoserver\data\workspaces\restitucion\restitucion
 
 C:\dev\tomcat-7.0.22-geoserver-urt\webapps\geoserver\WEB-INF
